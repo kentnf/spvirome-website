@@ -18,19 +18,29 @@ from django.contrib import admin
 from virome.views import *
 
 urlpatterns = [
+	# for data display
+	url(r'^flist', flist),
+	url(r'^sinfo', sinfo),
+	url(r'^sctg', sctg),
+
+	# for map view
+	url(r'^data', data),
+
+	# for list view
+	url(r'^dlist', dlist),
+
+	# for data load
+	url(r'^geo_list', geo_list),
+
+	# for static pages
     url(r'^$', index),
     url(r'^index', index),
     url(r'^participant', participant),
     url(r'^sample', sample),
-    url(r'^data', data),
-	url(r'^dlist', dlist),
     url(r'^publication', publication),
     url(r'^link', link),
-    url(r'^geo_list', geo_list),
-    url(r'^flist', flist),
-    url(r'^sinfo', sinfo),
-    url(r'^sctg', sctg),
+
+	# for system 
     url(r'^admin/', include(admin.site.urls)),
 ]
-
 
