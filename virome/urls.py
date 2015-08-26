@@ -15,32 +15,32 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from virome.views import *
+from virome.views import static
 
 urlpatterns = [
 	# for data display
-	url(r'^flist', flist),
-	url(r'^sinfo', sinfo),
-	url(r'^sctg', sctg),
+	#url(r'^flist', flist),
+	#url(r'^sinfo', sinfo),
+	#url(r'^sctg', sctg),
 
 	# for map view
-	url(r'^data', data),
+	#url(r'^data', data),
 
 	# for list view
-	url(r'^dlist', dlist),
+	#url(r'^dlist', dlist),
 
 	# for data load
-	url(r'^geo_list', geo_list),
+	#url(r'^geo_list', geo_list),
 
 	# for static pages
-    url(r'^$', index),
-    url(r'^index', index),
-    url(r'^participant', participant),
-    url(r'^sample', sample),
-    url(r'^publication', publication),
-    url(r'^link', link),
+	url(r'^$', static.index),
+	url(r'^index', static.index),
+	url(r'^participant', static.participant),
+	url(r'^sample', static.sample),
+	url(r'^publication', static.publication),
+	url(r'^link', static.link),
 
 	# for system 
-    url(r'^admin/', include(admin.site.urls)),
+	url(r'^admin/', include(admin.site.urls)),
 ]
 
