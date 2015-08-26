@@ -13,7 +13,7 @@
 	function load_data() {
 		$.ajax({
 			//url: '{{ dbURL }}',
-			url: '/virome/geo_list/',
+			url: '/{{ SUB_FDR }}/geo_list/',
 			async: false,
 			dataType: 'json',
 			success: function (data) {

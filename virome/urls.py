@@ -16,21 +16,23 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from virome.views import static
+from virome.views import pageDisplay 
 
 urlpatterns = [
 	# for data display
-	#url(r'^flist', flist),
-	#url(r'^sinfo', sinfo),
-	#url(r'^sctg', sctg),
+	url(r'^flist', pageDisplay.flist),
+	url(r'^sinfo', pageDisplay.sinfo),
+	url(r'^sctg',  pageDisplay.sctg),
+	url(r'^download', pageDisplay.download),
 
 	# for map view
-	#url(r'^data', data),
+	url(r'^dmap', static.dmap),
 
 	# for list view
 	#url(r'^dlist', dlist),
 
 	# for data load
-	#url(r'^geo_list', geo_list),
+	url(r'^geo_list', pageDisplay.geo_list),
 
 	# for static pages
 	url(r'^$', static.index),

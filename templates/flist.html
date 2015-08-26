@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+
+{% block javascript %}
+{% include "flist_js.html" %}
+{% endblock javascript %}
+
 {% block mainbody %}
 
 <div class="row">
@@ -53,17 +58,33 @@
         <tr><td>Region:</td>        <td>{{ region }}</td></tr>
         <tr><td>Distract:</td>      <td>{{ district }}</td></tr>
             <tr><td>Locality:</td>      <td>{{ locality }}</td></tr>
-            <tr><td>Latitute:</td>      <td>{{ lat }}&#176;</td></tr>
-            <tr><td>Longitute:</td> <td>{{ lng }}&deg;</td></tr>
+            <tr><td>Latitute:</td>  <td><span id=lat>{{ lat }}</span>&#176;</td></tr>
+            <tr><td>Longitute:</td> <td><span id=lng>{{ lng }}</span>&deg;</td></tr>
             <tr><td>Altitute:</td>  <td>{{ alt }} m</td></tr>
             <tr><td>Filed Size:</td>    <td>{{ fsize }} m&sup2;</td></tr>
 		</table>
 	</div>
 
 	<div class="col-md-5">
-		{% for subimg in img %}
-			<img class="img-responsive img-rounded" src="{% static "images" %}/{{ prefix }}{{ subimg }}.JPG"> <br />
-		{% endfor %}
+		<div class="tabbable" id="tabs-888938">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#fieldImage" data-toggle="tab">Field Image</a>
+				</li>
+				<li>
+					<a href="#fieldMap" data-toggle="tab" id="fieldMapLink">Field Map</a>
+				</li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="fieldImage">
+					{% for subimg in img %}
+						<img class="img-responsive img-rounded" src="{% static "images" %}/{{ prefix }}{{ subimg }}.JPG"> <br />
+					{% endfor %}
+				</div>
+                <div class="tab-pane" id="fieldMap" style="height:300px;"> 
+				</div>
+            </div>
+        </div>
 	</div>
 </div>
 {% endblock mainbody %}
