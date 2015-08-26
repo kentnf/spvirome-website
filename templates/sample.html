@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block mainbody %}
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<h3 align=center>Sample survey and collection</h3>
+		<p>A total of eleven countries in sub-Saharan Africa (SSA) were selected for sweet potato sample 
+survey and collection. Sweet potato production in these countries is low, mainly due to the virus infection on 
+this vegetatively propagated crop. A summary of sample collection in these countries is provided in the table below:
+		</p>
+	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-md-4 col-md-offset-2">
+		<table class="table table-striped">
+<tr><th>Country</th><th>Regions/Agro-ecological zone</th><th>Locations per zone</th><th>RNA samples</th></tr>
+<tr align=center><td>Guinea</td><td>4</td><td>4</td><td>160</td></tr>
+<tr align=center><td>Benin</td><td>3</td><td>5</td><td>150</td></tr>
+<tr align=center><td>Nigeria</td><td>4</td><td>5</td><td>200</td></tr>
+<tr align=center><td>Angola</td><td>3</td><td>6</td><td>180</td></tr>
+<tr align=center><td>Malawi</td><td>2</td><td>6</td><td>120</td></tr>
+<tr align=center><td>Zambia</td><td>2</td><td>7</td><td>140</td></tr>
+<tr align=center><td>Zimbabwe</td><td>3</td><td>5</td><td>150</td></tr>
+<tr align=center><td>Tanzania</td><td>4</td><td>5</td><td>200</td></tr>
+<tr align=center><td>Kenya</td><td>3</td><td>6</td><td>180</td></tr>
+<tr align=center><td>Uganda</td><td>3</td><td>5</td><td>150</td></tr>
+<tr align=center><td>Ethiopia</td><td>2</td><td>6</td><td>120</td></tr>
+<tr align=center><td>Total</td></td><td><td></td><td>1750</td></tr></table>
+
+	</div>
+	<div class="col-md-4">
+		<img src="{% static "img/country.png" %}" align=center>
+	</div>
+</div>
+<br />
+<br />
+
+{% endblock mainbody %}

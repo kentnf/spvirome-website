@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block javascript %}
+{% include "data_js.html" %}
+{% endblock javascript %}
+
+{% block mainbody %}
+<div class="row">
+	<div class="col-md-8 col-md-offset-2" >
+		<div class="tabbable" id="tabs-888938">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#fieldList" data-toggle="tab">Field List</a>
+				</li>
+				<li>
+					<a href="#sampleList" data-toggle="tab">Sample List</a>
+				</li>
+				<li>
+					<a href="#virusList" data-toggle="tab">Virus List</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<!-- field list begin -->
+				<br />
+				<div class="tab-pane active" id="fieldList" style="height:550px;">
+					<div class="btn-group"> 
+						<button class="btn btn-default">
+						Select Country
+						</button> 
+						<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">Angola</a></li>
+							<li><a href="#">Benin</a></li>
+							<li><a href="#">Ethiopia</a></li>
+							<li class="divider"></li>
+							<li><a href="#">All</a></li>
+						</ul>
+					</div>
+					<!-- field list -->
+
+					<div ></div>
+					<ul class="pagination">
+						<li><a href="#">Prev</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">Next</a></li>
+					</ul>
+				</div>
+				<div class="tab-pane" id="sampleList" style="height:550px;">
+                    <div class="btn-group">
+                        <button class="btn btn-default">
+                        Select Country
+                        </button>
+                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Angola</a></li>
+                            <li><a href="#">Benin</a></li>
+                            <li><a href="#">Ethiopia</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">All</a></li>
+                        </ul>
+                    </div>
+                    <!-- field list -->
+
+                    <div ></div>
+                    <ul class="pagination">
+                        <li><a href="#">Prev</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">Next</a></li>
+                    </ul>
+
+				</div>
+				<div class="tab-pane" id="virusList" style="height:550px;">
+                    <div class="btn-group">
+                        <button class="btn btn-default">
+                        Select Country
+                        </button>
+                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Angola</a></li>
+                            <li><a href="#">Benin</a></li>
+                            <li><a href="#">Ethiopia</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">All</a></li>
+                        </ul>
+                    </div>
+                    <!-- field list -->
+
+                    <div ></div>
+                    <ul class="pagination">
+                        <li><a href="#">Prev</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">Next</a></li>
+                    </ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock mainbody %}
+

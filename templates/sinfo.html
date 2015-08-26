@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+<!-- block for D3.js -->
+
+{% block mainbody %}
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+	<h4 align=center>Sample {{ sid }} processing & analyzing result</h4>
+	<br>
+		<div class="panel panel-success">
+			<div class="panel-heading">
+        		<h3 class="panel-title">
+           			Sample Cleaning
+				</h3>
+			</div>
+			<table class="table table-striped">
+				<tr>
+				<th>sample ID</th> <th>Totle Reads</th> <th>Clean Reads</th> <th>%clean</th> <th>chloroplat/rRNA</th>
+				<th>tRNA/snoRNA/snRNA</th> <th>Final Clean Reads</th> <th>%final</th>
+				</tr>
+				<tr>
+				<td>{{ sid }}</td> 
+				<td>{{ total }}</td>
+				<td>{{ clean }}</td>
+				<td>{{ cleanP }}</td>
+				<td>{{ rRNA }}</td>
+				<td>{{ tsnoRNA }}</td>
+				<td>{{ final }}</td>
+				<td>{{ finalP }}</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+						Length Distribution
+				</h3>
+			</div>
+			<div class="panel-body">
+				<img class="img-responsive" src="{% static "lendist" %}/{{ sid }}.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Virus Identification
+                </h3>
+            </div>
+			{{ html_info|safe }}
+		</div>
+	</div>
+</div>
+
+{% endblock mainbody %}

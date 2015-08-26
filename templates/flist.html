@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block mainbody %}
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<h4><b>Samples in field {{ fid }}</b></h4>
+		
+         <!--display sample list -->
+        <table class="table table-striped">
+        <tr>
+        <th><b>Sample</b></td>
+        <th><b>Date(DD/MM/YYYY)</b></td>
+        <th><b>Age(month)</b></td>
+        <th><b>Sameple Image</b></td>
+        <th><b>Leave Image</b></td>
+        <th><b>Intercrop</b></td>
+        <th><b>Cultivar</b></td>
+        </tr>
+        {% for s in sample %}
+        <tr>
+        {% for e in s %}
+          {% if forloop.counter0 == 0 %}
+          <td><a href="sinfo?sid={{ e }}" target=_blank>{{ e }}</a></td>
+          {% elif forloop.counter0 == 3 or forloop.counter0 == 4 %}
+          <td>
+            {% for subpimg in e %}
+                <a href="{% static "images" %}/{{ prefix }}{{ subpimg }}.JPG" target=_blank>{{ subpimg }}</a> 
+            {% endfor %}
+        </td>
+          {% else %}
+          <td>{{ e }}</td>
+          {% endif%}
+        {% endfor %}
+        </tr>
+        {% endfor %}
+        </table>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+	<h4><b>Field ({{ fid }}) information</b></h4>
+	<p>{{ ERRMSG }}</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-3 col-md-offset-2">
+		
+		<table class="table table-striped">
+        <tr><td>Filed No.:</td> <td>{{ fid }}</td></tr>
+        <tr><td>Region:</td>        <td>{{ region }}</td></tr>
+        <tr><td>Distract:</td>      <td>{{ district }}</td></tr>
+            <tr><td>Locality:</td>      <td>{{ locality }}</td></tr>
+            <tr><td>Latitute:</td>      <td>{{ lat }}&#176;</td></tr>
+            <tr><td>Longitute:</td> <td>{{ lng }}&deg;</td></tr>
+            <tr><td>Altitute:</td>  <td>{{ alt }} m</td></tr>
+            <tr><td>Filed Size:</td>    <td>{{ fsize }} m&sup2;</td></tr>
+		</table>
+	</div>
+
+	<div class="col-md-5">
+		{% for subimg in img %}
+			<img class="img-responsive img-rounded" src="{% static "images" %}/{{ prefix }}{{ subimg }}.JPG"> <br />
+		{% endfor %}
+	</div>
+</div>
+{% endblock mainbody %}
+
+

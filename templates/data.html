@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block javascript %}
+{% include "data_js.html" %}
+{% endblock javascript %}
+
+{% block mainbody %}
+<div class="row">
+	<div class="col-md-8 col-md-offset-2" >
+		<div class="tabbable" id="tabs-888938">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#googleMap" data-toggle="tab">Field Map</a>
+				</li>
+				<li>
+					<a href="#googleMapVirus" data-toggle="tab">Virus Map</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="googleMap" style="height:550px;"></div>
+				<div class="tab-pane" id="googleMapVirus" style="height:550px;"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock mainbody %}
+
