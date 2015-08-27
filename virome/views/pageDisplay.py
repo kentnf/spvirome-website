@@ -48,7 +48,7 @@ def sinfo(request):
 	sid = request.GET.get('sid', '')
 	if sid:
 		context['sid'] = sid
-		html = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../static/sample/result_" + sid + "/known.html"
+		html = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/known.html"
 		html_info = ""
 		if os.path.exists(html):
 			dh = open(html, "r")
@@ -75,7 +75,7 @@ def sinfo(request):
 		context['final']   = 'NA'
 		context['finalP']  = 'NA'
 
-		data_clean = load_data_clean()
+		data_clean = loadData.load_data_clean()
 		if sid in data_clean:
 			context['total']   = data_clean[sid]['total']
 			context['clean']   = data_clean[sid]['clean']
@@ -94,7 +94,7 @@ def sctg(request):
 	sid = request.GET.get('sid', '')
 	vid = request.GET.get('vid', '')
 	if sid and vid:
-		html = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../static/sample/result_" + sid + "/known_references/" + vid + ".html"
+		html = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/known_references/" + vid + ".html"
 		html_info = ""
 		dh = open(html, "r")
 		for line in dh:

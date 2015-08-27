@@ -17,6 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from virome.views import static
 from virome.views import pageDisplay 
+from virome.views import listViews
 
 urlpatterns = [
 	# for data display
@@ -29,7 +30,7 @@ urlpatterns = [
 	url(r'^dmap', static.dmap),
 
 	# for list view
-	#url(r'^dlist', dlist),
+	url(r'^dlist', listViews.dlist),
 
 	# for data load
 	url(r'^geo_list', pageDisplay.geo_list),

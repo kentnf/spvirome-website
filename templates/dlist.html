@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block javascript %}
-{% include "data_js.html" %}
+{% include "dlist_js.html" %}
 {% endblock javascript %}
 
 {% block mainbody %}
@@ -10,37 +10,42 @@
 		<div class="tabbable" id="tabs-888938">
 			<ul class="nav nav-tabs">
 				<li class="active">
-					<a href="#fieldList" data-toggle="tab">Field List</a>
+					<a href="#fieldTab" data-toggle="tab" id="fieldTabLink">Field List</a>
 				</li>
 				<li>
-					<a href="#sampleList" data-toggle="tab">Sample List</a>
+					<a href="#sampleTab" data-toggle="tab" id="sampleTabLink">Sample List</a>
 				</li>
 				<li>
-					<a href="#virusList" data-toggle="tab">Virus List</a>
+					<a href="#virusTab" data-toggle="tab" id="virusTabLink">Virus List</a>
 				</li>
 			</ul>
 			<div class="tab-content">
-				<!-- field list begin -->
+				<!-- field tab -->
 				<br />
-				<div class="tab-pane active" id="fieldList" style="height:550px;">
-					<div class="btn-group"> 
-						<button class="btn btn-default">
-						Select Country
-						</button> 
-						<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
-							<span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu">
-							<li><a href="#">Angola</a></li>
-							<li><a href="#">Benin</a></li>
-							<li><a href="#">Ethiopia</a></li>
-							<li class="divider"></li>
-							<li><a href="#">All</a></li>
-						</ul>
+				<div class="tab-pane active" id="fieldTab" style="height:550px;">
+					 <div class="form-group" style="width:20%;">
+						<label for="fCountry">Select Country:</label>
+  						<select class="form-control" id="fCountry">
+    					<option value="AO">Angola</option>
+    					<option value="BE">Benin</option>
+    					<option value="ET">Ethiopia</option>
+    					<option selected value="ALL">All</option>
+  						</select>
 					</div>
 					<!-- field list -->
-
-					<div ></div>
+					<table id="fieldTable" class="table table-striped">
+        			  <thead><tr>
+						<td>Filed No.:</td>
+						<td>Region:</td> 
+						<td>Distract:</td>
+						<td>Locality:</td>
+						<td>Latitute:</td>
+						<td>Longitute:</td>
+						<td>Altitute:</td>
+						<td>Filed Size:</td>
+					  </tr></thead>
+					  <tbody></tbody>
+					</table>
 					<ul class="pagination">
 						<li><a href="#">Prev</a></li>
 						<li><a href="#">1</a></li>
@@ -51,25 +56,32 @@
 						<li><a href="#">Next</a></li>
 					</ul>
 				</div>
-				<div class="tab-pane" id="sampleList" style="height:550px;">
-                    <div class="btn-group">
-                        <button class="btn btn-default">
-                        Select Country
-                        </button>
-                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Angola</a></li>
-                            <li><a href="#">Benin</a></li>
-                            <li><a href="#">Ethiopia</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">All</a></li>
-                        </ul>
-                    </div>
-                    <!-- field list -->
 
-                    <div ></div>
+				<!-- sample tab -->
+				<div class="tab-pane" id="sampleTab" style="height:550px;">
+                    <!-- sample list -->
+					<div class="form-group" style="width:20%;">
+                        <label for="sCountry">Select Country:</label>
+                        <select class="form-control" id="sCountry">
+                        <option value="AO">Angola</option>
+                        <option value="BE">Benin</option>
+                        <option value="ET">Ethiopia</option>
+                        <option selected value="ALL">All</option>
+                        </select>
+                    </div>
+					<table id="sampleTable" class="table table-striped">
+        				<thead><tr>
+						<td><b>Sample</b></td>
+						<td><b>Date(DD/MM/YYYY)</b></td>
+						<td><b>Age(month)</b></td>
+						<td><b>Sameple Image</b></td>
+						<td><b>Leave Image</b></td>
+						<td><b>Intercrop</b></td>
+						<td><b>Cultivar</b></td>
+						</tr></thead>
+						<tbody></tbody>
+					</table>
+
                     <ul class="pagination">
                         <li><a href="#">Prev</a></li>
                         <li><a href="#">1</a></li>
@@ -81,25 +93,18 @@
                     </ul>
 
 				</div>
-				<div class="tab-pane" id="virusList" style="height:550px;">
-                    <div class="btn-group">
-                        <button class="btn btn-default">
-                        Select Country
-                        </button>
-                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Angola</a></li>
-                            <li><a href="#">Benin</a></li>
-                            <li><a href="#">Ethiopia</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">All</a></li>
-                        </ul>
-                    </div>
-                    <!-- field list -->
 
-                    <div ></div>
+				<!-- virus tab -->
+				<div class="tab-pane" id="virusTab" style="height:550px;">
+                    <!-- virus list -->
+
+					<table id="virusTable" class="table table-striped">
+                        <tr>
+                        <th><b>virus ID</b></td>
+                        <th><b>Description</b></td>
+                        <th><b>samples</b></td>
+                        </tr>
+                    </table>
                     <ul class="pagination">
                         <li><a href="#">Prev</a></li>
                         <li><a href="#">1</a></li>

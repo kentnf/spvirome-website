@@ -76,7 +76,7 @@ def load_data():
 
 # load data clean
 def load_data_clean():
-	dataCleanFile = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../static/data_clean.txt"
+	dataCleanFile = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/data_clean.txt"
 	dataCleanObj = {}	# data clean obj for store all data clean
 	dh=open(dataCleanFile, "r")
 	for line in dh:
