@@ -1,0 +1,135 @@
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAs8XAvF2CLHMosa7W2126k2qDfEonb6OQ&sensor=false"></script>
+<script>
+      var script = '<script type="text/javascript" src="/js/markerclusterer';
+      if (document.location.search.indexOf('compiled') !== -1) {
+        script += '_compiled';
+      }
+      script += '.js"><' + '/script>';
+      document.write(script);
+</script>
+<script>
+
+	var geoList = [];
+	function load_data() {
+		$.ajax({
+			//url: '{{ dbURL }}',
+			url: '/{{ SUB_FDR }}/geo_list/',
+			async: false,
+			dataType: 'json',
+			success: function (data) {
+				geoList = data;
+			}
+		});
+        }
+
+	function initialize() {
+       		var myCenter=new google.maps.LatLng(0,18);
+	        var mapProp = {
+	                center:myCenter,
+        	        zoom:3,
+	                mapTypeId:google.maps.MapTypeId.ROADMAP
+	        };
+	        	
+		var map=new google.maps.Map(document.getElementById("fieldMap"),mapProp);
+		//var markers = [];
+		var markers = setMarkers(map, geoList);
+		var markerCluster = new MarkerClusterer(map, markers);
+	}
+
+	var prev_infowindow = false; 
+
+	function setMarkers(map, geoList){
+		var marker;
+		var markers = [];
+		for (var name in geoList) {
+			var lat = geoList[name]['attr'][4];
+			var lng = geoList[name]['attr'][3];
+			var latlngset = new google.maps.LatLng(lat, lng);
+ 			var marker = new google.maps.Marker({  
+          			map: map, 
+				title: name, 
+				position: latlngset
+        		});
+			markers.push(marker);
+        		marker.setMap(map);
+
+			// code for display field info in infowindow
+			var fieldInfo = "Field ID: <a href=flist?fid="+name+">"+name+"</a>";
+			fieldInfo += "<br />Region: " + geoList[name]['attr'][0];
+			fieldInfo += "<br />District: " + geoList[name]['attr'][1];
+			fieldInfo += "<br />Locality: " + geoList[name]['attr'][2];
+			fieldInfo += "<br />Size: " + geoList[name]['attr'][5];
+
+			var sampleList = geoList[name]['samp'];
+			google.maps.event.addListener(marker,'click', (function(marker, fieldInfo, sampleList){ 
+        			return function() {
+					if (prev_infowindow) {
+						prev_infowindow.close();
+					}	
+					var infowindow = new google.maps.InfoWindow({ content: fieldInfo});
+					infowindow.open(map,marker);
+					prev_infowindow = infowindow;
+					
+					// code for showing sample list
+					var sampleTable = "";
+					for(var i = 0; i < sampleList.length; i++) {
+						sampleTable += "<p>Sample ID:" + sampleList[i][0];
+						sampleTable += "<br />Cultivar:" + sampleList[i][6];
+						sampleTable += "<br />Intercrop:" + sampleList[i][5];
+						sampleTable += "<br />Date:" + sampleList[i][1];
+						sampleTable += "<br />Age:" + sampleList[i][2];
+						sampleTable += "<br />Image:" + sampleList[i][3];
+						sampleTable += "<br />Leave:" + sampleList[i][4];
+						sampleTable += "</p>";
+					}
+					$("#sampleTab").html(sampleTable);
+					$("#fieldInfo").html(fieldInfo);
+        			};
+    			})(marker,fieldInfo, sampleList)); 
+  		}
+
+		return markers;
+  	}
+
+	load_data();
+	google.maps.event.addDomListener(window, 'load', initialize);
+
+$(function() {
+
+
+	/* Load virus related GPS dataset */
+
+
+
+	/* Filter the dataset by virus type (Control by name List)*/
+
+
+	/* create and display it */
+
+    var lat = 37.68892;
+    var lng = 6.89848;
+    var mapOptions = {
+        center: new google.maps.LatLng(lat, lng),
+        zoom: 5,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map;
+    var marker = setMarkers(map, lat, lng);
+    var latlngset = new google.maps.LatLng(lat, lng);
+    var marker = new google.maps.Marker({  
+        map: map, 
+        title: 'test', 
+        position: latlngset
+    });
+
+	//action for tab of virus map
+    $('#virusMapLink').on('shown.bs.tab', function(e) {
+        if( map == undefined) {
+            map = new google.maps.Map(document.getElementById("virusMap"), mapOptions);
+            marker.setMap(map);
+        }
+    });
+})
+
+</script>

@@ -1,0 +1,116 @@
+<script>
+var geoList = [];
+function load_data() {
+	$.ajax({
+		//url: '{{ dbURL }}',
+		url: '/{{ SUB_FDR }}/geo_list/',
+		async: false,
+		dataType: 'json',
+		success: function (data) {
+			geoList = data;
+		}
+	});
+}
+
+/* select field according to country id */
+function field_selection(geoList, cid) {
+	var table_html = '';
+	for (var name in geoList) {
+		var id = name.substr(0,2);
+		if (cid == id || cid == 'ALL') {
+			table_html += "<tr><td><a href=flist?fid="+name+">" + name + "</a></td>\n";
+			table_html += "<td>" + geoList[name]['attr'][0] + "</td>\n";
+			table_html += "<td>" + geoList[name]['attr'][1] + "</td>\n";
+			table_html += "<td>" + geoList[name]['attr'][2] + "</td>\n";
+			table_html += "<td>" + geoList[name]['attr'][4] + "</td>\n";
+			table_html += "<td>" + geoList[name]['attr'][3] + "</td>\n";
+			table_html += "<td>" + geoList[name]['attr'][5] + "</td>\n";
+			table_html += "<td>" + geoList[name]['attr'][6] + "</td>\n</tr>\n";
+		}
+	}
+	return table_html;
+}
+
+/* select sample according to country id */
+function sample_selection(geoList, cid) {
+	var table_html = '';
+	for (var name in geoList) {
+		var id = name.substr(0,2);
+		if (cid == id || cid == 'ALL') {
+			var sampleList = geoList[name]['samp'];	
+			for(var i = 0; i < sampleList.length; i++) {
+				table_html += "<tr><td><a href=\"sinfo?sid=" + sampleList[i][0] + "\" target=_blank>"+ sampleList[i][0] + "</a></td>\n";
+				table_html += "<td>" + sampleList[i][1] + "</td>\n";
+				table_html += "<td>" + sampleList[i][2] + "</td>\n";
+				table_html += "<td>" + sampleList[i][3] + "</td>\n";
+				table_html += "<td>" + sampleList[i][4] + "</td>\n";
+				table_html += "<td>" + sampleList[i][5] + "</td>\n";
+				table_html += "<td>" + sampleList[i][6] + "</td></tr>\n";
+			}
+		}
+	}
+	return table_html;
+}
+
+$(function(){
+
+	/* load all field/sample data with json format */
+	load_data();
+
+	/* generate selection form for each tab */
+	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia'}; 
+	var sel = {};
+	for (var name in geoList) {
+		var id = name.substr(0,2);
+		if (!(id in sel)) {
+			if (id in sel_org) {
+				sel[id] = sel_org[id]
+			}
+		}
+	}
+
+	var sel_html = "<option selected value=ALL>All</option>\n";
+	for (k in sel) {
+		sel_html += "<option value="+ k + ">" + sel[k] + "</option>\n";
+	}
+	$( "#fCountry" ).append(sel_html);
+	$( "#sCountry" ).append(sel_html);
+
+
+	/* display default list (field) */
+	var fcountry_id = 'ALL';	// set all for default
+	var fcountry_name = 'All';	// set all for default
+	var fieldTable = field_selection(geoList, fcountry_id);
+	$('#fieldTable tbody').append(fieldTable);
+
+	var scountry_id = 'ALL';    // set all for default
+	var scountry_name = 'All';  // set all for default
+	var sampleTable = sample_selection(geoList, scountry_id);
+	$('#sampleTable tbody').append(sampleTable);
+
+	var vrius_type = 'ALL' 
+
+	/* change of selection in field */
+	$('#fCountry').on('change', function() {
+		fcountry_id = $( "#fCountry" ).val();
+		fcountry_name = $( "#fCountry option:selected" ).text();
+		fieldTable = field_selection(geoList, fcountry_id);
+		$('#fieldTable tbody').html('');
+		$('#fieldTable tbody').append(fieldTable);
+	});
+
+	$('#sCountry').on('change', function() {
+		scountry_id = $( "#sCountry" ).val();
+		scountry_name = $( "#sCountry option:selected" ).text();
+		sampleTable = sample_selection(geoList, scountry_id);
+		$('#sampleTable tbody').html('');
+		$('#sampleTable tbody').append(sampleTable);
+	});
+
+	/* change of tab, !!! will be used for map function */
+	// $('#fieldTabLink').on('shown.bs.tab', function(e) {});
+	// $('#sampleTabLink').on('shown.bs.tab', function(e) {});
+	// $('#virusTabLink').on('shown.bs.tab', function(e) {});
+});
+
+</script>
