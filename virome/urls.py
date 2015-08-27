@@ -31,6 +31,7 @@ urlpatterns = [
 
 	# for list view
 	url(r'^dlist', listViews.dlist),
+	url(r'^virusjson', listViews.virusjson),
 
 	# for data load
 	url(r'^geo_list', pageDisplay.geo_list),

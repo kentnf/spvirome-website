@@ -109,3 +109,31 @@ def load_data_clean():
 			dataCleanObj[sid]['finalP']= m[19]
 
 	return dataCleanObj
+
+def load_data_virus():
+	dataVirusFile = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/data_virus.txt"
+	dataVirusObj = {}	# data virus obj for store all virus data
+	dh=open(dataVirusFile, 'r')
+	for line in dh:
+		if line[0] == "#":
+			continue
+		line = line.strip("\n")
+		m = line.split("\t")
+	
+		# 0	       1                 2       3           4           5
+		# sampleID type(known/novel) virusID virusFamily Description ShortDesc
+		shortDesc = 'NA'
+		if len(m) == 6:
+			shortDesc = m[5]
+		vid = m[2]
+		if vid not in dataVirusObj.keys():
+			dataVirusObj[vid] = {}
+			dataVirusObj[vid]['type'] = m[1]
+			dataVirusObj[vid]['family'] = m[3]
+			dataVirusObj[vid]['desc'] = m[4]
+			dataVirusObj[vid]['short'] = shortDesc
+			dataVirusObj[vid]['sample'] = []
+			dataVirusObj[vid]['sample'].append(m[0])
+		else:
+			dataVirusObj[vid]['sample'].append(m[0])
+	return dataVirusObj

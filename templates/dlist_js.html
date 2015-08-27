@@ -1,5 +1,6 @@
 <script>
 var geoList = [];
+var virusList = [];
 function load_data() {
 	$.ajax({
 		//url: '{{ dbURL }}',
@@ -10,6 +11,36 @@ function load_data() {
 			geoList = data;
 		}
 	});
+}
+
+function load_virus_data() {
+	$.ajax({
+		//url: '{{ dbURL }}',
+		url: '/{{ SUB_FDR }}/virusjson/',
+		async: false,
+		dataType: 'json',
+		success: function (data) {
+			virusList = data;
+		}
+	});
+}
+
+/* select virus according to short desc country*/
+function virus_selection(virusList, shortName, keyword) {
+	var table_html = '';
+	for (var vid in virusList) {
+		if (virusList[vid]['short'] == shortName || shortName == 'ALL') {
+			table_html += "<tr><td><a href=#>" + vid + "</a></td>\n";
+			table_html += "<td>" + virusList[vid]['desc'] + "</td>\n";
+			table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
+			table_html += "<td>\n";
+			for (var i = 0; i< virusList[vid]['sample'].length; i++) {
+				table_html += "<a href=sinfo?sid="+ virusList[vid]['sample'][i] +" target=_blank>" + virusList[vid]['sample'][i] + "</a>, \n";
+			}
+			table_html += "</td>\n";
+		}
+	}
+	return table_html;
 }
 
 /* select field according to country id */
@@ -56,7 +87,8 @@ $(function(){
 
 	/* load all field/sample data with json format */
 	load_data();
-
+	load_virus_data();
+	
 	/* generate selection form for each tab */
 	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia'}; 
 	var sel = {};
@@ -76,6 +108,16 @@ $(function(){
 	$( "#fCountry" ).append(sel_html);
 	$( "#sCountry" ).append(sel_html);
 
+	var sel_vname_html = "<option selected value=ALL>All</option>\n";
+	var sel_vname_uniq = {};
+	for (var vid in virusList) {
+		var sname = virusList[vid]['short'];
+		if (!(sname in sel_vname_uniq)) {
+			sel_vname_html += "<option value=\""+ sname + "\">" + sname + "</option>\n";
+			sel_vname_uniq[sname] = sname;
+		}
+	}
+	$( "#vname" ).append(sel_vname_html);
 
 	/* display default list (field) */
 	var fcountry_id = 'ALL';	// set all for default
@@ -88,7 +130,10 @@ $(function(){
 	var sampleTable = sample_selection(geoList, scountry_id);
 	$('#sampleTable tbody').append(sampleTable);
 
-	var vrius_type = 'ALL' 
+	var virus_shortName = 'ALL';
+	var keyword = '';
+	var virusTable = virus_selection(virusList, virus_shortName, keyword);
+	$('#virusTable tbody').append(virusTable);	
 
 	/* change of selection in field */
 	$('#fCountry').on('change', function() {
@@ -105,6 +150,14 @@ $(function(){
 		sampleTable = sample_selection(geoList, scountry_id);
 		$('#sampleTable tbody').html('');
 		$('#sampleTable tbody').append(sampleTable);
+	});
+
+	$('#vname').on('change', function() {
+		virus_shortName = $( "#vname" ).val();
+		console.log(virus_shortName);
+		virusTable = virus_selection(virusList, virus_shortName, keyword);
+		$('#virusTable tbody').html('');
+		$('#virusTable tbody').append(virusTable);
 	});
 
 	/* change of tab, !!! will be used for map function */

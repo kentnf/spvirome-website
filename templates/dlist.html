@@ -87,15 +87,23 @@
 				</div>
 
 				<!-- virus tab -->
-				<div class="tab-pane" id="virusTab" style="height:550px;">
+				<div class="tab-pane" id="virusTab" style="min-height:550px;">
                     <!-- virus list -->
-
+					<div class="form-group" style="width:40%;">
+						<label for="vname">Select Virus:</label>
+						<select class="form-control" id="vname">
+						</select>
+					</div>
 					<table id="virusTable" class="table table-striped">
+					  <thead>
                         <tr>
-                        <th><b>virus ID</b></td>
-                        <th><b>Description</b></td>
-                        <th><b>samples</b></td>
+                        <td><b>Virus ID</b></td>
+                        <td><b>Description</b></td>
+						<td><b>Family</b></td>
+                        <td><b>Samples</b></td>
                         </tr>
+					  </thead>
+					  <tbody></tbody>
                     </table>
                     <ul class="pagination">
                         <li><a href="#">Prev</a></li>

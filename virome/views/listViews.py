@@ -35,3 +35,7 @@ def dlist(request):
 	else:
 		context['ERRMSG'] = 'no field was selected'
 	return render(request, 'dlist.html', context)
+
+def virusjson(request):
+	data = loadData.load_data_virus()
+	return JsonResponse(data)
