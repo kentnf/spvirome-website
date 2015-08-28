@@ -120,20 +120,19 @@ def load_data_virus():
 		line = line.strip("\n")
 		m = line.split("\t")
 	
-		# 0	       1                 2       3           4           5
-		# sampleID type(known/novel) virusID virusFamily Description ShortDesc
-		shortDesc = 'NA'
-		if len(m) == 6:
-			shortDesc = m[5]
+		# 0	       1                 2       3           4           5		   6     78 
+		# sampleID type(known/novel) virusID virusFamily Description ShortDesc Field GPS
+		if len(m) != 9:
+			continue
 		vid = m[2]
 		if vid not in dataVirusObj.keys():
 			dataVirusObj[vid] = {}
 			dataVirusObj[vid]['type'] = m[1]
 			dataVirusObj[vid]['family'] = m[3]
 			dataVirusObj[vid]['desc'] = m[4]
-			dataVirusObj[vid]['short'] = shortDesc
+			dataVirusObj[vid]['short'] = m[5]
 			dataVirusObj[vid]['sample'] = []
-			dataVirusObj[vid]['sample'].append(m[0])
+			dataVirusObj[vid]['sample'].append([m[0], m[6], m[7], m[8]])
 		else:
-			dataVirusObj[vid]['sample'].append(m[0])
+			dataVirusObj[vid]['sample'].append([m[0], m[6], m[7], m[8]])
 	return dataVirusObj

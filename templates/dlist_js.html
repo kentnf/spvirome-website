@@ -35,7 +35,7 @@ function virus_selection(virusList, shortName, keyword) {
 			table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
 			table_html += "<td>\n";
 			for (var i = 0; i< virusList[vid]['sample'].length; i++) {
-				table_html += "<a href=sinfo?sid="+ virusList[vid]['sample'][i] +" target=_blank>" + virusList[vid]['sample'][i] + "</a>, \n";
+				table_html += "<a href=sinfo?sid="+ virusList[vid]['sample'][i][0] +" target=_blank>" + virusList[vid]['sample'][i][0] + "</a>, \n";
 			}
 			table_html += "</td>\n";
 		}
