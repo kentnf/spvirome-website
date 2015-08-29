@@ -6,6 +6,13 @@
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
+	{% if ERRMSG %}
+		<div class="alert alert-dismissable alert-danger">
+			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+			<h4> Alert! </h4> <strong>Warning!</strong> {{ ERRMSG }}.
+		</div>
+	{% endif %}
+
 	<h4 align=center>Sample {{ sid }} processing & analyzing result</h4>
 	<br>
 		<div class="panel panel-success">

@@ -1,6 +1,9 @@
 <script>
 var geoList = [];
 var virusList = [];
+var num = 30;		// number of record in each page
+var country = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia'};
+
 function load_data() {
 	$.ajax({
 		//url: '{{ dbURL }}',
@@ -26,16 +29,28 @@ function load_virus_data() {
 }
 
 /* select virus according to short desc country*/
-function virus_selection(virusList, shortName, keyword) {
+function virus_selection(virusList, shortName, family) {
 	var table_html = '';
 	for (var vid in virusList) {
-		if (virusList[vid]['short'] == shortName || shortName == 'ALL') {
-			table_html += "<tr><td><a href=#>" + vid + "</a></td>\n";
-			table_html += "<td>" + virusList[vid]['desc'] + "</td>\n";
-			table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
-			table_html += "<td>\n";
+		if (virusList[vid]['short'] == shortName && (virusList[vid]['family'] == family || family == 'ALL')) {
+			//table_html += "<tr><td><a href=#>" + vid + "</a></td>\n";
+			//table_html += "<td>" + virusList[vid]['desc'] + "</td>\n";
+			//table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
+			//table_html += "<td>\n";
 			for (var i = 0; i< virusList[vid]['sample'].length; i++) {
-				table_html += "<a href=sinfo?sid="+ virusList[vid]['sample'][i][0] +" target=_blank>" + virusList[vid]['sample'][i][0] + "</a>, \n";
+				var sid = virusList[vid]['sample'][i][0];
+				var fid = virusList[vid]['sample'][i][1];
+				var cid = sid.substr(0, 2);
+				var cname = 'NA';
+				if (cid in country) {
+					cname = country[cid];
+				}
+
+				table_html += "<tr><td>" + cname + "</td>\n";
+				table_html += "<td><a href=flist?fid=" + fid + " target=_blank>" + fid + "</a></td>\n";
+				table_html += "<td><a href=sinfo?sid=" + sid + " target=_blank>" + sid + "</a></td>\n";
+				table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
+				table_html += "<td>" + virusList[vid]['short'] + "</td></tr>\n";
 			}
 			table_html += "</td>\n";
 		}
@@ -45,10 +60,11 @@ function virus_selection(virusList, shortName, keyword) {
 
 /* select field according to country id */
 function field_selection(geoList, cid) {
-	var table_html = '';
+	var table_array = [];
 	for (var name in geoList) {
 		var id = name.substr(0,2);
 		if (cid == id || cid == 'ALL') {
+			var table_html = '';
 			table_html += "<tr><td><a href=flist?fid="+name+">" + name + "</a></td>\n";
 			table_html += "<td>" + geoList[name]['attr'][0] + "</td>\n";
 			table_html += "<td>" + geoList[name]['attr'][1] + "</td>\n";
@@ -57,9 +73,10 @@ function field_selection(geoList, cid) {
 			table_html += "<td>" + geoList[name]['attr'][3] + "</td>\n";
 			table_html += "<td>" + geoList[name]['attr'][5] + "</td>\n";
 			table_html += "<td>" + geoList[name]['attr'][6] + "</td>\n</tr>\n";
+			table_array.push(table_html);
 		}
 	}
-	return table_html;
+	return table_array;
 }
 
 /* select sample according to country id */
@@ -83,13 +100,49 @@ function sample_selection(geoList, cid) {
 	return table_html;
 }
 
+/* pagination for all table html */
+function pagination(data, pagetype) {
+	var total_page = Math.floor(data.length / num);
+	if (data.length % num > 0) {
+		total_page += 1;
+	}
+	var m = -num;   //number of start record
+	var n = 0;		//number of end record
+	if (n < data.length - num && pagetype == 'next') {
+		n += num;
+		m += num;
+	}
+	else if (m > num && pagetype == 'prev') {
+		n -= num;
+		m -= num;
+	}
+	else if (pagetype >= 1 && pagetype <= total_page) {
+		m = num*(pagetype-1);
+		n = (num*pagetype)-1;
+	}
+	else {
+
+	}
+
+	console.log(m);
+	console.log(n);
+
+	var newdata = '';
+	for(var i in data) {
+		if ( i >= m && i <= n) {
+			newdata += data[i];
+		}
+	}
+	return newdata;
+}
+
 $(function(){
 
 	/* load all field/sample data with json format */
 	load_data();
 	load_virus_data();
 	
-	/* generate selection form for each tab */
+	/* generate selection form for country */
 	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia'}; 
 	var sel = {};
 	for (var name in geoList) {
@@ -108,32 +161,72 @@ $(function(){
 	$( "#fCountry" ).append(sel_html);
 	$( "#sCountry" ).append(sel_html);
 
-	var sel_vname_html = "<option selected value=ALL>All</option>\n";
+	/* generate selection form for virus name and family */
+	var sel_vname_html = '';
+	var sel_vfamily_html = "<option selected value=ALL>All</option>\n";
 	var sel_vname_uniq = {};
+	var sel_vfamily_uniq = {};
 	for (var vid in virusList) {
 		var sname = virusList[vid]['short'];
+		var family = virusList[vid]['family'];
 		if (!(sname in sel_vname_uniq)) {
-			sel_vname_html += "<option value=\""+ sname + "\">" + sname + "</option>\n";
+			if (sname == 'Sweet potato leaf curl virus') {
+				sel_vname_html = "<option selected value=\""+ sname + "\">" + sname + "</option>\n" + sel_vname_html;
+			} else {
+				sel_vname_html += "<option value=\""+ sname + "\">" + sname + "</option>\n";
+			}
 			sel_vname_uniq[sname] = sname;
+		}
+
+		if (!(family in sel_vfamily_uniq)) {
+			sel_vfamily_html += "<option value=\""+ family + "\">" + family + "</option>\n";
+			sel_vfamily_uniq[family] = family;
 		}
 	}
 	$( "#vname" ).append(sel_vname_html);
+	$( "#vfamily" ).append(sel_vfamily_html);
 
 	/* display default list (field) */
 	var fcountry_id = 'ALL';	// set all for default
 	var fcountry_name = 'All';	// set all for default
 	var fieldTable = field_selection(geoList, fcountry_id);
-	$('#fieldTable tbody').append(fieldTable);
+	fieldTablePage = pagination(fieldTable,1)
+	$('#fieldTable tbody').append(fieldTablePage);
 
 	var scountry_id = 'ALL';    // set all for default
 	var scountry_name = 'All';  // set all for default
 	var sampleTable = sample_selection(geoList, scountry_id);
 	$('#sampleTable tbody').append(sampleTable);
 
-	var virus_shortName = 'ALL';
-	var keyword = '';
-	var virusTable = virus_selection(virusList, virus_shortName, keyword);
+	/* display virus list */
+	var virus_name = $( "#vname" ).val();;
+	var virus_family = $( "#vfamily" ).val();;
+	var virusTable = virus_selection(virusList, virus_name, virus_family);
 	$('#virusTable tbody').append(virusTable);	
+	
+	$('#vname').on('change', function() {
+        virus_name = $( "#vname" ).val();
+		virus_family = $( "#vfamily" ).val();
+        virusTable = virus_selection(virusList, virus_name, virus_family);
+        $('#virusTable tbody').html('');
+        $('#virusTable tbody').append(virusTable);
+    });
+
+	$('#vfamily').on('change', function() {
+        virus_name = $( "#vname" ).val();
+        virus_family = $( "#vfamily" ).val();
+        virusTable = virus_selection(virusList, virus_name, virus_family);
+        $('#virusTable tbody').html('');
+        $('#virusTable tbody').append(virusTable);
+    });
+
+	$('#vnext').on('click', function() {
+		console.log("action next");
+        //virusTable = virus_selection(virusList, virus_name, virus_family);
+        //$('#virusTable tbody').html('');
+        //$('#virusTable tbody').append(virusTable);
+    });
+
 
 	/* change of selection in field */
 	$('#fCountry').on('change', function() {
@@ -144,20 +237,13 @@ $(function(){
 		$('#fieldTable tbody').append(fieldTable);
 	});
 
+	/* change the page of sample */
 	$('#sCountry').on('change', function() {
 		scountry_id = $( "#sCountry" ).val();
 		scountry_name = $( "#sCountry option:selected" ).text();
 		sampleTable = sample_selection(geoList, scountry_id);
 		$('#sampleTable tbody').html('');
 		$('#sampleTable tbody').append(sampleTable);
-	});
-
-	$('#vname').on('change', function() {
-		virus_shortName = $( "#vname" ).val();
-		console.log(virus_shortName);
-		virusTable = virus_selection(virusList, virus_shortName, keyword);
-		$('#virusTable tbody').html('');
-		$('#virusTable tbody').append(virusTable);
 	});
 
 	/* change of tab, !!! will be used for map function */

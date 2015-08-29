@@ -10,7 +10,6 @@
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<h4><b>Samples in field {{ fid }}</b></h4>
-		
          <!--display sample list -->
         <table class="table table-striped">
         <tr>
@@ -26,7 +25,11 @@
         <tr>
         {% for e in s %}
           {% if forloop.counter0 == 0 %}
-          <td><a href="sinfo?sid={{ e }}" target=_blank>{{ e }}</a></td>
+		  	{% if e in select %}
+				<td><span class="glyphicon glyphicon-certificate"></span><a href="sinfo?sid={{ e }}" target=_blank><b>{{ e }}</b></a></td>	
+			{% else %}
+          		<td><a href="sinfo?sid={{ e }}" target=_blank>{{ e }}</a></td>
+			{% endif %}
           {% elif forloop.counter0 == 3 or forloop.counter0 == 4 %}
           <td>
             {% for subpimg in e %}
@@ -40,13 +43,25 @@
         </tr>
         {% endfor %}
         </table>
+		{% if vname %}	
+			<h5><span class="glyphicon glyphicon-certificate"></span>selected samples contain <b>{{ vname }}</b> </h5>
+		{% endif %}
+		<br />
 	</div>
 </div>
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 	<h4><b>Field ({{ fid }}) information</b></h4>
-	<p>{{ ERRMSG }}</p>
+	
+	{% if ERRMSG %}
+		<div class="alert alert-dismissable alert-danger">
+			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+			<h4>
+			Alert!
+			</h4> <strong>Warning!</strong> {{ ERRMSG }}.
+		</div>
+	{% endif %}
 	</div>
 </div>
 
@@ -88,5 +103,4 @@
 	</div>
 </div>
 {% endblock mainbody %}
-
 
