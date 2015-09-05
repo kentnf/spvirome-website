@@ -158,18 +158,22 @@ $(function(){
 	
 	/* generate selection form for country */
 	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana'}; 
-	var sel = {};
+	var sel = {};		// store key and country name
+	var sel_sort = [];  // for sorting country
 	for (var name in geoList) {
 		var id = name.substr(0,2);
 		if (!(id in sel)) {
 			if (id in sel_org) {
 				sel[id] = sel_org[id]
+				sel_sort.push(id);
 			}
 		}
 	}
+	sel_sort.sort();
 
 	var sel_html = "<option selected value=ALL>All</option>\n";
-	for (k in sel) {
+	for (i=0; i<sel_sort.length; i++) {
+		var k = sel_sort[i];
 		sel_html += "<option value="+ k + ">" + sel[k] + "</option>\n";
 	}
 	$( "#fCountry" ).append(sel_html);
@@ -180,23 +184,38 @@ $(function(){
 	var sel_vfamily_html = '';
 	var sel_vname_uniq = {};
 	var sel_vfamily_uniq = {};
+	var sname_sort = [];
+	var family_sort = [];
 	for (var vid in virusList) {
 		var sname = virusList[vid]['short'];
 		var family = virusList[vid]['family'];
 		if (!(sname in sel_vname_uniq)) {
-			if (sname == 'Sweet potato leaf curl virus') {
-				sel_vname_html = "<option selected value=\""+ sname + "\">" + sname + "</option>\n" + sel_vname_html;
-			} else {
-				sel_vname_html += "<option value=\""+ sname + "\">" + sname + "</option>\n";
-			}
+			sname_sort.push(sname);
 			sel_vname_uniq[sname] = sname;
 		}
-
 		if (!(family in sel_vfamily_uniq)) {
-			sel_vfamily_html += "<option value=\""+ family + "\">" + family + "</option>\n";
+			family_sort.push(family);
 			sel_vfamily_uniq[family] = family;
 		}
 	}
+
+	sname_sort.sort();
+	family_sort.sort();
+
+	for(i=0; i<sname_sort.length; i++) {
+		var sname = sname_sort[i];
+		if (sname == 'Sweet potato leaf curl virus') {
+			sel_vname_html = "<option selected value=\""+ sname + "\">" + sname + "</option>\n" + sel_vname_html;
+		} else {
+			sel_vname_html += "<option value=\""+ sname + "\">" + sname + "</option>\n";
+		}
+	}
+
+	for(i=0; i<family_sort.length; i++) {
+		var family = family_sort[i];
+		sel_vfamily_html += "<option value=\""+ family + "\">" + family + "</option>\n";
+	}
+
 	$( "#vname" ).append(sel_vname_html);
 	$( "#vfamily" ).append(sel_vfamily_html);
 
