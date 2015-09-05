@@ -40,16 +40,15 @@ The sample name should be same with the record in data table and data clean tabl
     result_sample3
     ...
 
- 2. generate virus table
+ 2. generate virus table, the output file is data_virus.txt
     $ perl generate-virus-table.pl input_list
 
- 3. manually add the virus name in the last column of output data_virus.txt
+ 3. add the virus name in the last column of output data_virus.txt
+	$ perl add_virus_name.pl data_virus.txt > temp.txt 
+    $ mv temp.txt data_virus.txt
   
- 4. replace the data_virus.txt in static folder
-  
- 5. add field and GPS location 
+ 4. add field and GPS location 
     $ perl mapping_virus_gps.pl > temp.txt 
     $ mv temp.txt data_virus.txt 
 
- 
  
