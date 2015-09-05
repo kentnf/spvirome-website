@@ -4,7 +4,7 @@ var virusList = [];
 var m = 0;			// page start member
 var n = 4;			// page end member
 var num = 10;		// number of record in each page
-var country = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia'};
+var country = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana'};
 
 function load_data() {
 	$.ajax({
@@ -67,7 +67,10 @@ function field_selection(geoList, cid) {
 		var id = name.substr(0,2);
 		if (cid == id || cid == 'ALL') {
 			var table_html = '';
-			table_html += "<tr><td><a href=flist?fid="+name+">" + name + "</a></td>\n";
+			var cname = 'NA';
+			if (id in country) { cname = country[id]; }
+			table_html += "<tr><td>" + cname + "</td>\n";
+			table_html += "<td><a href=flist?fid="+name+">" + name + "</a></td>\n";
 			table_html += "<td>" + geoList[name]['attr'][0] + "</td>\n";
 			table_html += "<td>" + geoList[name]['attr'][1] + "</td>\n";
 			table_html += "<td>" + geoList[name]['attr'][2] + "</td>\n";
@@ -87,13 +90,16 @@ function sample_selection(geoList, cid) {
 	for (var name in geoList) {
 		var id = name.substr(0,2);
 		if (cid == id || cid == 'ALL') {
+			var cname = 'NA';
+			if (id in country) { cname = country[id]; }
 			var sampleList = geoList[name]['samp'];	
 			for(var i = 0; i < sampleList.length; i++) {
-				table_html += "<tr><td><a href=\"sinfo?sid=" + sampleList[i][0] + "\" target=_blank>"+ sampleList[i][0] + "</a></td>\n";
+				table_html += "<tr><td>" + cname + "</td>\n";
+				table_html += "<td><a href=\"sinfo?sid=" + sampleList[i][0] + "\" target=_blank>"+ sampleList[i][0] + "</a></td>\n";
 				table_html += "<td>" + sampleList[i][1] + "</td>\n";
 				table_html += "<td>" + sampleList[i][2] + "</td>\n";
-				table_html += "<td>" + sampleList[i][3] + "</td>\n";
-				table_html += "<td>" + sampleList[i][4] + "</td>\n";
+				table_html += "<td>" + "Link" + "</td>\n"; // sampleList[i][3]
+				table_html += "<td>" + "Link" + "</td>\n"; // sampleList[i][4]
 				table_html += "<td>" + sampleList[i][5] + "</td>\n";
 				table_html += "<td>" + sampleList[i][6] + "</td></tr>\n";
 			}
@@ -151,7 +157,7 @@ $(function(){
 	load_virus_data();
 	
 	/* generate selection form for country */
-	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia'}; 
+	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana'}; 
 	var sel = {};
 	for (var name in geoList) {
 		var id = name.substr(0,2);

@@ -33,7 +33,7 @@
           {% elif forloop.counter0 == 3 or forloop.counter0 == 4 %}
           <td>
             {% for subpimg in e %}
-                <a href=# data-featherlight="{% static "images" %}/{{ prefix }}{{ subpimg }}.JPG">{{ subpimg }}</a> 
+                <a href=# data-featherlight="{% static "images" %}/{{ prefix }}/{{ subpimg }}">{{ subpimg }}</a> 
             {% endfor %}
         </td>
           {% else %}
@@ -93,7 +93,7 @@
             <div class="tab-content">
                 <div class="tab-pane active" id="fieldImage">
 					{% for subimg in img %}
-						<a href=# data-featherlight="{% static "images" %}/{{ prefix }}{{ subimg }}.JPG"><img class="img-responsive img-rounded" src="{% static "images" %}/{{ prefix }}{{ subimg }}.JPG"></a><br />
+						<a href=# data-featherlight="{% static "images" %}/{{ prefix }}/{{ subimg }}"><img class="img-responsive img-rounded" src="{% static "images" %}/{{ prefix }}/{{ subimg }}"></a><br />
 					{% endfor %}
 				</div>
                 <div class="tab-pane" id="fieldMap" style="height:300px;"> 

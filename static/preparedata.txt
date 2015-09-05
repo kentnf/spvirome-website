@@ -1,0 +1,55 @@
+
+
+## prepare data table
+
+After the main data table has been changed, the file name should be: data_MMDDYYYY.txt
+
+ 1. trim the char ^M from win
+ $ trwin data_MMDDYYYY.txt
+
+ 2. convert from ISO-8859-1 to UTF-8
+ $ iconv -f ISO-8859-1 -t UTF-8 data_09042015.txt > data_temp.txt
+
+ 3. check and convert the file encoding
+ $ file -i data_temp.txt 
+
+ # pleas replace below char
+ :%s/¨¦/é/ig
+ :%s/¨¨/è/ig 
+ :%s/"//ig
+
+## prepare data clean table
+
+After the clean information has been updated, the file name should be: data_clean_MMDDYY.txt 
+
+ 1. update the DATA part in rename_data_clean.pl 
+	one line for old name and new name of sample
+
+ 2. update new name column for data_clean_MMDDYY.txt
+	perl rename_data_clean.pl data_clean_MMDDYY.txt > data_clean_MMDDYY_new.txt
+    mv data_clean_MMDDYY_new.txt data_clean_MMDDYY.txt
+
+## prepare data virus talbe
+
+After the virus identification, one folder generate for each sample, like result_sampleName
+The sample name should be same with the record in data table and data clean table
+
+ 1. create list for all folder of identify results.
+    result_sample1
+    result_sample2
+    result_sample3
+    ...
+
+ 2. generate virus table
+    $ perl generate-virus-table.pl input_list
+
+ 3. manually add the virus name in the last column of output data_virus.txt
+  
+ 4. replace the data_virus.txt in static folder
+  
+ 5. add field and GPS location 
+    $ perl mapping_virus_gps.pl > temp.txt 
+    $ mv temp.txt data_virus.txt 
+
+ 
+ 

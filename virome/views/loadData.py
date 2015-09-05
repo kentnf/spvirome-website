@@ -59,8 +59,10 @@ def load_data():
 		district = m[3]
 		locality = m[4]
 		fid = m[5]
-		lng = convert_GPS(m[6])
-		lat = convert_GPS(m[7])
+		lng = m[6]
+		lat = m[7]
+		#lng = convert_GPS(m[6])
+		#lat = convert_GPS(m[7])
 		alt = m[8]
 		fsize = m[10]
 		fimgs = m[11].split("/")

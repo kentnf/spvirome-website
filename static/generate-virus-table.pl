@@ -4,14 +4,16 @@ use strict;
 use warnings;
 use IO::File;
 
+my $inF = shift || die "USAGE: $0 input_list\n";
+
 # put sample id to hash
 # key: sample ID
 # value: virus information
 my %sample_virus; 
 
 open(OUT, ">data_virus.txt") || die $!;
-
-while(<DATA>) {
+open(FH, $inF) || die $!;
+while(<FH>) {
 	chomp;
 	my @a = split(/\t/, $_);
 	my $known_file = `ls $_/*.known.xls`; chomp($known_file);
@@ -56,6 +58,7 @@ while(<DATA>) {
 		$in->close;
 	}
 }
+close(FH);
 close(OUT);
 
 __DATA__
