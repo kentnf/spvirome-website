@@ -30,6 +30,14 @@ def convert_GPS(gps_unit):
 # load dataset
 def load_data():
 	datafile = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/data.txt"
+
+	# set filter set, only load sample dataset which is cleaned 
+	filterSet = 1
+	data_clean_obj = {}
+	if filterSet == 1:
+		data_clean_obj = load_data_clean();
+
+	# main for load data
 	data_obj = {}       # data object for store all data
 	sample_uniq = {}    # dict for check the sample uniq
 	dh = open(datafile, "r")
@@ -53,6 +61,12 @@ def load_data():
 			sys.stderr.write('[ERR]dup sample ID ', sampleID, "\n")
 		else:
 			sample_uniq[sampleID] = 1
+
+		if filterSet == 1:
+			if sampleID in data_clean_obj:
+				pass
+			else:
+				continue 
 
 		# attribute for field
 		region = m[2]
