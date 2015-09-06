@@ -1,14 +1,33 @@
 {% extends "base.html" %}
 
+{% block javascript %}
+{% include "download_js.html" %}
+{% endblock javascript %}
+
 {% block mainbody %}
 
 <div class="row">
-	<div class="col-md-8 col-md-offset-2">
-	<h3 align=center>Data Download</h3>
-	<div style="padding: 20px; height: 500px;">
-	</div>
+	<div class="col-md-8 col-md-offset-2" style="min-height:550px;">
+		<div class="alert alert-dismissable alert-info">
+			<strong>All the cleaned sRNA reads could be donwload through <a href="ftp://bioinfo.bti.cornell.edu/pub/" class="alert-link">FTP</a>.</strong> 
+		</div>
+	<!-- sample list -->
+		<form class="form-inline" role="form">
+			<div class="form-group">
+				<label for="sCountry">Select Country:</label>
+				<select class="form-control" id="sCountry"></select>
+			</div>
+		</form>
+		<table id="sampleTable" class="table table-striped">
+			<thead><tr>
+			<td><b>Country</b></td>
+			<td><b>Field</b></td>
+			<td><b>Sample</b></td>
+			<td><b>Download</b></td>
+			</tr></thead>
+			<tbody></tbody>
+		</table>
 	</div>
 </div>
-
 
 {% endblock mainbody %}
