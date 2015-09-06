@@ -93,7 +93,14 @@
             <div class="tab-content">
                 <div class="tab-pane active" id="fieldImage">
 					{% for subimg in img %}
+						{% if subimg %}
 						<a href=# data-featherlight="{% static "images" %}/{{ prefix }}/{{ subimg }}"><img class="img-responsive img-rounded" src="{% static "images" %}/{{ prefix }}/{{ subimg }}"></a><br />
+						{% else %}
+						<div class="alert alert-dismissable alert-danger">
+            				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+							<strong>Image is not available.</strong>
+        				</div>
+						{% endif %}
 					{% endfor %}
 				</div>
                 <div class="tab-pane" id="fieldMap" style="height:300px;"> 

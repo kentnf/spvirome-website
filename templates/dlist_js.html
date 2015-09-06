@@ -33,7 +33,7 @@ function load_virus_data() {
 
 /* select virus according to short desc country*/
 function virus_selection(virusList, shortName, family) {
-	var table_html = '';
+	var table_array = [];
 	var virus_uniq = {};
 	for (var vid in virusList) {
 		if ( (virusList[vid]['short'] == shortName && family == 'ALL') || (virusList[vid]['family'] == family && shortName == 'ALL')) {
@@ -47,18 +47,20 @@ function virus_selection(virusList, shortName, family) {
 				}
 
 				if (!(sid in virus_uniq)) {
+					var table_html = '';
 					table_html += "<tr><td>" + cname + "</td>\n";
 					table_html += "<td><a href=flist?fid=" + fid + " target=_blank>" + fid + "</a></td>\n";
 					table_html += "<td><a href=sinfo?sid=" + sid + " target=_blank>" + sid + "</a></td>\n";
 					table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
 					table_html += "<td>" + virusList[vid]['short'] + "</td></tr>\n";
+					table_array.push(table_html);
 					virus_uniq[sid] = sid;
 				}
 			}
-			table_html += "</td>\n";
 		}
 	}
-	return table_html;
+	table_array.sort();
+	return table_array;
 }
 
 /* select field according to country id */
@@ -84,12 +86,13 @@ function field_selection(geoList, cid) {
 			table_array.push(table_html);
 		}
 	}
+	table_array.sort();
 	return table_array;
 }
 
 /* select sample according to country id */
 function sample_selection(geoList, cid) {
-	var table_html = '';
+	var table_array = [];
 	for (var name in geoList) {
 		var id = name.substr(0,2);
 		if (cid == id || cid == 'ALL') {
@@ -97,6 +100,7 @@ function sample_selection(geoList, cid) {
 			if (id in country) { cname = country[id]; }
 			var sampleList = geoList[name]['samp'];	
 			for(var i = 0; i < sampleList.length; i++) {
+				var table_html = '';
 				table_html += "<tr><td>" + cname + "</td>\n";
 				table_html += "<td><a href=\"sinfo?sid=" + sampleList[i][0] + "\" target=_blank>"+ sampleList[i][0] + "</a></td>\n";
 				table_html += "<td>" + sampleList[i][1] + "</td>\n";
@@ -114,10 +118,12 @@ function sample_selection(geoList, cid) {
 				}
 				table_html += "<td>" + sampleList[i][5] + "</td>\n";
 				table_html += "<td>" + sampleList[i][6] + "</td></tr>\n";
+				table_array.push(table_html);
 			}
 		}
 	}
-	return table_html;
+	table_array.sort();
+	return table_array;
 }
 /* pre pagination data */
 function pre_pagination(data) {
@@ -236,7 +242,7 @@ $(function(){
 	var fcountry_name = 'All';	// set all for default
 	var fieldTable = field_selection(geoList, fcountry_id);
 	//fieldTablePage = pagination(fieldTable,1)
-	fieldTablePage = pre_pagination(fieldTable);
+	var fieldTablePage = pre_pagination(fieldTable);
 	$('#fieldTable tbody').html(fieldTablePage);
 
 	$('#fCountry').on('change', function() {
@@ -263,28 +269,31 @@ $(function(){
 	var scountry_id = 'ALL';    // set all for default
 	var scountry_name = 'All';  // set all for default
 	var sampleTable = sample_selection(geoList, scountry_id);
-	$('#sampleTable tbody').append(sampleTable);
+	var sampleTablePage = pre_pagination(sampleTable);
+	$('#sampleTable tbody').html(sampleTablePage);
 
 	$('#sCountry').on('change', function() {
         scountry_id = $( "#sCountry" ).val();
         scountry_name = $( "#sCountry option:selected" ).text();
         sampleTable = sample_selection(geoList, scountry_id);
-        $('#sampleTable tbody').html('');
-        $('#sampleTable tbody').append(sampleTable);
+		sampleTablePage = pre_pagination(sampleTable);
+        $('#sampleTable tbody').html(sampleTablePage);
     });
 
 	/* display virus list */
 	var virus_name = $( "#vname" ).val();
 	var virus_family = 'ALL';
 	var virusTable = virus_selection(virusList, virus_name, virus_family);
-	$('#virusTable tbody').append(virusTable);	
+	var virusTablePage = pre_pagination(virusTable);
+	$('#virusTable tbody').append(virusTablePage);	
 	
 	$('#vname').on('change', function() {
         virus_name = $( "#vname" ).val();
 		virus_family = 'ALL';
         virusTable = virus_selection(virusList, virus_name, virus_family);
+		virusTablePage = pre_pagination(virusTable);
         $('#virusTable tbody').html('');
-        $('#virusTable tbody').append(virusTable);
+        $('#virusTable tbody').append(virusTablePage);
     });
 
 	$('#vfamily').on('change', function() {
