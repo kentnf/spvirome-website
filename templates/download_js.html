@@ -17,6 +17,27 @@ function load_data() {
 	});
 }
 
+function filter_data() {
+    var geoListF = {};
+    for(var fid in geoList) {
+        var sampleList = geoList[fid]['samp'];
+        var sampleListF = [];
+        for(var i = 0; i < sampleList.length; i++) {
+            var sequenced = sampleList[i][7];
+            if (sequenced == 1) {
+                sampleListF.push(sampleList[i]);
+            }
+        }
+
+        if (sampleListF.length > 0) {
+            geoListF[fid] = {};
+            geoListF[fid]['attr'] = geoList[fid]['attr'];
+            geoListF[fid]['samp'] = sampleListF;
+        }
+    }
+    geoList = geoListF;
+}
+
 /* select sample according to country id */
 function sample_selection(geoList, cid) {
 	var table_array = [];
@@ -50,6 +71,7 @@ $(function(){
 
 	/* load all field/sample data with json format */
 	load_data();
+	filter_data();
 	
 	/* generate selection form for country */
 	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana'}; 

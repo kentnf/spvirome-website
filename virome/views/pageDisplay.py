@@ -19,12 +19,12 @@ def download(request):
 
 # dynamic pages
 def flist(request):
-	data = loadData.load_data()
 	context = {}
 	context.update(settings.GLOBAL_SETTINGS)
 	fid = request.GET.get('fid', '')
 	sid_list = request.GET.get('sid', '')
 	vname = request.GET.get('vname', '')
+	data = loadData.load_data()
 	if sid_list:
 		context['select'] = []
 		context['select'] = sid_list.split(",")

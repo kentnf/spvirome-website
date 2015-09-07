@@ -1,5 +1,10 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+
+{% block javascript %}
+{% include "sample_js.html" %}
+{% endblock javascript %}
+
 {% block mainbody %}
 
 <div class="row">
@@ -13,25 +18,28 @@ this vegetatively propagated crop. A summary of sample collection in these count
 </div>
 <br />
 <div class="row">
-	<div class="col-md-4 col-md-offset-2">
-		<table class="table table-striped">
-<tr><th>Country</th><th>Regions/Agro-ecological zone</th><th>Locations per zone</th><th>RNA samples</th></tr>
-<tr align=center><td>Guinea</td><td>4</td><td>4</td><td>160</td></tr>
-<tr align=center><td>Benin</td><td>3</td><td>5</td><td>150</td></tr>
-<tr align=center><td>Nigeria</td><td>4</td><td>5</td><td>200</td></tr>
-<tr align=center><td>Angola</td><td>3</td><td>6</td><td>180</td></tr>
-<tr align=center><td>Malawi</td><td>2</td><td>6</td><td>120</td></tr>
-<tr align=center><td>Zambia</td><td>2</td><td>7</td><td>140</td></tr>
-<tr align=center><td>Zimbabwe</td><td>3</td><td>5</td><td>150</td></tr>
-<tr align=center><td>Tanzania</td><td>4</td><td>5</td><td>200</td></tr>
-<tr align=center><td>Kenya</td><td>3</td><td>6</td><td>180</td></tr>
-<tr align=center><td>Uganda</td><td>3</td><td>5</td><td>150</td></tr>
-<tr align=center><td>Ethiopia</td><td>2</td><td>6</td><td>120</td></tr>
-<tr align=center><td>Total</td></td><td><td></td><td>1750</td></tr></table>
+	<div class="col-md-8 col-md-offset-2">
+		<table id="sampleStat" class="table table-striped">
+		  <thead>
+			<tr><th>Country</th><th>Total RNA samples</th><th>Sequenced</th><th>Unsequenced</th></tr>
+		  </thead>
+	      <tbody>	
+		  </tbody>
+		</table>
 
-	</div>
-	<div class="col-md-4">
-		<img src="{% static "img/country.png" %}" align=center>
+		<button type="button" class="btn btn-info pull-right">
+			Return to sample statistics table
+		</button>
+		<table id="sampleList" class="table table-striped">
+		  <thead>
+			<tr><th>Country</th><th>Field</th><th>Sample</th><th>Sequenced Status</th></tr>
+		  </thead>
+		  <tbody>
+          </tbody>
+		</table>
+		<button type="button" class="btn btn-info pull-right">
+			Return to sample statistics table
+		</button>
 	</div>
 </div>
 <br />

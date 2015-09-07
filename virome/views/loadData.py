@@ -32,10 +32,7 @@ def load_data():
 	datafile = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/data.txt"
 
 	# set filter set, only load sample dataset which is cleaned 
-	filterSet = 1
-	data_clean_obj = {}
-	if filterSet == 1:
-		data_clean_obj = load_data_clean();
+	data_clean_obj = load_data_clean();
 
 	# main for load data
 	data_obj = {}       # data object for store all data
@@ -62,11 +59,9 @@ def load_data():
 		else:
 			sample_uniq[sampleID] = 1
 
-		if filterSet == 1:
-			if sampleID in data_clean_obj:
-				pass
-			else:
-				continue 
+		sequenced = 0
+		if sampleID in data_clean_obj:
+			sequenced = 1
 
 		# attribute for field
 		region = m[2]
@@ -85,9 +80,9 @@ def load_data():
 			data_obj[fid] = {}
 			data_obj[fid]['attr'] = [region, district, locality, lat, lng, alt, fsize, fimgs]
 			data_obj[fid]['samp'] = []
-			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs, slimgs, sintercrop, scultivar])
+			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs, slimgs, sintercrop, scultivar, sequenced])
 		else:
-			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs, slimgs, sintercrop, scultivar])
+			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs, slimgs, sintercrop, scultivar, sequenced])
 	return data_obj
 
 # load data clean
