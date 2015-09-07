@@ -31,7 +31,7 @@ function sample_selection(geoList, cid) {
 				table_html += "<tr><td>" + cname + "</td>\n";
 				table_html += "<td><a href=flist?fid=" + name + " target=_blank>" + name + "</a></td>\n";
 				table_html += "<td><a href=\"sinfo?sid=" + sampleList[i][0] + "\" target=_blank>"+ sampleList[i][0] + "</a></td>\n";
-				table_html += "<td><a href=\"ftp://bioinfo.bti.cornell.edu/pub/" + sampleList[i][0] + "\" target=\"_blank\">Download</a></td></tr>\n";
+				table_html += "<td><a href=\"ftp://bioinfo.bti.cornell.edu/pub/virome/sweetpotato/" + sampleList[i][0] + ".gz\" target=\"_blank\" download>Download</a></td></tr>\n";
 				table_array.push(table_html);
 			}
 		}
