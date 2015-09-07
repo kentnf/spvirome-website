@@ -1,0 +1,146 @@
+<script>
+var geoList = [];
+var geoListSeq = [];
+var geoListUnseq = [];
+var sampleUniq = {};
+var sampleCount = {};		// save country seq/unseq count
+var sampleCountArray = [];	// array of country, sequenced, unsequenced, sorted
+var country = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana'};
+
+// load all data from database
+function load_data() {
+	$.ajax({
+		//url: '{{ dbURL }}',
+		url: '/{{ SUB_FDR }}/geo_list/',
+		async: false,
+		dataType: 'json',
+		success: function (data) {
+			geoList = data;
+		}
+	});
+}
+
+// filter the sequenced and unsequenced dataset
+function filter_data() {
+    for(var fid in geoList) {
+        var sampleList = geoList[fid]['samp'];
+        var sequenced = [];
+		var unsequenced = [];
+		var cid = fid.substr(0,2);
+		var cname = country[cid];
+		if (!(sampleCount[cid])) {
+			sampleCount[cid] = {};
+			sampleCount[cid]['seq'] = 0;
+			sampleCount[cid]['unseq'] = 0;
+		}
+
+        for(var i = 0; i < sampleList.length; i++) {
+            var seq = sampleList[i][7];
+            if (seq == 1) {
+                sequenced.push(sampleList[i]);
+				sampleCount[cid]['seq']++;
+            } else {
+				unsequenced.push(sampleList[i]);
+				sampleCount[cid]['unseq']++;
+			}	
+			sampleUniq[sampleList[i][0]] = sampleList[i][7];
+        }
+  
+        if (sequenced.length > 0) {
+            geoListSeq[fid] = {};
+            geoListSeq[fid]['attr'] = geoList[fid]['attr'];
+            geoListSeq[fid]['samp'] = sequenced;
+        }
+
+		if (unsequenced.length > 0) {
+			geoListUnseq[fid] = {};
+			geoListUnseq[fid]['attr'] = geoList[fid]['attr'];
+			geoListUnseq[fid]['samp'] = unsequenced;
+		}
+    }
+
+	for (var cid in sampleCount) {
+		sampleCountArray.push([cid, sampleCount[cid]['seq'], sampleCount[cid]['unseq']]);
+	}
+	sampleCountArray.sort();
+}
+
+/* select sample according to country id */
+function sample_selection(seqstatus, cid) {
+	var selData = geoList;;
+	if (seqstatus == 0) {
+		selData = geoListUnseq;
+	} else if (seqstatus == 1) {
+		selData = geoListSeq;
+	} 
+
+	var table_array = [];
+	for (var name in selData) {
+		var id = name.substr(0,2);
+		if (id == cid) {
+			cname = country[id];
+			var sampleList = selData[name]['samp'];	
+			for(var i = 0; i < sampleList.length; i++) {
+				var table_html = '';
+				table_html += "<tr><td>" + cname + "</td>\n";
+				table_html += "<td><a href=flist?fid=" + name + " target=_blank>" + name + "</a></td>\n";
+				table_html += "<td><a href=\"sinfo?sid=" + sampleList[i][0] + "\" target=_blank>"+ sampleList[i][0] + "</a></td>\n";
+				if (sampleList[i][7] == 1) {
+					table_html += "<td>Yes</td></tr>\n";
+				} else {
+					table_html += "<td>No</td></tr>\n";
+				}
+				table_array.push(table_html);
+			}
+		}
+	}
+	table_array.sort();
+	return table_array;
+}
+/* pre pagination data */
+function pre_pagination(data) {
+	var newdata = '';
+	for(var i in data) { newdata += data[i]; }
+    return newdata;
+}
+
+$(function(){
+
+	/* load all field/sample data with json format */
+	load_data();
+	filter_data();
+
+	/* display sample count */
+	var sampleCountHtml = '';
+	for (var i in sampleCountArray) {
+		var cname = country[sampleCountArray[i][0]];
+		var total = sampleCountArray[i][1] + sampleCountArray[i][2];
+		sampleCountHtml += "<tr><td>" + cname + "</td>";
+		sampleCountHtml += "<td><a href=# class=\"slink\" sequenced=\"2\" country=\"" + sampleCountArray[i][0] + "\">" + total + "</a></td>";
+		sampleCountHtml += "<td><a href=# class=\"slink\" sequenced=\"1\" country=\"" + sampleCountArray[i][0] + "\">" + sampleCountArray[i][1] + "</a></td>";
+		sampleCountHtml += "<td><a href=# class=\"slink\" sequenced=\"0\" country=\"" + sampleCountArray[i][0] + "\">" + sampleCountArray[i][2] + "</a></td></tr>";
+	}
+	$('#sampleStat tbody').html(sampleCountHtml);
+	$('#sampleList').hide();
+	$('.btn').hide()
+
+	/* dislplay the list of samples */
+	$('a.slink').click(function(){
+		var seq = $(this).attr('sequenced');
+		var cid = $(this).attr('country');
+		var sampleTable = sample_selection(seq, cid);
+		var sampleTablePage = pre_pagination(sampleTable);
+		$('#sampleList').show();
+		$('.btn').show();
+		$('#sampleList tbody').html(sampleTablePage);
+		$('#sampleStat').hide();
+	});
+
+	$('.btn').click(function(){
+		$('#sampleStat').show();
+		$('#sampleList').hide();
+		$('.btn').hide();
+	});
+});
+
+</script>
