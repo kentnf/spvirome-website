@@ -47,12 +47,25 @@ def load_data():
 
 		# attribute for sample
 		sampleID = m[0]
+		prefix = sampleID[0:2]
 		sdate = m[1]
 		sage  = m[9]
+		simgs_exist = []
+		slimgs_exist = []
 		simgs = m[12].split("/")
 		slimgs = m[13].split("/")
 		sintercrop = m[14]
 		scultivar = m[15]
+
+		for fname in simgs:
+			fpath = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/images/" + prefix + "/" + fname
+			if os.path.exists(fpath):
+				simgs_exist.append(fname)
+
+		for fname in slimgs:
+			fpath = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/images/" + prefix + "/" + fname
+			if os.path.exists(fpath):
+				slimgs_exist.append(fname)
 
 		if sampleID in sample_uniq.keys():
 			sys.stderr.write('[ERR]dup sample ID ', sampleID, "\n")
@@ -74,15 +87,20 @@ def load_data():
 		#lat = convert_GPS(m[7])
 		alt = m[8]
 		fsize = m[10]
+		fimgs_exist = []
 		fimgs = m[11].split("/")
+		for fname in fimgs:
+			fpath = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/images/" + prefix + "/" + fname
+			if os.path.exists(fpath):
+				fimgs_exist.append(fname)
 
 		if fid not in data_obj.keys():
 			data_obj[fid] = {}
-			data_obj[fid]['attr'] = [region, district, locality, lat, lng, alt, fsize, fimgs]
+			data_obj[fid]['attr'] = [region, district, locality, lat, lng, alt, fsize, fimgs_exist]
 			data_obj[fid]['samp'] = []
-			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs, slimgs, sintercrop, scultivar, sequenced])
+			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs_exist, slimgs_exist, sintercrop, scultivar, sequenced])
 		else:
-			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs, slimgs, sintercrop, scultivar, sequenced])
+			data_obj[fid]['samp'].append([sampleID, sdate, sage, simgs_exist, slimgs_exist, sintercrop, scultivar, sequenced])
 	return data_obj
 
 # load data clean

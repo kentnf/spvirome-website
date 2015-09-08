@@ -5,7 +5,7 @@ var virusList = [];
 var m = 0;			// page start member
 var n = 4;			// page end member
 var num = 10;		// number of record in each page
-var country = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana'};
+var country = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana', BF:'Burkina Faso'};
 
 function load_data() {
 	$.ajax({
@@ -197,14 +197,13 @@ $(function(){
 	load_virus_data();
 	
 	/* generate selection form for country */
-	var sel_org = { GU:'Guinea', BE:'Benin', NI:'Nigeria', AO:'Angola', MW:'Malawi', ZM:'Zambia', ZW:'Zimbabwe', TZ:'Tanzania', UG:'Uganda', ET:'Ethiopia', MO:'Mozambique', GH:'Ghana'}; 
 	var sel = {};		// store key and country name
 	var sel_sort = [];  // for sorting country
 	for (var name in geoList) {
 		var id = name.substr(0,2);
 		if (!(id in sel)) {
-			if (id in sel_org) {
-				sel[id] = sel_org[id]
+			if (id in country) {
+				sel[id] = country[id]
 				sel_sort.push(id);
 			}
 		}
