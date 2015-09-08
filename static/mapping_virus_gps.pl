@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 my $f1 = 'data.txt';
-my $f2 = 'data_virus.txt';
+my $f2 = shift || die "perl $0 input_virus > output\n";
 
 my %gps;
 
