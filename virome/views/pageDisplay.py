@@ -43,7 +43,10 @@ def flist(request):
 			context['alt'] = data[fid]['attr'][5]
 			context['fsize'] = data[fid]['attr'][6]
 			context['img'] = data[fid]['attr'][7]
-			context['sample'] = data[fid]['samp']
+			context['sample'] = [];
+			for s in data[fid]['samp']:
+				if s[7] == 1:
+					context['sample'].append(s);
 		else:
 			context['ERRMSG'] = 'field ID ' + fid + ' is not correct'
 	else:
