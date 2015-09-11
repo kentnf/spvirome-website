@@ -3,21 +3,21 @@
 use strict;
 use warnings;
 
-my $f1 = 'data.txt';
+my $f = 'data.txt';
 my $f2 = shift || die "perl $0 input_virus > output\n";
 
 my %gps;
 
 # put sample location to hash
-open(F1, $f1) || die $!;
-while(<F1>)
+open(F, $f) || die $!;
+while(<F>)
 {
 	chomp;
 	next if $_ =~ m/^#/;
 	my @a = split(/\t/, $_);
 	$gps{$a[0]} = "$a[5]\t$a[6]\t$a[7]";
 }
-close(F1);
+close(F);
 
 open(F2, $f2) || die $!;
 while(<F2>)

@@ -67,7 +67,9 @@ function virus_selection(virusList, selectName, selectCID) {
 			table_html += "<td><a href=flist?fid=" + fid + " target=_blank>" + fid + "</a></td>\n";
 			table_html += "<td><a href=sinfo?sid=" + sid + " target=_blank>" + sid + "</a></td>\n";
 			table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
-			table_html += "<td>" + virusList[vid]['short'] + "</td></tr>\n";
+			table_html += "<td>" + virusList[vid]['short'] + "</td>\n";
+			table_html += "<td><a href=\"http://www.ncbi.nlm.nih.gov/nuccore/" + vid + "\" target=\"_blank\">" + vid + "</a></td>\n";
+			table_html += "<td>" + virusList[vid]['iden'] + "</td></tr>\n";
 
 			if (virusList[vid]['short'] == selectName) {
 				if (!(sid in virus_uniq)) {

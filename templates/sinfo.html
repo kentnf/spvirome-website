@@ -1,6 +1,13 @@
 {% extends "base.html" %}
 {% load staticfiles %}
-<!-- block for D3.js -->
+
+{% block javascript %}
+<script>
+$(function() {
+    $('a').tooltip();
+})
+</script>
+{% endblock javascript %}
 
 {% block mainbody %}
 

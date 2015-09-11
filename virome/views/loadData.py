@@ -151,7 +151,7 @@ def load_data_virus():
 	
 		# 0	       1                 2       3           4           5		   6     78 
 		# sampleID type(known/novel) virusID virusFamily Description ShortDesc Field GPS
-		if len(m) != 9:
+		if len(m) != 10:
 			continue
 		vid = m[2]
 		if vid not in dataVirusObj.keys():
@@ -160,8 +160,9 @@ def load_data_virus():
 			dataVirusObj[vid]['family'] = m[3]
 			dataVirusObj[vid]['desc'] = m[4]
 			dataVirusObj[vid]['short'] = m[5]
+			dataVirusObj[vid]['iden'] = m[6]
 			dataVirusObj[vid]['sample'] = []
-			dataVirusObj[vid]['sample'].append([m[0], m[6], m[7], m[8]])
+			dataVirusObj[vid]['sample'].append([m[0], m[7], m[8], m[9]])
 		else:
-			dataVirusObj[vid]['sample'].append([m[0], m[6], m[7], m[8]])
+			dataVirusObj[vid]['sample'].append([m[0], m[7], m[8], m[9]])
 	return dataVirusObj
