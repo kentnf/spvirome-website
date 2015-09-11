@@ -14,32 +14,46 @@
         <table class="table table-striped">
         <tr>
         <th><b>Sample</b></td>
-        <th><b>Date(DD/MM/YYYY)</b></td>
-        <th><b>Age(month)</b></td>
+        <th><b>Date (DD/MM/YYYY)</b></td>
+        <th><b>Age (month)</b></td>
         <th><b>Sample Image</b></td>
         <th><b>Leaf Image</b></td>
         <th><b>Intercrop</b></td>
         <th><b>Cultivar</b></td>
+		<th><b>Sequenced</b></td>
         </tr>
         {% for s in sample %}
         <tr>
         {% for e in s %}
           {% if forloop.counter0 == 0 %}
 		 	{% if e in select %}
-				<td><span class="glyphicon glyphicon-certificate"></span><a href="sinfo?sid={{ e }}" target=_blank><b>{{ e }}</b></a></td>	
-			{% else %}
-          		<td><a href="sinfo?sid={{ e }}" target=_blank>{{ e }}</a></td>
+				<td><span class="glyphicon glyphicon-certificate">
 			{% endif %}
+
+			{% if s.7 == 1 %}
+          		<td><a href="sinfo?sid={{ e }}" target=_blank>{{ e }}</a></td>
+			{% else %}
+				<td>{{ e }}</td>
+			{% endif %}
+
           {% elif forloop.counter0 == 3 or forloop.counter0 == 4 %}
           	<td>
             	{% for subpimg in e %}
                 	<a href=# data-featherlight="{% static "images" %}/{{ prefix }}/{{ subpimg }}">{{ subpimg }}</a> 
             	{% endfor %}
           	</td>
+
 		  {% elif forloop.counter0 == 7 %}
+			{% if s.7 == 1 %}
+				<td>Yes</td>
+			{% else %}
+				<td>No</td>
+			{% endif %}
+
           {% else %}
             <td>{{ e }}</td>
           {% endif%}
+
         {% endfor %}
         </tr>
         {% endfor %}

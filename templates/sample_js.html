@@ -1,3 +1,4 @@
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.3.3/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script>
 var geoList = [];
 var geoListSeq = [];
@@ -74,29 +75,61 @@ function sample_selection(seqstatus, cid) {
 		selData = geoListSeq;
 	} 
 
-	var table_array = [];
-	for (var name in selData) {
-		var id = name.substr(0,2);
-		if (id == cid) {
-			cname = country[id];
-			var sampleList = selData[name]['samp'];	
-			for(var i = 0; i < sampleList.length; i++) {
-				var table_html = '';
-				table_html += "<tr><td>" + cname + "</td>\n";
-				table_html += "<td><a href=flist?fid=" + name + " target=_blank>" + name + "</a></td>\n";
-				table_html += "<td><a href=\"sinfo?sid=" + sampleList[i][0] + "\" target=_blank>"+ sampleList[i][0] + "</a></td>\n";
-				if (sampleList[i][7] == 1) {
-					table_html += "<td>Yes</td></tr>\n";
-				} else {
-					table_html += "<td>No</td></tr>\n";
-				}
-				table_array.push(table_html);
-			}
+	var sample_array = [];
+	for (var fid in selData) {
+		var sampleList = selData[fid]['samp'];
+		for(var i = 0; i < sampleList.length; i++) {
+			sampleList[i].push(fid);
+			sample_array.push(sampleList[i]);
 		}
 	}
-	table_array.sort();
-	return table_array;
+	sample_array.sort();
+
+    var table_array = [];
+	for (var i = 0; i < sample_array.length; i++) {
+        var id = sample_array[i][8].substr(0,2);
+        var cname = country[id];
+            
+		// save the sample info to html table
+       	var table_html = '';
+        table_html += "<tr><td>" + cname + "</td>\n";
+        table_html += "<td><a href=\"flist?fid=" + sample_array[i][8] + "\" >"+ sample_array[i][8] + "</a></td>\n";
+        if ( sample_array[i][7]) {
+        	table_html += "<td><a href=\"sinfo?sid=" + sample_array[i][0] + "\" target=_blank>"+ sample_array[i][0] + "</a></td>\n";
+        } else {
+        	table_html += "<td>" + sample_array[i][0] + "</td>\n";
+        }
+        table_html += "<td>" + sample_array[i][1] + "</td>\n";
+        table_html += "<td>" + sample_array[i][2] + "</td>\n";
+
+        if ( sample_array[i][3][0]) {
+			table_html += "<td><a href=# data-featherlight=\"/static/images/" + id + "/" + sample_array[i][3][0] + "\">Link</a></td>\n";
+       	} else {
+            table_html += "<td>NA</td>\n";
+        }
+                
+        if ( sample_array[i][4][0] ) {
+            table_html += "<td><a href=# data-featherlight=\"/static/images/" + id + "/" + sample_array[i][4][0] + "\">Link</a></td>\n";
+		} else {
+            table_html += "<td>NA</td>\n";
+        }
+        table_html += "<td>" + sample_array[i][5] + "</td>\n";
+        table_html += "<td>" + sample_array[i][6] + "</td>\n";
+
+        if ( sample_array[i][7]) {
+            table_html += "<td>Yes</td></tr>\n";
+        } else {
+            table_html += "<td>No</td></tr>\n";
+        }
+
+        // push the select sample to array
+        if (cid == id || cid == 'ALL') {
+        	table_array.push(table_html);
+        }
+    }
+    return table_array;
 }
+
 /* pre pagination data */
 function pre_pagination(data) {
 	var newdata = '';
