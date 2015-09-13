@@ -58,8 +58,9 @@ function virus_selection(virusList, selectName, selectCID) {
 	for (var vid in virusList) {
 		for (var i = 0; i< virusList[vid]['sample'].length; i++) {
 			var sid = virusList[vid]['sample'][i][0];
-			var fid = virusList[vid]['sample'][i][1];
-			var cid = sid.substr(0, 2);
+			var iden= virusList[vid]['sample'][i][1];
+			var fid = virusList[vid]['sample'][i][2];
+			var cid = fid.substr(0, 2);
 			var cname = country[cid];
 
 			var table_html = '';
@@ -69,12 +70,13 @@ function virus_selection(virusList, selectName, selectCID) {
 			table_html += "<td>" + virusList[vid]['family'] + "</td>\n";
 			table_html += "<td>" + virusList[vid]['short'] + "</td>\n";
 			table_html += "<td><a href=\"http://www.ncbi.nlm.nih.gov/nuccore/" + vid + "\" target=\"_blank\">" + vid + "</a></td>\n";
-			table_html += "<td>" + virusList[vid]['iden'] + "</td></tr>\n";
+			table_html += "<td>" + iden + "</td></tr>\n";
 
 			if (virusList[vid]['short'] == selectName) {
 				if (!(sid in virus_uniq)) {
+					console.log(virusList[vid]);
 					table_array.push(table_html);
-					virus_uniq[sid] = sid;
+					virus_uniq[sid] = 1;
 				}
 			} 
 			else if (virusList[vid]['family'] == selectName) {

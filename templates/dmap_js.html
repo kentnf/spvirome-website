@@ -114,9 +114,9 @@ function setVirusMarkers(map, virusList, sel_name) {
 		if (virusList[vid]['short'] == sel_name || virusList[vid]['family'] == sel_name) {
 			for (var i in virusList[vid]['sample']) {
 				var sid = virusList[vid]['sample'][i][0];
-				var fid = virusList[vid]['sample'][i][1];
-				var lat = virusList[vid]['sample'][i][2];
-				var lng = virusList[vid]['sample'][i][3];
+				var fid = virusList[vid]['sample'][i][2];
+				var lat = virusList[vid]['sample'][i][3];
+				var lng = virusList[vid]['sample'][i][4];
 
 				if (!(fid in gps_uniq)) {
 					gps_uniq[fid] = {};
