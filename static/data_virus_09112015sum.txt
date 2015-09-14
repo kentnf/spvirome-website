@@ -1,0 +1,2669 @@
+Sample	Reference virus	Genus	Description	%Identity
+AO-S001	FJ560943	badnavirus	Sweet potato badnavirus A	87.24
+AO-S001	FJ560944	badnavirus	Sweet potato badnavirus B	90.58
+AO-S001	JQ902104	badnavirus	Sweet potato badnavirus C	88.32
+AO-S001	AF016366	potyvirus	Sweet potato feathery mottle virus	98.63
+AO-S001	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S002	FJ560943	badnavirus	Sweet potato badnavirus A	86.52
+AO-S002	FJ560944	badnavirus	Sweet potato badnavirus B	86.73
+AO-S002	JQ902104	badnavirus	Sweet potato badnavirus C	95.71
+AO-S002	AF016366	potyvirus	Sweet potato feathery mottle virus	95.12
+AO-S002	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S003	FJ560943	badnavirus	Sweet potato badnavirus A	88.11
+AO-S003	KF836892	badnavirus	Sweet potato badnavirus B	94.4
+AO-S003	JQ902104	badnavirus	Sweet potato badnavirus C	84.27
+AO-S003	AF016366	potyvirus	Sweet potato feathery mottle virus	91.06
+AO-S003	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S003	JN613807	potyvirus	Sweet potato virus 2	71.55
+AO-S003	KF386015	potyvirus	Sweet potato virus C	68.5
+AO-S003	KF790759	potyvirus	Sweet potato virus G	71.87
+AO-S006	FJ560943	badnavirus	Sweet potato badnavirus A	86.31
+AO-S006	KF836892	badnavirus	Sweet potato badnavirus B	89.18
+AO-S006	JQ902104	badnavirus	Sweet potato badnavirus C	93.31
+AO-S006	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.02
+AO-S006	AF016366	potyvirus	Sweet potato feathery mottle virus	91.65
+AO-S006	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+AO-S006	JN613807	potyvirus	Sweet potato virus 2	72.91
+AO-S006	KF386015	potyvirus	Sweet potato virus C	71.76
+AO-S006	JN613805	potyvirus	Sweet potato virus G	72.21
+AO-S011	FJ560943	badnavirus	Sweet potato badnavirus A	92.82
+AO-S011	FJ560944	badnavirus	Sweet potato badnavirus B	91.66
+AO-S011	JQ902104	badnavirus	Sweet potato badnavirus C	94.93
+AO-S011	HQ393460	begomovirus	Sweet potato leaf curl virus	93.26
+AO-S011	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S012	EU839578	begomovirus	Ipomoea yellow vein virus	93.33
+AO-S012	DQ644561	begomovirus	Merremia leaf curl virus	92.36
+AO-S012	FJ560943	badnavirus	Sweet potato badnavirus A	94.84
+AO-S012	FJ560944	badnavirus	Sweet potato badnavirus B	93.14
+AO-S012	JQ902104	badnavirus	Sweet potato badnavirus C	96
+AO-S012	GQ268231	begomovirus	Sweet potato begomovirus	95.6
+AO-S012	HQ393457	begomovirus	Sweet potato golden vein associated virus	93.12
+AO-S012	HQ393464	begomovirus	Sweet potato leaf curl virus	93.84
+AO-S012	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S016	FJ560944	badnavirus	Sweet potato badnavirus B	95.53
+AO-S016	JQ902104	badnavirus	Sweet potato badnavirus C	94.79
+AO-S016	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S017	FJ560943	badnavirus	Sweet potato badnavirus A	86.31
+AO-S017	KF836892	badnavirus	Sweet potato badnavirus B	90.92
+AO-S017	JQ902104	badnavirus	Sweet potato badnavirus C	84.79
+AO-S017	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S019	FJ560943	badnavirus	Sweet potato badnavirus A	76.82
+AO-S019	KF836892	badnavirus	Sweet potato badnavirus B	82.98
+AO-S019	JQ902104	badnavirus	Sweet potato badnavirus C	81.82
+AO-S020	EU847625	potyvirus	Lupine mosaic virus	68.99
+AO-S020	FM883164	potyvirus	Maize dwarf mosaic virus	69.16
+AO-S020	JQ911732	potyvirus	Narcissus yellow stripe virus	70.39
+AO-S020	FJ560943	badnavirus	Sweet potato badnavirus A	81.58
+AO-S020	KF836892	badnavirus	Sweet potato badnavirus B	89.15
+AO-S020	JQ902103	badnavirus	Sweet potato badnavirus C	86.1
+AO-S020	AF016366	potyvirus	Sweet potato feathery mottle virus	93.18
+AO-S020	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S020	JN613807	potyvirus	Sweet potato virus 2	74.91
+AO-S020	JX489166	potyvirus	Sweet potato virus C	72.38
+AO-S020	JN613805	potyvirus	Sweet potato virus G	76.56
+AO-S020	EU660584	potyvirus	Watermelon mosaic virus	70.14
+AO-S020	U42596	potyvirus	Yam mosaic virus	71.09
+AO-S021	FJ560943	badnavirus	Sweet potato badnavirus A	76.07
+AO-S021	KF836892	badnavirus	Sweet potato badnavirus B	84.03
+AO-S021	JQ902104	badnavirus	Sweet potato badnavirus C	76.69
+AO-S021	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	98.9
+AO-S022	JQ902104	badnavirus	Sweet potato badnavirus C	86.27
+AO-S022	AY523547	potyvirus	Sweet potato feathery mottle virus	96.24
+AO-S022	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S022	JN613807	potyvirus	Sweet potato virus 2	76.34
+AO-S022	KF386015	potyvirus	Sweet potato virus C	79.63
+AO-S022	JN613805	potyvirus	Sweet potato virus G	79.82
+AO-S058	FJ560944	badnavirus	Sweet potato badnavirus B	95.12
+AO-S058	JQ902104	badnavirus	Sweet potato badnavirus C	83.67
+AO-S058	AY523547	potyvirus	Sweet potato feathery mottle virus	96.75
+AO-S065	JN657686	begomovirus	Sweet potato leaf curl virus	96.07
+AO-S065	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S068	FJ560943	badnavirus	Sweet potato badnavirus A	95.77
+AO-S068	KF836892	badnavirus	Sweet potato badnavirus B	96.22
+AO-S068	JQ902104	badnavirus	Sweet potato badnavirus C	84.62
+AO-S068	JQ775877	potyvirus	Sweet potato feathery mottle virus	95.11
+AO-S068	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S068	JN613807	potyvirus	Sweet potato virus 2	71.92
+AO-S068	KF386015	potyvirus	Sweet potato virus C	70.27
+AO-S068	JN613805	potyvirus	Sweet potato virus G	71.62
+AO-S075	FJ560943	badnavirus	Sweet potato badnavirus A	86.15
+AO-S075	KF836892	badnavirus	Sweet potato badnavirus B	89.78
+AO-S075	JQ902104	badnavirus	Sweet potato badnavirus C	92.41
+AO-S075	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S083	JQ902104	badnavirus	Sweet potato badnavirus C	95.49
+AO-S083	AF016366	potyvirus	Sweet potato feathery mottle virus	96.01
+AO-S083	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S085	FJ439797	badnavirus	Sugarcane bacilliform virus	73.04
+AO-S085	FJ560943	badnavirus	Sweet potato badnavirus A	78.01
+AO-S085	KF836892	badnavirus	Sweet potato badnavirus B	84.68
+AO-S085	JQ902104	badnavirus	Sweet potato badnavirus C	94.95
+AO-S085	D86371	potyvirus	Sweet potato feathery mottle virus	95.44
+AO-S085	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S086	JQ902104	badnavirus	Sweet potato badnavirus C	99.76
+AO-S086	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.38
+AO-S086	AF016366	potyvirus	Sweet potato feathery mottle virus	94.99
+AO-S087	KF386729	badnavirus	Banana streak virus	77.78
+AO-S087	FJ560943	badnavirus	Sweet potato badnavirus A	85.95
+AO-S087	FJ560944	badnavirus	Sweet potato badnavirus B	92.14
+AO-S087	JQ902104	badnavirus	Sweet potato badnavirus C	86.33
+AO-S088	AY523547	potyvirus	Sweet potato feathery mottle virus	94.39
+AO-S089	FJ560943	badnavirus	Sweet potato badnavirus A	77.83
+AO-S089	KF836892	badnavirus	Sweet potato badnavirus B	85.35
+AO-S089	JQ902104	badnavirus	Sweet potato badnavirus C	85.99
+AO-S089	JQ775877	potyvirus	Sweet potato feathery mottle virus	95.19
+AO-S089	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S089	JN613807	potyvirus	Sweet potato virus 2	73.47
+AO-S089	JX489166	potyvirus	Sweet potato virus C	74.11
+AO-S089	JN613805	potyvirus	Sweet potato virus G	73.38
+AO-S095	EU130910	badnavirus	Citrus yellow mosaic virus	78.17
+AO-S095	FJ439797	badnavirus	Sugarcane bacilliform virus	80.51
+AO-S095	FJ560943	badnavirus	Sweet potato badnavirus A	94.1
+AO-S095	FJ560944	badnavirus	Sweet potato badnavirus B	92.94
+AO-S095	JQ902104	badnavirus	Sweet potato badnavirus C	84.92
+AO-S095	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S098	FJ560943	badnavirus	Sweet potato badnavirus A	78.9
+AO-S098	KF836892	badnavirus	Sweet potato badnavirus B	84.23
+AO-S098	JQ902104	badnavirus	Sweet potato badnavirus C	90.26
+AO-S098	EF155987	potyvirus	Sweet potato feathery mottle virus	91.73
+AO-S098	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S104	FJ560943	badnavirus	Sweet potato badnavirus A	86.23
+AO-S104	KF836892	badnavirus	Sweet potato badnavirus B	89.48
+AO-S104	JQ902103	badnavirus	Sweet potato badnavirus C	97.56
+AO-S104	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S107	FJ560943	badnavirus	Sweet potato badnavirus A	89.26
+AO-S107	KF836892	badnavirus	Sweet potato badnavirus B	92.86
+AO-S107	JQ902104	badnavirus	Sweet potato badnavirus C	95.45
+AO-S107	AY523547	potyvirus	Sweet potato feathery mottle virus	98.37
+AO-S107	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S107	JN613807	potyvirus	Sweet potato virus 2	74.2
+AO-S107	GU207957	potyvirus	Sweet potato virus C	77.8
+AO-S107	JN613805	potyvirus	Sweet potato virus G	74.66
+AO-S109	AJ132548	begomovirus	Ipomoea yellow vein virus	93.13
+AO-S109	DQ644561	begomovirus	Merremia leaf curl virus	92.51
+AO-S109	KF836892	badnavirus	Sweet potato badnavirus B	99.11
+AO-S109	JQ902104	badnavirus	Sweet potato badnavirus C	95.41
+AO-S109	AY523547	potyvirus	Sweet potato feathery mottle virus	97.42
+AO-S109	KF803170	begomovirus	Sweet potato golden vein associated virus	93.51
+AO-S109	JN657686	begomovirus	Sweet potato leaf curl virus	94.74
+AO-S109	FJ969831	begomovirus	Sweet potato mosaic virus	93.31
+AO-S109	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S109	KF386015	potyvirus	Sweet potato virus C	96.25
+AO-S110	DQ174243	potyvirus	Carrot virus Y	73.78
+AO-S110	FJ560944	badnavirus	Sweet potato badnavirus B	78.95
+AO-S110	JQ902104	badnavirus	Sweet potato badnavirus C	91.62
+AO-S110	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.69
+AO-S110	AF016366	potyvirus	Sweet potato feathery mottle virus	93.24
+AO-S110	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S110	HQ694979	solendovirus	Sweet potato vein clearing virus	97.11
+AO-S111	EU839578	begomovirus	Ipomoea yellow vein virus	94.69
+AO-S111	FJ560943	badnavirus	Sweet potato badnavirus A	77.88
+AO-S111	KF836892	badnavirus	Sweet potato badnavirus B	87.27
+AO-S111	JQ902104	badnavirus	Sweet potato badnavirus C	86.51
+AO-S111	HQ393457	begomovirus	Sweet potato golden vein associated virus	95.05
+AO-S111	EF456743	begomovirus	Sweet potato leaf curl virus	96.66
+AO-S111	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S112	FJ560943	badnavirus	Sweet potato badnavirus A	80.53
+AO-S112	KF836892	badnavirus	Sweet potato badnavirus B	97.82
+AO-S112	JQ902104	badnavirus	Sweet potato badnavirus C	90.12
+AO-S112	AF016366	potyvirus	Sweet potato feathery mottle virus	91.64
+AO-S112	HQ393464	begomovirus	Sweet potato leaf curl virus	96.97
+AO-S112	HQ694979	solendovirus	Sweet potato vein clearing virus	97.46
+AO-S112	JN613807	potyvirus	Sweet potato virus 2	72.47
+AO-S112	GU207957	potyvirus	Sweet potato virus C	73.04
+AO-S112	JN613805	potyvirus	Sweet potato virus G	71.78
+AO-S113	HQ694979	solendovirus	Sweet potato vein clearing virus	96.77
+AO-S119	D00385	cucumovirus	Cucumber mosaic virus	97.68
+AO-S120	FJ439793	badnavirus	Sugarcane bacilliform virus	78.95
+AO-S120	FJ560943	badnavirus	Sweet potato badnavirus A	96.34
+AO-S120	KF836892	badnavirus	Sweet potato badnavirus B	97.37
+AO-S120	JQ902104	badnavirus	Sweet potato badnavirus C	89.85
+AO-S120	AY523547	potyvirus	Sweet potato feathery mottle virus	98.08
+AO-S120	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S121	AF016366	potyvirus	Sweet potato feathery mottle virus	94.86
+AO-S128	FJ560943	badnavirus	Sweet potato badnavirus A	76.63
+AO-S128	FJ560944	badnavirus	Sweet potato badnavirus B	79.08
+AO-S128	JQ902104	badnavirus	Sweet potato badnavirus C	89.51
+AO-S128	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S128	HQ694979	solendovirus	Sweet potato vein clearing virus	96.39
+AO-S131	FJ560943	badnavirus	Sweet potato badnavirus A	95.81
+AO-S131	FJ560944	badnavirus	Sweet potato badnavirus B	94.58
+AO-S131	AF016366	potyvirus	Sweet potato feathery mottle virus	95.21
+AO-S143	KF803546	mitovirus	Fusarium circinatum mitovirus 1	81.34
+AO-S143	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	95.36
+AO-S143	FJ560943	badnavirus	Sweet potato badnavirus A	86.78
+AO-S143	KF836892	badnavirus	Sweet potato badnavirus B	92.6
+AO-S143	JQ902104	badnavirus	Sweet potato badnavirus C	83.11
+AO-S143	AF016366	potyvirus	Sweet potato feathery mottle virus	97.71
+AO-S151	FJ560943	badnavirus	Sweet potato badnavirus A	86.67
+AO-S151	KF836892	badnavirus	Sweet potato badnavirus B	87.13
+AO-S151	JQ902104	badnavirus	Sweet potato badnavirus C	84.17
+AO-S151	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S154	FJ560943	badnavirus	Sweet potato badnavirus A	92.2
+AO-S154	FJ560944	badnavirus	Sweet potato badnavirus B	87.59
+AO-S154	JQ902104	badnavirus	Sweet potato badnavirus C	83.65
+AO-S154	AF016366	potyvirus	Sweet potato feathery mottle virus	90.04
+AO-S154	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+AO-S154	JN613807	potyvirus	Sweet potato virus 2	72.11
+AO-S154	KF386015	potyvirus	Sweet potato virus C	70.39
+AO-S154	JN613805	potyvirus	Sweet potato virus G	72.07
+AO-S160	FJ560943	badnavirus	Sweet potato badnavirus A	77.58
+AO-S160	KF836892	badnavirus	Sweet potato badnavirus B	85.75
+AO-S160	JQ902104	badnavirus	Sweet potato badnavirus C	87.25
+AO-S160	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S172	FJ439797	badnavirus	Sugarcane bacilliform virus	79.69
+AO-S172	FJ560943	badnavirus	Sweet potato badnavirus A	86.38
+AO-S172	KF836892	badnavirus	Sweet potato badnavirus B	89.99
+AO-S172	JQ902104	badnavirus	Sweet potato badnavirus C	85.17
+AO-S172	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+AO-S178	FJ560943	badnavirus	Sweet potato badnavirus A	87.81
+AO-S178	FJ560944	badnavirus	Sweet potato badnavirus B	88.4
+AO-S185	FJ560943	badnavirus	Sweet potato badnavirus A	99.38
+AO-S185	FJ560944	badnavirus	Sweet potato badnavirus B	99.33
+AO-S185	JQ902104	badnavirus	Sweet potato badnavirus C	96
+AO-S185	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+BE-S001	JQ902104	badnavirus	Sweet potato badnavirus C	95.14
+BE-S001	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S002	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.54
+BE-S003	FJ560943	badnavirus	Sweet potato badnavirus A	78.7
+BE-S003	KF836892	badnavirus	Sweet potato badnavirus B	93.92
+BE-S003	JQ902104	badnavirus	Sweet potato badnavirus C	95.24
+BE-S003	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S004	JQ902104	badnavirus	Sweet potato badnavirus C	96.43
+BE-S004	KC771328	potyvirus	Sweet potato feathery mottle virus	96.96
+BE-S004	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S005	JQ902104	badnavirus	Sweet potato badnavirus C	95.44
+BE-S005	EF155993	potyvirus	Sweet potato feathery mottle virus	95.74
+BE-S005	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S006	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.47
+BE-S007	AM503386	badnavirus	Dioscorea bacilliform virus	79.01
+BE-S007	JQ902104	badnavirus	Sweet potato badnavirus C	92.5
+BE-S007	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S008	EU809497	potyvirus	Sweet potato feathery mottle virus	93.28
+BE-S009	AY523547	potyvirus	Sweet potato feathery mottle virus	98.38
+BE-S010	JQ902104	badnavirus	Sweet potato badnavirus C	96.58
+BE-S010	AJ010705	potyvirus	Sweet potato feathery mottle virus	95.51
+BE-S010	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S010	JX489166	potyvirus	Sweet potato virus C	80.62
+BE-S011	JQ902104	badnavirus	Sweet potato badnavirus C	95.58
+BE-S011	AY523547	potyvirus	Sweet potato feathery mottle virus	93.88
+BE-S011	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S012	JQ902104	badnavirus	Sweet potato badnavirus C	96.3
+BE-S012	FJ155666	potyvirus	Sweet potato feathery mottle virus	89.69
+BE-S012	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+BE-S012	KF386015	potyvirus	Sweet potato virus C	81.1
+BE-S014	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	99.38
+BE-S016	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S017	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.44
+BE-S018	JQ902104	badnavirus	Sweet potato badnavirus C	96.55
+BE-S018	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.36
+BE-S019	AY523547	potyvirus	Sweet potato feathery mottle virus	97.81
+BE-S019	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.86
+BE-S020	AY523547	potyvirus	Sweet potato feathery mottle virus	96.61
+BE-S021	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S023	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.11
+BE-S024	AY523547	potyvirus	Sweet potato feathery mottle virus	96.08
+BE-S024	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.7
+BE-S025	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S027	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S031	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S032	AY523547	potyvirus	Sweet potato feathery mottle virus	97.08
+BE-S032	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BE-S033	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BF-S001	JQ902104	badnavirus	Sweet potato badnavirus C	95.42
+BF-S001	JN657686	begomovirus	Sweet potato leaf curl virus	95.54
+BF-S001	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+BF-S003	EU839578	begomovirus	Ipomoea yellow vein virus	93.64
+BF-S003	DQ644561	begomovirus	Merremia leaf curl virus	92.68
+BF-S003	FJ560943	badnavirus	Sweet potato badnavirus A	91.49
+BF-S003	FJ560944	badnavirus	Sweet potato badnavirus B	93.84
+BF-S003	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.58
+BF-S003	EF155987	potyvirus	Sweet potato feathery mottle virus	92.66
+BF-S003	HQ333143	begomovirus	Sweet potato golden vein associated virus	95.54
+BF-S003	KF769447	begomovirus	Sweet potato leaf curl virus	96.44
+BF-S005	AJ132548	begomovirus	Ipomoea yellow vein virus	93.36
+BF-S005	DQ644561	begomovirus	Merremia leaf curl virus	93.54
+BF-S005	FM164740	NA	Okra leaf curl disease associated DNA 1	95.83
+BF-S005	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.51
+BF-S005	AB439206	potyvirus	Sweet potato feathery mottle virus	88.84
+BF-S005	KF803170	begomovirus	Sweet potato golden vein associated virus	94.01
+BF-S005	JN657686	begomovirus	Sweet potato leaf curl virus	95.72
+BF-S005	FJ969831	begomovirus	Sweet potato mosaic virus	92.07
+BF-S008	EU839578	begomovirus	Ipomoea yellow vein virus	90.61
+BF-S008	FN675284	NA	Okra yellow crinkle alphasatellite	97.22
+BF-S008	JQ902104	badnavirus	Sweet potato badnavirus C	95.92
+BF-S008	GQ268230	begomovirus	Sweet potato begomovirus	94.31
+BF-S008	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.54
+BF-S008	FJ155666	potyvirus	Sweet potato feathery mottle virus	89.87
+BF-S008	HQ333143	begomovirus	Sweet potato golden vein associated virus	94.71
+BF-S008	DQ512731	begomovirus	Sweet potato leaf curl virus	96
+BF-S008	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET1	FJ560943	badnavirus	Sweet potato badnavirus A	77.33
+ET1	KF836892	badnavirus	Sweet potato badnavirus B	88.2
+ET1	JQ902104	badnavirus	Sweet potato badnavirus C	81.16
+ET1	JN613805	potyvirus	Sweet potato virus G	98.85
+ET10	FJ560943	badnavirus	Sweet potato badnavirus A	79.24
+ET10	KF836892	badnavirus	Sweet potato badnavirus B	91.94
+ET10	JQ902104	badnavirus	Sweet potato badnavirus C	88.32
+ET10	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET102	FJ560943	badnavirus	Sweet potato badnavirus A	81.14
+ET102	KF836892	badnavirus	Sweet potato badnavirus B	89.97
+ET102	JQ902104	badnavirus	Sweet potato badnavirus C	83.82
+ET102	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.24
+ET102	HQ333142	begomovirus	Sweet potato leaf curl virus	95.78
+ET102	JN613805	potyvirus	Sweet potato virus G	98.89
+ET104	KF545118	badnavirus	Banana streak virus	78.87
+ET104	EU130910	badnavirus	Citrus yellow mosaic virus	77.48
+ET104	FJ560943	badnavirus	Sweet potato badnavirus A	78.6
+ET104	KF836892	badnavirus	Sweet potato badnavirus B	87.85
+ET104	JQ902104	badnavirus	Sweet potato badnavirus C	82.86
+ET104	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.41
+ET105	AJ968464	badnavirus	Banana streak virus	76.87
+ET105	FJ560943	badnavirus	Sweet potato badnavirus A	79.29
+ET105	KF836892	badnavirus	Sweet potato badnavirus B	89.5
+ET105	JQ902104	badnavirus	Sweet potato badnavirus C	81.89
+ET105	JN613805	potyvirus	Sweet potato virus G	98.66
+ET107	FJ439788	badnavirus	Sugarcane bacilliform virus	79.53
+ET107	FJ560943	badnavirus	Sweet potato badnavirus A	79.41
+ET107	KF836892	badnavirus	Sweet potato badnavirus B	87.71
+ET107	JQ902103	badnavirus	Sweet potato badnavirus C	88.24
+ET107	GQ268230	begomovirus	Sweet potato begomovirus	92.67
+ET107	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.45
+ET107	HQ393444	begomovirus	Sweet potato golden vein associated virus	93.37
+ET107	KF040465	begomovirus	Sweet potato leaf curl virus	95.02
+ET107	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET108	KF836892	badnavirus	Sweet potato badnavirus B	97.97
+ET108	JQ902104	badnavirus	Sweet potato badnavirus C	95.85
+ET108	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.4
+ET108	D86371	potyvirus	Sweet potato feathery mottle virus	92.63
+ET108	JN657686	begomovirus	Sweet potato leaf curl virus	95.78
+ET108	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET108	GU207957	potyvirus	Sweet potato virus C	96.57
+ET108	JX212747	carlavirus	Sweet potato virus C-6	81.69
+ET109	FJ560943	badnavirus	Sweet potato badnavirus A	78.53
+ET109	KF836892	badnavirus	Sweet potato badnavirus B	89.26
+ET109	JQ902104	badnavirus	Sweet potato badnavirus C	85.86
+ET109	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.42
+ET109	AY459591	potyvirus	Sweet potato feathery mottle virus	93.04
+ET109	FN806776	begomovirus	Sweet potato leaf curl virus	94.05
+ET109	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET109	KF386015	potyvirus	Sweet potato virus C	96.74
+ET109	JN613805	potyvirus	Sweet potato virus G	98.06
+ET11	HQ442266	ampelovirus	Grapevine leafroll-associated virus 1	71.43
+ET11	EU908849	badnavirus	Musa balbisiana endogenous badnavirus	78.57
+ET11	JQ902103	badnavirus	Sweet potato badnavirus C	100
+ET11	HQ393464	begomovirus	Sweet potato leaf curl virus	96.83
+ET110	KF836892	badnavirus	Sweet potato badnavirus B	95.29
+ET110	JQ902104	badnavirus	Sweet potato badnavirus C	84.44
+ET110	D86371	potyvirus	Sweet potato feathery mottle virus	96.72
+ET110	JN657686	begomovirus	Sweet potato leaf curl virus	96.24
+ET111	FJ560943	badnavirus	Sweet potato badnavirus A	80.38
+ET111	KF836892	badnavirus	Sweet potato badnavirus B	92.55
+ET111	JQ902104	badnavirus	Sweet potato badnavirus C	85.63
+ET111	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.46
+ET111	D86371	potyvirus	Sweet potato feathery mottle virus	92.7
+ET111	KF803170	begomovirus	Sweet potato golden vein associated virus	93.62
+ET111	FJ969835	begomovirus	Sweet potato leaf curl virus	94.31
+ET112	KF836892	badnavirus	Sweet potato badnavirus B	96.88
+ET112	JQ902104	badnavirus	Sweet potato badnavirus C	94.92
+ET112	D86371	potyvirus	Sweet potato feathery mottle virus	95.97
+ET112	JN657686	begomovirus	Sweet potato leaf curl virus	97.22
+ET113	FJ560943	badnavirus	Sweet potato badnavirus A	80.59
+ET113	KF836892	badnavirus	Sweet potato badnavirus B	90.94
+ET113	JQ902104	badnavirus	Sweet potato badnavirus C	86.51
+ET113	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.48
+ET113	D86371	potyvirus	Sweet potato feathery mottle virus	93.83
+ET113	JN657686	begomovirus	Sweet potato leaf curl virus	95.6
+ET113	JN613805	potyvirus	Sweet potato virus G	98.65
+ET114	EU377671	badnavirus	Pineapple bacilliform comosus virus	82.46
+ET114	FJ560943	badnavirus	Sweet potato badnavirus A	78.14
+ET114	KF836892	badnavirus	Sweet potato badnavirus B	89.53
+ET114	JQ902104	badnavirus	Sweet potato badnavirus C	83.92
+ET114	D86371	potyvirus	Sweet potato feathery mottle virus	97
+ET114	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.16
+ET114	JN657686	begomovirus	Sweet potato leaf curl virus	95.33
+ET114	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET114	JN613805	potyvirus	Sweet potato virus G	98.71
+ET115	FJ560943	badnavirus	Sweet potato badnavirus A	80.21
+ET115	KF836892	badnavirus	Sweet potato badnavirus B	90.82
+ET115	JQ902104	badnavirus	Sweet potato badnavirus C	92
+ET115	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.47
+ET115	D86371	potyvirus	Sweet potato feathery mottle virus	98.42
+ET115	JN657686	begomovirus	Sweet potato leaf curl virus	95.03
+ET115	KF386015	potyvirus	Sweet potato virus C	97.64
+ET115	JN613805	potyvirus	Sweet potato virus G	98.5
+ET116	KF545103	badnavirus	Banana streak virus	78.23
+ET116	EU130910	badnavirus	Citrus yellow mosaic virus	79.29
+ET116	FJ560943	badnavirus	Sweet potato badnavirus A	77.04
+ET116	KF836892	badnavirus	Sweet potato badnavirus B	87.92
+ET116	JQ902104	badnavirus	Sweet potato badnavirus C	81.94
+ET116	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.51
+ET116	D86371	potyvirus	Sweet potato feathery mottle virus	95.53
+ET116	JN657686	begomovirus	Sweet potato leaf curl virus	95.32
+ET116	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET116	JN613805	potyvirus	Sweet potato virus G	98.46
+ET117	KF386729	badnavirus	Banana streak virus	79.86
+ET117	FJ560943	badnavirus	Sweet potato badnavirus A	79.03
+ET117	KF836892	badnavirus	Sweet potato badnavirus B	90.04
+ET117	JQ902104	badnavirus	Sweet potato badnavirus C	84.17
+ET117	AY523547	potyvirus	Sweet potato feathery mottle virus	96.32
+ET117	JN613805	potyvirus	Sweet potato virus G	98.7
+ET118	KF836892	badnavirus	Sweet potato badnavirus B	94.13
+ET118	JQ902104	badnavirus	Sweet potato badnavirus C	84.75
+ET118	JN657686	begomovirus	Sweet potato leaf curl virus	97
+ET118	JN613805	potyvirus	Sweet potato virus G	98.61
+ET119	FJ560943	badnavirus	Sweet potato badnavirus A	78.9
+ET119	KF836892	badnavirus	Sweet potato badnavirus B	91.49
+ET119	JQ902104	badnavirus	Sweet potato badnavirus C	85.45
+ET119	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.31
+ET119	AY523547	potyvirus	Sweet potato feathery mottle virus	95.83
+ET119	KF040465	begomovirus	Sweet potato leaf curl virus	96.6
+ET12	FJ560943	badnavirus	Sweet potato badnavirus A	77.44
+ET12	KF836892	badnavirus	Sweet potato badnavirus B	87.81
+ET12	JQ902104	badnavirus	Sweet potato badnavirus C	81.33
+ET120	FJ560943	badnavirus	Sweet potato badnavirus A	79.27
+ET120	KF836892	badnavirus	Sweet potato badnavirus B	90.61
+ET120	JQ902103	badnavirus	Sweet potato badnavirus C	94.92
+ET120	KJ013582	begomovirus	Sweet potato leaf curl virus	95.76
+ET121	FJ560943	badnavirus	Sweet potato badnavirus A	80.38
+ET121	KF836892	badnavirus	Sweet potato badnavirus B	92.64
+ET121	JQ902104	badnavirus	Sweet potato badnavirus C	86.34
+ET121	HQ393464	begomovirus	Sweet potato leaf curl virus	93.82
+ET126	FJ560944	badnavirus	Sweet potato badnavirus B	81.29
+ET126	JQ902103	badnavirus	Sweet potato badnavirus C	93
+ET126	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET13	FJ560943	badnavirus	Sweet potato badnavirus A	78.72
+ET13	KF836892	badnavirus	Sweet potato badnavirus B	86.65
+ET13	JQ902104	badnavirus	Sweet potato badnavirus C	82.71
+ET14	FJ560943	badnavirus	Sweet potato badnavirus A	78.44
+ET14	KF836892	badnavirus	Sweet potato badnavirus B	89.18
+ET14	JQ902104	badnavirus	Sweet potato badnavirus C	81
+ET15	AJ968472	badnavirus	Banana streak virus	78.33
+ET15	FJ560943	badnavirus	Sweet potato badnavirus A	77.34
+ET15	KF836892	badnavirus	Sweet potato badnavirus B	89.81
+ET15	JQ902104	badnavirus	Sweet potato badnavirus C	78.43
+ET15	JN613805	potyvirus	Sweet potato virus G	98.73
+ET16	AM503381	badnavirus	Dioscorea bacilliform virus	72.92
+ET16	FJ560943	badnavirus	Sweet potato badnavirus A	77.77
+ET16	KF836892	badnavirus	Sweet potato badnavirus B	86.88
+ET16	JQ902103	badnavirus	Sweet potato badnavirus C	86.54
+ET17	FJ560943	badnavirus	Sweet potato badnavirus A	80.38
+ET17	KF836892	badnavirus	Sweet potato badnavirus B	88.24
+ET17	JQ902104	badnavirus	Sweet potato badnavirus C	79.82
+ET18	AJ968472	badnavirus	Banana streak virus	78.69
+ET18	FJ560943	badnavirus	Sweet potato badnavirus A	80.25
+ET18	KF836892	badnavirus	Sweet potato badnavirus B	84.54
+ET18	JQ902104	badnavirus	Sweet potato badnavirus C	79.34
+ET18	JN613805	potyvirus	Sweet potato virus G	98.25
+ET19	FJ560943	badnavirus	Sweet potato badnavirus A	79.58
+ET19	KF836892	badnavirus	Sweet potato badnavirus B	88.73
+ET19	JQ902104	badnavirus	Sweet potato badnavirus C	84.79
+ET19	JN613805	potyvirus	Sweet potato virus G	98.86
+ET20	JQ390619	badnavirus	Pineapple bacilliform comosus virus	76.61
+ET20	FJ560943	badnavirus	Sweet potato badnavirus A	80.16
+ET20	KF836892	badnavirus	Sweet potato badnavirus B	87.43
+ET20	JQ902104	badnavirus	Sweet potato badnavirus C	79.81
+ET207	JQ902104	badnavirus	Sweet potato badnavirus C	96.15
+ET207	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET21	FJ560943	badnavirus	Sweet potato badnavirus A	78.87
+ET21	KF836892	badnavirus	Sweet potato badnavirus B	90.24
+ET21	JQ902104	badnavirus	Sweet potato badnavirus C	81.44
+ET21	JN613805	potyvirus	Sweet potato virus G	98.74
+ET22	FJ439788	badnavirus	Sugarcane bacilliform virus	81.08
+ET22	KF836892	badnavirus	Sweet potato badnavirus B	96.97
+ET22	JQ902104	badnavirus	Sweet potato badnavirus C	91.78
+ET22	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET22	JN613805	potyvirus	Sweet potato virus G	98.82
+ET23	AJ968467	badnavirus	Banana streak virus	80.33
+ET23	AY262011	badnavirus	Citrus yellow mosaic virus	76.39
+ET23	KF836892	badnavirus	Sweet potato badnavirus B	90.61
+ET23	JQ902104	badnavirus	Sweet potato badnavirus C	82.98
+ET23	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.19
+ET23	D86371	potyvirus	Sweet potato feathery mottle virus	96.14
+ET23	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET24	KF836892	badnavirus	Sweet potato badnavirus B	90.07
+ET24	JQ902104	badnavirus	Sweet potato badnavirus C	76.03
+ET24	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.5
+ET24	FJ155666	potyvirus	Sweet potato feathery mottle virus	95.31
+ET24	EU056325	begomovirus	Sweet potato leaf curl virus	99.18
+ET24	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET24	KF386015	potyvirus	Sweet potato virus C	96.85
+ET24	JN613805	potyvirus	Sweet potato virus G	98.43
+ET248	FJ560944	badnavirus	Sweet potato badnavirus B	79.83
+ET248	JQ902104	badnavirus	Sweet potato badnavirus C	95.06
+ET248	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET25	KF836892	badnavirus	Sweet potato badnavirus B	91.44
+ET25	JQ902104	badnavirus	Sweet potato badnavirus C	81.03
+ET25	D86371	potyvirus	Sweet potato feathery mottle virus	97.63
+ET25	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET25	KF386015	potyvirus	Sweet potato virus C	98.22
+ET25	JN613805	potyvirus	Sweet potato virus G	98.9
+ET250	JQ902103	badnavirus	Sweet potato badnavirus C	97.56
+ET251	D86371	potyvirus	Sweet potato feathery mottle virus	98.05
+ET252	D86371	potyvirus	Sweet potato feathery mottle virus	98.19
+ET26	EU377671	badnavirus	Pineapple bacilliform comosus virus	81.51
+ET26	FJ560943	badnavirus	Sweet potato badnavirus A	78.41
+ET26	KF836892	badnavirus	Sweet potato badnavirus B	89.39
+ET26	JQ902104	badnavirus	Sweet potato badnavirus C	86.71
+ET26	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.41
+ET26	D86371	potyvirus	Sweet potato feathery mottle virus	95.5
+ET26	HQ393464	begomovirus	Sweet potato leaf curl virus	97.58
+ET26	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET26	KF386015	potyvirus	Sweet potato virus C	96.32
+ET26	JN613805	potyvirus	Sweet potato virus G	98.8
+ET27	FJ560943	badnavirus	Sweet potato badnavirus A	76.89
+ET27	KF836892	badnavirus	Sweet potato badnavirus B	90.01
+ET27	JQ902104	badnavirus	Sweet potato badnavirus C	81.64
+ET27	FJ155666	potyvirus	Sweet potato feathery mottle virus	96.95
+ET27	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET27	JN613805	potyvirus	Sweet potato virus G	98.59
+ET28	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	96.82
+ET28	KF836892	badnavirus	Sweet potato badnavirus B	91.64
+ET28	JQ902104	badnavirus	Sweet potato badnavirus C	81.91
+ET28	AB465608	potyvirus	Sweet potato feathery mottle virus	95.96
+ET28	HQ393464	begomovirus	Sweet potato leaf curl virus	96.82
+ET28	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET28	KF386015	potyvirus	Sweet potato virus C	96.92
+ET28	JN613805	potyvirus	Sweet potato virus G	98.6
+ET3	KF836892	badnavirus	Sweet potato badnavirus B	94.79
+ET3	JQ902104	badnavirus	Sweet potato badnavirus C	92.45
+ET3	JN613805	potyvirus	Sweet potato virus G	98.65
+ET30	FJ560943	badnavirus	Sweet potato badnavirus A	77.03
+ET30	KF836892	badnavirus	Sweet potato badnavirus B	88.13
+ET30	JQ902104	badnavirus	Sweet potato badnavirus C	81.72
+ET30	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.39
+ET30	D86371	potyvirus	Sweet potato feathery mottle virus	97.19
+ET30	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET30	KF386015	potyvirus	Sweet potato virus C	96.05
+ET30	JN613805	potyvirus	Sweet potato virus G	98.65
+ET31	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	96.33
+ET31	FJ560943	badnavirus	Sweet potato badnavirus A	78
+ET31	KF836892	badnavirus	Sweet potato badnavirus B	89.57
+ET31	JQ902104	badnavirus	Sweet potato badnavirus C	82.33
+ET31	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.46
+ET31	D86371	potyvirus	Sweet potato feathery mottle virus	97.45
+ET31	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET31	KF386015	potyvirus	Sweet potato virus C	97.07
+ET31	JN613805	potyvirus	Sweet potato virus G	98.6
+ET32	KF836892	badnavirus	Sweet potato badnavirus B	94.3
+ET32	JQ902104	badnavirus	Sweet potato badnavirus C	80.98
+ET32	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.21
+ET32	D86371	potyvirus	Sweet potato feathery mottle virus	96.49
+ET32	HQ393464	begomovirus	Sweet potato leaf curl virus	96.43
+ET32	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+ET32	KF386015	potyvirus	Sweet potato virus C	97.31
+ET32	JN613805	potyvirus	Sweet potato virus G	98.7
+ET33	FJ560943	badnavirus	Sweet potato badnavirus A	75.63
+ET33	KF836892	badnavirus	Sweet potato badnavirus B	89.97
+ET33	JQ902104	badnavirus	Sweet potato badnavirus C	86.74
+ET33	D86371	potyvirus	Sweet potato feathery mottle virus	98.27
+ET33	KJ013582	begomovirus	Sweet potato leaf curl virus	95.9
+ET33	KF386015	potyvirus	Sweet potato virus C	96.22
+ET33	JN613805	potyvirus	Sweet potato virus G	98.71
+ET34	FJ560943	badnavirus	Sweet potato badnavirus A	80.53
+ET34	KF836892	badnavirus	Sweet potato badnavirus B	89.17
+ET34	JQ902104	badnavirus	Sweet potato badnavirus C	81.01
+ET34	FJ155666	potyvirus	Sweet potato feathery mottle virus	97.8
+ET35	AM072682	badnavirus	Dioscorea bacilliform virus 1	78.52
+ET35	EU377669	badnavirus	Pineapple bacilliform comosus virus	76
+ET35	FJ439797	badnavirus	Sugarcane bacilliform virus	79.55
+ET35	FJ560943	badnavirus	Sweet potato badnavirus A	80.16
+ET35	KF836892	badnavirus	Sweet potato badnavirus B	90.11
+ET35	JQ902104	badnavirus	Sweet potato badnavirus C	86.36
+ET35	D86371	potyvirus	Sweet potato feathery mottle virus	98.06
+ET35	KF697069	begomovirus	Sweet potato leaf curl virus	96.42
+ET35	KF386015	potyvirus	Sweet potato virus C	97.73
+ET35	JN613805	potyvirus	Sweet potato virus G	98.56
+ET36	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	97.61
+ET36	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	97.89
+ET36	FJ560943	badnavirus	Sweet potato badnavirus A	75.64
+ET36	KF836892	badnavirus	Sweet potato badnavirus B	85.91
+ET36	JQ902104	badnavirus	Sweet potato badnavirus C	80
+ET36	D86371	potyvirus	Sweet potato feathery mottle virus	98.21
+ET36	HQ393464	begomovirus	Sweet potato leaf curl virus	96.47
+ET36	KF386015	potyvirus	Sweet potato virus C	97.64
+ET36	JN613805	potyvirus	Sweet potato virus G	98.61
+ET38	KF836892	badnavirus	Sweet potato badnavirus B	84.19
+ET38	JQ902103	badnavirus	Sweet potato badnavirus C	89.27
+ET38	FJ155666	potyvirus	Sweet potato feathery mottle virus	97.02
+ET38	JN613805	potyvirus	Sweet potato virus G	98.37
+ET39	FJ439783	badnavirus	Sugarcane bacilliform virus	74.19
+ET39	FJ560943	badnavirus	Sweet potato badnavirus A	78.11
+ET39	KF836892	badnavirus	Sweet potato badnavirus B	86.77
+ET39	JQ902104	badnavirus	Sweet potato badnavirus C	83.92
+ET39	KF697069	begomovirus	Sweet potato leaf curl virus	95.63
+ET39	KF386015	potyvirus	Sweet potato virus C	98.06
+ET4	FJ560943	badnavirus	Sweet potato badnavirus A	79.97
+ET4	KF836892	badnavirus	Sweet potato badnavirus B	91.07
+ET4	JQ902103	badnavirus	Sweet potato badnavirus C	87.92
+ET4	D86371	potyvirus	Sweet potato feathery mottle virus	98.26
+ET40	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	63.68
+ET40	FJ560943	badnavirus	Sweet potato badnavirus A	80.86
+ET40	KF836892	badnavirus	Sweet potato badnavirus B	94.3
+ET40	JQ902103	badnavirus	Sweet potato badnavirus C	100
+ET40	KF386015	potyvirus	Sweet potato virus C	98.28
+ET41	AJ968493	badnavirus	Banana streak virus	75.35
+ET41	KF803546	mitovirus	Fusarium circinatum mitovirus 1	66.49
+ET41	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	70.97
+ET41	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	67.8
+ET41	JN654495	mitovirus	Gremmeniella abietina mitochondrial RNA virus S32	66.96
+ET41	FJ560943	badnavirus	Sweet potato badnavirus A	81.37
+ET41	KF836892	badnavirus	Sweet potato badnavirus B	89.15
+ET41	JQ902104	badnavirus	Sweet potato badnavirus C	86.54
+ET41	HQ393444	begomovirus	Sweet potato golden vein associated virus	96.02
+ET41	KP069465	begomovirus	Sweet potato leaf curl virus	96.6
+ET43	JN654495	mitovirus	Gremmeniella abietina mitochondrial RNA virus S32	68.33
+ET43	FJ560943	badnavirus	Sweet potato badnavirus A	81.25
+ET43	KF836892	badnavirus	Sweet potato badnavirus B	89.37
+ET43	JQ902104	badnavirus	Sweet potato badnavirus C	78.72
+ET43	KF386015	potyvirus	Sweet potato virus C	97.45
+ET43	JN613805	potyvirus	Sweet potato virus G	98.65
+ET44	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	88.73
+ET44	FJ560943	badnavirus	Sweet potato badnavirus A	76.52
+ET44	KF836892	badnavirus	Sweet potato badnavirus B	83.43
+ET44	JQ902104	badnavirus	Sweet potato badnavirus C	85.34
+ET44	KF697069	begomovirus	Sweet potato leaf curl virus	96.33
+ET44	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET44	KF386015	potyvirus	Sweet potato virus C	98.14
+ET44	JN613805	potyvirus	Sweet potato virus G	98.78
+ET45	FJ560943	badnavirus	Sweet potato badnavirus A	74.89
+ET45	KF836892	badnavirus	Sweet potato badnavirus B	83.14
+ET45	JQ902104	badnavirus	Sweet potato badnavirus C	87.5
+ET45	HQ393464	begomovirus	Sweet potato leaf curl virus	94.63
+ET45	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET46	JX025978	cucumovirus	Cucumber mosaic virus	98.92
+ET46	KF836892	badnavirus	Sweet potato badnavirus B	95.36
+ET46	JQ902104	badnavirus	Sweet potato badnavirus C	85.86
+ET46	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	98.82
+ET46	HQ393464	begomovirus	Sweet potato leaf curl virus	93.61
+ET46	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.53
+ET46	KF386015	potyvirus	Sweet potato virus C	98.29
+ET46	JN613805	potyvirus	Sweet potato virus G	98.55
+ET47	D12537	cucumovirus	Cucumber mosaic virus	97.42
+ET47	JQ902104	badnavirus	Sweet potato badnavirus C	96.58
+ET47	KF040464	begomovirus	Sweet potato leaf curl virus	92.51
+ET47	JN613805	potyvirus	Sweet potato virus G	98.56
+ET48	FJ560943	badnavirus	Sweet potato badnavirus A	76.23
+ET48	KF836892	badnavirus	Sweet potato badnavirus B	86.02
+ET48	JQ902104	badnavirus	Sweet potato badnavirus C	78.47
+ET48	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.41
+ET48	HQ393457	begomovirus	Sweet potato golden vein associated virus	92.55
+ET48	KF040464	begomovirus	Sweet potato leaf curl virus	93.14
+ET48	JX489166	potyvirus	Sweet potato virus C	93.93
+ET48	JN613805	potyvirus	Sweet potato virus G	98.54
+ET49	FJ560943	badnavirus	Sweet potato badnavirus A	95.13
+ET49	FJ560944	badnavirus	Sweet potato badnavirus B	93.37
+ET49	JQ902104	badnavirus	Sweet potato badnavirus C	95.89
+ET49	D86371	potyvirus	Sweet potato feathery mottle virus	97.98
+ET49	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET50	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	97.19
+ET50	KF836892	badnavirus	Sweet potato badnavirus B	92.83
+ET50	JQ902104	badnavirus	Sweet potato badnavirus C	98.11
+ET50	JN657686	begomovirus	Sweet potato leaf curl virus	94.59
+ET50	JN613805	potyvirus	Sweet potato virus G	98.99
+ET51	FJ560943	badnavirus	Sweet potato badnavirus A	78.15
+ET51	KF836892	badnavirus	Sweet potato badnavirus B	84.07
+ET51	JQ902104	badnavirus	Sweet potato badnavirus C	88.71
+ET51	KF697069	begomovirus	Sweet potato leaf curl virus	94.93
+ET51	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET52	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	94.5
+ET52	FJ560943	badnavirus	Sweet potato badnavirus A	74.57
+ET52	KF836892	badnavirus	Sweet potato badnavirus B	81.95
+ET52	JQ902104	badnavirus	Sweet potato badnavirus C	86.03
+ET52	D86371	potyvirus	Sweet potato feathery mottle virus	97.09
+ET52	FJ969830	begomovirus	Sweet potato golden vein associated virus	92.33
+ET52	KF697069	begomovirus	Sweet potato leaf curl virus	94.08
+ET52	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET53	FJ560943	badnavirus	Sweet potato badnavirus A	75.77
+ET53	KF836892	badnavirus	Sweet potato badnavirus B	82.98
+ET53	JQ902104	badnavirus	Sweet potato badnavirus C	85.26
+ET53	FJ155666	potyvirus	Sweet potato feathery mottle virus	97.68
+ET53	KM050768	begomovirus	Sweet potato leaf curl virus	94.31
+ET53	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET53	JN613805	potyvirus	Sweet potato virus G	98.59
+ET54	KF545103	badnavirus	Banana streak virus	74.41
+ET54	FJ560943	badnavirus	Sweet potato badnavirus A	75.71
+ET54	KF836892	badnavirus	Sweet potato badnavirus B	85.48
+ET54	JQ902104	badnavirus	Sweet potato badnavirus C	86.46
+ET54	FJ155666	potyvirus	Sweet potato feathery mottle virus	96.99
+ET54	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET55	FJ560943	badnavirus	Sweet potato badnavirus A	78.18
+ET55	KF836892	badnavirus	Sweet potato badnavirus B	88.77
+ET55	JQ902104	badnavirus	Sweet potato badnavirus C	82.95
+ET55	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET56	KF803548	mitovirus	Fusarium circinatum mitovirus 2-2	96.76
+ET56	FJ560943	badnavirus	Sweet potato badnavirus A	77.12
+ET56	FJ560944	badnavirus	Sweet potato badnavirus B	78.71
+ET56	JQ902104	badnavirus	Sweet potato badnavirus C	88.38
+ET56	FJ155666	potyvirus	Sweet potato feathery mottle virus	97.57
+ET56	KF040464	begomovirus	Sweet potato leaf curl virus	92.74
+ET56	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET57	FJ560943	badnavirus	Sweet potato badnavirus A	78.19
+ET57	KF836892	badnavirus	Sweet potato badnavirus B	90.04
+ET57	JQ902104	badnavirus	Sweet potato badnavirus C	82.6
+ET57	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.39
+ET58	FJ560943	badnavirus	Sweet potato badnavirus A	77.15
+ET58	KF836892	badnavirus	Sweet potato badnavirus B	89.11
+ET58	JQ902104	badnavirus	Sweet potato badnavirus C	83.9
+ET58	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.32
+ET59	FJ560943	badnavirus	Sweet potato badnavirus A	80.21
+ET59	KF836892	badnavirus	Sweet potato badnavirus B	88.02
+ET59	JQ902104	badnavirus	Sweet potato badnavirus C	80.73
+ET6	FJ560943	badnavirus	Sweet potato badnavirus A	80.31
+ET6	KF836892	badnavirus	Sweet potato badnavirus B	92.24
+ET6	JQ902104	badnavirus	Sweet potato badnavirus C	96.23
+ET6	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET61	FJ560943	badnavirus	Sweet potato badnavirus A	80.6
+ET61	KF836892	badnavirus	Sweet potato badnavirus B	89.48
+ET61	JQ902104	badnavirus	Sweet potato badnavirus C	82.04
+ET62	FJ560943	badnavirus	Sweet potato badnavirus A	80.46
+ET62	KF836892	badnavirus	Sweet potato badnavirus B	88.39
+ET62	JQ902104	badnavirus	Sweet potato badnavirus C	83.39
+ET62	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.34
+ET63	KF836892	badnavirus	Sweet potato badnavirus B	93.66
+ET63	JQ902104	badnavirus	Sweet potato badnavirus C	95
+ET63	AB439206	potyvirus	Sweet potato feathery mottle virus	95.47
+ET63	JN657686	begomovirus	Sweet potato leaf curl virus	95.46
+ET63	KF386015	potyvirus	Sweet potato virus C	95.32
+ET63	JN613805	potyvirus	Sweet potato virus G	98.67
+ET64	JQ902104	badnavirus	Sweet potato badnavirus C	96.43
+ET64	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.45
+ET64	S43451	potyvirus	Sweet potato feathery mottle virus	97.62
+ET64	JN657686	begomovirus	Sweet potato leaf curl virus	96.24
+ET64	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET64	KF386015	potyvirus	Sweet potato virus C	95.1
+ET67	FJ560943	badnavirus	Sweet potato badnavirus A	77.53
+ET67	KF836892	badnavirus	Sweet potato badnavirus B	87.36
+ET67	JQ902104	badnavirus	Sweet potato badnavirus C	86.59
+ET67	AF439637	potyvirus	Sweet potato feathery mottle virus	93.21
+ET67	JN657686	begomovirus	Sweet potato leaf curl virus	95.54
+ET67	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET67	KF386015	potyvirus	Sweet potato virus C	96.98
+ET68	JQ902104	badnavirus	Sweet potato badnavirus C	94.64
+ET68	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.45
+ET68	AB465608	potyvirus	Sweet potato feathery mottle virus	96.51
+ET68	HQ333142	begomovirus	Sweet potato leaf curl virus	94.39
+ET68	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET68	JN613805	potyvirus	Sweet potato virus G	98.64
+ET69	FJ560943	badnavirus	Sweet potato badnavirus A	76.81
+ET69	KF836892	badnavirus	Sweet potato badnavirus B	85.81
+ET69	JQ902104	badnavirus	Sweet potato badnavirus C	86
+ET69	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.46
+ET69	JN613805	potyvirus	Sweet potato virus G	98.86
+ET70	FJ560943	badnavirus	Sweet potato badnavirus A	79.82
+ET70	KF836892	badnavirus	Sweet potato badnavirus B	88.71
+ET70	JQ902103	badnavirus	Sweet potato badnavirus C	87.57
+ET70	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.47
+ET70	D86371	potyvirus	Sweet potato feathery mottle virus	92.52
+ET70	JN613805	potyvirus	Sweet potato virus G	98.51
+ET71	KF836892	badnavirus	Sweet potato badnavirus B	91.56
+ET71	JQ902104	badnavirus	Sweet potato badnavirus C	95.59
+ET71	HQ844104	potyvirus	Sweet potato feathery mottle virus	95.25
+ET71	JN613805	potyvirus	Sweet potato virus G	98.73
+ET72	JQ390619	badnavirus	Pineapple bacilliform comosus virus	74.61
+ET72	FJ560943	badnavirus	Sweet potato badnavirus A	81.18
+ET72	KF836892	badnavirus	Sweet potato badnavirus B	88.35
+ET72	JQ902103	badnavirus	Sweet potato badnavirus C	86.55
+ET72	JN613805	potyvirus	Sweet potato virus G	98.82
+ET73	KF836892	badnavirus	Sweet potato badnavirus B	85.08
+ET73	JQ902103	badnavirus	Sweet potato badnavirus C	93.02
+ET73	D86371	potyvirus	Sweet potato feathery mottle virus	92.72
+ET73	JN613805	potyvirus	Sweet potato virus G	98.2
+ET74	FJ560943	badnavirus	Sweet potato badnavirus A	78
+ET74	KF836892	badnavirus	Sweet potato badnavirus B	90.99
+ET74	JQ902104	badnavirus	Sweet potato badnavirus C	87.83
+ET74	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.42
+ET74	AY523547	potyvirus	Sweet potato feathery mottle virus	96.68
+ET74	JN613805	potyvirus	Sweet potato virus G	98.74
+ET75	FJ560943	badnavirus	Sweet potato badnavirus A	78.79
+ET75	KF836892	badnavirus	Sweet potato badnavirus B	89.03
+ET75	JQ902104	badnavirus	Sweet potato badnavirus C	85.38
+ET77	JQ902103	badnavirus	Sweet potato badnavirus C	96.2
+ET78	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.29
+ET78	JN613805	potyvirus	Sweet potato virus G	98.89
+ET79	FJ560943	badnavirus	Sweet potato badnavirus A	79.2
+ET79	KF836892	badnavirus	Sweet potato badnavirus B	90.76
+ET79	JQ902104	badnavirus	Sweet potato badnavirus C	80.77
+ET79	JN613805	potyvirus	Sweet potato virus G	98.79
+ET8	FJ560943	badnavirus	Sweet potato badnavirus A	80.48
+ET8	KF836892	badnavirus	Sweet potato badnavirus B	89.37
+ET8	JQ902103	badnavirus	Sweet potato badnavirus C	90.55
+ET8	JN613805	potyvirus	Sweet potato virus G	98.81
+ET81	AM072678	badnavirus	Dioscorea bacilliform virus 1	78.57
+ET81	FJ439788	badnavirus	Sugarcane bacilliform virus	79.67
+ET81	FJ560943	badnavirus	Sweet potato badnavirus A	79.34
+ET81	KF836892	badnavirus	Sweet potato badnavirus B	89.85
+ET81	JQ902104	badnavirus	Sweet potato badnavirus C	81.68
+ET81	JN613805	potyvirus	Sweet potato virus G	98.71
+ET82	KF386729	badnavirus	Banana streak virus	78.5
+ET82	FJ560943	badnavirus	Sweet potato badnavirus A	80.95
+ET82	KF836892	badnavirus	Sweet potato badnavirus B	91.5
+ET82	JQ902104	badnavirus	Sweet potato badnavirus C	82.46
+ET82	JN613805	potyvirus	Sweet potato virus G	98.65
+ET83	AJ968472	badnavirus	Banana streak virus	78.69
+ET83	FJ560943	badnavirus	Sweet potato badnavirus A	79.68
+ET83	KF836892	badnavirus	Sweet potato badnavirus B	89.42
+ET83	JQ902103	badnavirus	Sweet potato badnavirus C	86.78
+ET83	JN613805	potyvirus	Sweet potato virus G	98.86
+ET84	FJ560943	badnavirus	Sweet potato badnavirus A	79.38
+ET84	KF836892	badnavirus	Sweet potato badnavirus B	87.29
+ET84	JQ902104	badnavirus	Sweet potato badnavirus C	80.67
+ET84	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.41
+ET84	JN613805	potyvirus	Sweet potato virus G	98.84
+ET85	FJ439785	badnavirus	Sugarcane bacilliform virus	81.65
+ET87	FJ560943	badnavirus	Sweet potato badnavirus A	76.58
+ET87	KF836892	badnavirus	Sweet potato badnavirus B	87.9
+ET87	JQ902104	badnavirus	Sweet potato badnavirus C	80.46
+ET87	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.49
+ET87	JN613805	potyvirus	Sweet potato virus G	98.72
+ET88	AJ968464	badnavirus	Banana streak virus	77.78
+ET88	FJ560943	badnavirus	Sweet potato badnavirus A	80.4
+ET88	KF836892	badnavirus	Sweet potato badnavirus B	87.22
+ET88	JQ902104	badnavirus	Sweet potato badnavirus C	80.87
+ET88	JN613805	potyvirus	Sweet potato virus G	98.7
+ET89	JQ902104	badnavirus	Sweet potato badnavirus C	70.79
+ET9	EU130910	badnavirus	Citrus yellow mosaic virus	77.59
+ET9	FJ560943	badnavirus	Sweet potato badnavirus A	80.15
+ET9	KF836892	badnavirus	Sweet potato badnavirus B	89.67
+ET9	JQ902104	badnavirus	Sweet potato badnavirus C	80.54
+ET90	FJ560943	badnavirus	Sweet potato badnavirus A	80.74
+ET90	KF836892	badnavirus	Sweet potato badnavirus B	89.87
+ET90	JQ902104	badnavirus	Sweet potato badnavirus C	81.71
+ET90	AY523547	potyvirus	Sweet potato feathery mottle virus	96.48
+ET90	JN613805	potyvirus	Sweet potato virus G	98.92
+ET94	FJ560943	badnavirus	Sweet potato badnavirus A	81.23
+ET94	KF836892	badnavirus	Sweet potato badnavirus B	85.86
+ET94	JQ902104	badnavirus	Sweet potato badnavirus C	85.21
+ET94	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET95	FJ560943	badnavirus	Sweet potato badnavirus A	78.83
+ET95	KF836892	badnavirus	Sweet potato badnavirus B	86.61
+ET95	JQ902104	badnavirus	Sweet potato badnavirus C	82.13
+ET95	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.45
+ET95	AY523547	potyvirus	Sweet potato feathery mottle virus	96.9
+ET95	JN613805	potyvirus	Sweet potato virus G	98.47
+ET96	FJ560943	badnavirus	Sweet potato badnavirus A	80.64
+ET96	KF836892	badnavirus	Sweet potato badnavirus B	90.87
+ET96	JQ902104	badnavirus	Sweet potato badnavirus C	82.56
+ET96	FJ155666	potyvirus	Sweet potato feathery mottle virus	96.92
+ET96	JN613805	potyvirus	Sweet potato virus G	98.74
+ET97	FJ560943	badnavirus	Sweet potato badnavirus A	79.41
+ET97	KF836892	badnavirus	Sweet potato badnavirus B	89.24
+ET97	JQ902104	badnavirus	Sweet potato badnavirus C	83.26
+ET99	FJ560943	badnavirus	Sweet potato badnavirus A	75.52
+ET99	KF836892	badnavirus	Sweet potato badnavirus B	88.01
+ET99	JQ902104	badnavirus	Sweet potato badnavirus C	85.93
+ET99	AY523547	potyvirus	Sweet potato feathery mottle virus	97.19
+ET99	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ET99	JN613805	potyvirus	Sweet potato virus G	98.75
+GH-S004a	FJ560943	badnavirus	Sweet potato badnavirus A	89.65
+GH-S004a	FJ560944	badnavirus	Sweet potato badnavirus B	91.4
+GH-S004a	EU375897	carlavirus	Sweet potato chlorotic fleck virus	98.08
+GH-S004a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.01
+GH-S004a	AJ010705	potyvirus	Sweet potato feathery mottle virus	92.86
+GH-S006a	AJ968501	badnavirus	Banana streak virus	81.25
+GH-S006a	FJ560944	badnavirus	Sweet potato badnavirus B	95.51
+GH-S006a	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.6
+GH-S006a	D86371	potyvirus	Sweet potato feathery mottle virus	90.22
+GH-S007a	FJ560944	badnavirus	Sweet potato badnavirus B	97.16
+GH-S007a	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.37
+GH-S007a	FJ795750	potyvirus	Sweet potato feathery mottle virus	90.65
+GH-S007a	FJ969835	begomovirus	Sweet potato leaf curl virus	96.69
+GH-S007a	JX489166	potyvirus	Sweet potato virus C	92.64
+GH-S008a	FJ560944	badnavirus	Sweet potato badnavirus B	96.77
+GH-S008a	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.6
+GH-S008a	S43451	potyvirus	Sweet potato feathery mottle virus	95.96
+GH-S008a	FJ969835	begomovirus	Sweet potato leaf curl virus	96.47
+GH-S008a	JX489166	potyvirus	Sweet potato virus C	97.5
+GH-S009a	AJ132548	begomovirus	Ipomoea yellow vein virus	92.5
+GH-S009a	DQ644561	begomovirus	Merremia leaf curl virus	91.88
+GH-S009a	FJ560943	badnavirus	Sweet potato badnavirus A	95.81
+GH-S009a	FJ560944	badnavirus	Sweet potato badnavirus B	97.14
+GH-S009a	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.95
+GH-S009a	KC771328	potyvirus	Sweet potato feathery mottle virus	95.76
+GH-S009a	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.81
+GH-S009a	DQ512731	begomovirus	Sweet potato leaf curl virus	94.64
+GH-S009a	FJ969831	begomovirus	Sweet potato mosaic virus	91.53
+GH-S009a	JX489166	potyvirus	Sweet potato virus C	91.98
+GH-S011b	FJ560943	badnavirus	Sweet potato badnavirus A	84.62
+GH-S011b	FJ560944	badnavirus	Sweet potato badnavirus B	88.26
+GH-S011b	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.12
+GH-S011b	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.04
+GH-S011b	EF155993	potyvirus	Sweet potato feathery mottle virus	90.57
+GH-S012a	FJ560944	badnavirus	Sweet potato badnavirus B	95.44
+GH-S012a	JQ902104	badnavirus	Sweet potato badnavirus C	95.57
+GH-S012a	D86371	potyvirus	Sweet potato feathery mottle virus	90.32
+GH-S012a	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S013a	FJ560943	badnavirus	Sweet potato badnavirus A	91.1
+GH-S013a	KF836892	badnavirus	Sweet potato badnavirus B	95.29
+GH-S013a	EU375897	carlavirus	Sweet potato chlorotic fleck virus	98.04
+GH-S013a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.93
+GH-S013a	S43451	potyvirus	Sweet potato feathery mottle virus	90.73
+GH-S013a	GU207957	potyvirus	Sweet potato virus C	77.43
+GH-S013a	JN613805	potyvirus	Sweet potato virus G	73.83
+GH-S014a	KC777390	potyvirus	Cowpea aphid-borne mosaic virus	76.27
+GH-S014a	D86371	potyvirus	Sweet potato feathery mottle virus	88.39
+GH-S014a	KF386015	potyvirus	Sweet potato virus C	79.71
+GH-S015a	FJ560944	badnavirus	Sweet potato badnavirus B	96.87
+GH-S015a	EU375897	carlavirus	Sweet potato chlorotic fleck virus	96.04
+GH-S015a	KC771328	potyvirus	Sweet potato feathery mottle virus	94.54
+GH-S015a	JX489166	potyvirus	Sweet potato virus C	78.22
+GH-S019a	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.13
+GH-S019a	S43451	potyvirus	Sweet potato feathery mottle virus	93.14
+GH-S019a	FJ969833	begomovirus	Sweet potato leaf curl virus	96.35
+GH-S019a	KF386015	potyvirus	Sweet potato virus C	77.02
+GH-S023a	KF386729	badnavirus	Banana streak virus	81.82
+GH-S023a	AM503386	badnavirus	Dioscorea bacilliform virus	78.06
+GH-S023a	HM447643	badnavirus	Musa accuminata endogenous badnavirus	78.52
+GH-S023a	FJ439788	badnavirus	Sugarcane bacilliform virus	81.2
+GH-S023a	FJ560943	badnavirus	Sweet potato badnavirus A	92.98
+GH-S023a	FJ560944	badnavirus	Sweet potato badnavirus B	89.02
+GH-S023a	JQ902104	badnavirus	Sweet potato badnavirus C	82.03
+GH-S023a	AB439206	potyvirus	Sweet potato feathery mottle virus	91.16
+GH-S023a	HQ694979	solendovirus	Sweet potato vein clearing virus	92.24
+GH-S025a	FJ560943	badnavirus	Sweet potato badnavirus A	76.83
+GH-S025a	KF836892	badnavirus	Sweet potato badnavirus B	84.67
+GH-S025a	JQ902104	badnavirus	Sweet potato badnavirus C	83.86
+GH-S025a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.96
+GH-S025a	AM050892	potyvirus	Sweet potato feathery mottle virus	94.61
+GH-S025a	AF326775	begomovirus	Sweet potato leaf curl virus	97.35
+GH-S026a	FJ560943	badnavirus	Sweet potato badnavirus A	77.78
+GH-S026a	KF836892	badnavirus	Sweet potato badnavirus B	87.35
+GH-S026a	JQ902103	badnavirus	Sweet potato badnavirus C	93.62
+GH-S026a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.02
+GH-S026a	S43451	potyvirus	Sweet potato feathery mottle virus	93.26
+GH-S026a	GU207957	potyvirus	Sweet potato virus C	77.59
+GH-S026a	JN613805	potyvirus	Sweet potato virus G	74.05
+GH-S027a	JQ902104	badnavirus	Sweet potato badnavirus C	82.22
+GH-S027a	AY459591	potyvirus	Sweet potato feathery mottle virus	90.03
+GH-S027a	GU207957	potyvirus	Sweet potato virus C	82.29
+GH-S030a	EF155974	potyvirus	Sweet potato feathery mottle virus	90.73
+GH-S030a	GU207957	potyvirus	Sweet potato virus C	80.41
+GH-S031a	FJ560943	badnavirus	Sweet potato badnavirus A	91.42
+GH-S031a	FJ560944	badnavirus	Sweet potato badnavirus B	87.89
+GH-S031a	JQ902104	badnavirus	Sweet potato badnavirus C	81.13
+GH-S031a	D86371	potyvirus	Sweet potato feathery mottle virus	87.93
+GH-S031a	HQ333143	begomovirus	Sweet potato golden vein associated virus	94.62
+GH-S031a	FJ969835	begomovirus	Sweet potato leaf curl virus	94.35
+GH-S032a	FJ439797	badnavirus	Sugarcane bacilliform virus	82.5
+GH-S032a	FJ560943	badnavirus	Sweet potato badnavirus A	91.87
+GH-S032a	FJ560944	badnavirus	Sweet potato badnavirus B	88.13
+GH-S032a	JQ902104	badnavirus	Sweet potato badnavirus C	83.37
+GH-S032a	AJ010705	potyvirus	Sweet potato feathery mottle virus	83.91
+GH-S032a	GU207957	potyvirus	Sweet potato virus C	76.04
+GH-S034a	FJ560943	badnavirus	Sweet potato badnavirus A	78.47
+GH-S034a	KF836892	badnavirus	Sweet potato badnavirus B	85.75
+GH-S034a	JQ902104	badnavirus	Sweet potato badnavirus C	83.15
+GH-S034a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.02
+GH-S034a	S43451	potyvirus	Sweet potato feathery mottle virus	90.94
+GH-S034a	GU207957	potyvirus	Sweet potato virus C	75.91
+GH-S034a	KF790759	potyvirus	Sweet potato virus G	76.96
+GH-S035a	KF386729	badnavirus	Banana streak virus	78.53
+GH-S035a	FJ439797	badnavirus	Sugarcane bacilliform virus	81.44
+GH-S035a	FJ560943	badnavirus	Sweet potato badnavirus A	91.8
+GH-S035a	FJ560944	badnavirus	Sweet potato badnavirus B	88.15
+GH-S035a	JQ902104	badnavirus	Sweet potato badnavirus C	79.64
+GH-S035a	GQ268230	begomovirus	Sweet potato begomovirus	96.42
+GH-S035a	S43451	potyvirus	Sweet potato feathery mottle virus	97.78
+GH-S035a	KJ013557	begomovirus	Sweet potato leaf curl virus	94.54
+GH-S035a	KF386015	potyvirus	Sweet potato virus C	79.29
+GH-S036a	EU839578	begomovirus	Ipomoea yellow vein virus	92.09
+GH-S036a	DQ644561	begomovirus	Merremia leaf curl virus	94.01
+GH-S036a	FJ560943	badnavirus	Sweet potato badnavirus A	91.37
+GH-S036a	FJ560944	badnavirus	Sweet potato badnavirus B	88.58
+GH-S036a	JQ902104	badnavirus	Sweet potato badnavirus C	80.19
+GH-S036a	EU809484	potyvirus	Sweet potato feathery mottle virus	91.66
+GH-S036a	AB433786	begomovirus	Sweet potato leaf curl virus	95.55
+GH-S039a	FJ560943	badnavirus	Sweet potato badnavirus A	77.22
+GH-S039a	KF836892	badnavirus	Sweet potato badnavirus B	89
+GH-S039a	JQ902104	badnavirus	Sweet potato badnavirus C	84.19
+GH-S039a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.41
+GH-S039a	EF155993	potyvirus	Sweet potato feathery mottle virus	92.36
+GH-S040b	KF386729	badnavirus	Banana streak virus	80.93
+GH-S040b	AM503363	badnavirus	Dioscorea bacilliform virus	80.77
+GH-S040b	EU377671	badnavirus	Pineapple bacilliform comosus virus	76.78
+GH-S040b	FJ439789	badnavirus	Sugarcane bacilliform virus	80.43
+GH-S040b	FJ560943	badnavirus	Sweet potato badnavirus A	91.21
+GH-S040b	FJ560944	badnavirus	Sweet potato badnavirus B	87.7
+GH-S040b	JQ902104	badnavirus	Sweet potato badnavirus C	81.99
+GH-S040b	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.77
+GH-S040b	D86371	potyvirus	Sweet potato feathery mottle virus	89.26
+GH-S040b	FN806776	begomovirus	Sweet potato leaf curl virus	93.06
+GH-S041a	FJ560943	badnavirus	Sweet potato badnavirus A	97.97
+GH-S041a	FJ560944	badnavirus	Sweet potato badnavirus B	97.08
+GH-S041a	JQ902104	badnavirus	Sweet potato badnavirus C	92.06
+GH-S041a	FJ969835	begomovirus	Sweet potato leaf curl virus	94.48
+GH-S043a	FJ560943	badnavirus	Sweet potato badnavirus A	93.19
+GH-S043a	FJ560944	badnavirus	Sweet potato badnavirus B	88.97
+GH-S043a	JQ902103	badnavirus	Sweet potato badnavirus C	97.56
+GH-S043a	FJ155666	potyvirus	Sweet potato feathery mottle virus	92.41
+GH-S043a	FJ969835	begomovirus	Sweet potato leaf curl virus	94.69
+GH-S102	AJ132548	begomovirus	Ipomoea yellow vein virus	92.32
+GH-S102	DQ644561	begomovirus	Merremia leaf curl virus	91.85
+GH-S102	KF836892	badnavirus	Sweet potato badnavirus B	99.57
+GH-S102	AY523547	potyvirus	Sweet potato feathery mottle virus	97.58
+GH-S102	HQ333143	begomovirus	Sweet potato golden vein associated virus	92.41
+GH-S102	JN657686	begomovirus	Sweet potato leaf curl virus	94.69
+GH-S102	FJ969831	begomovirus	Sweet potato mosaic virus	91.45
+GH-S102	JX489166	potyvirus	Sweet potato virus C	97.7
+GH-S103	FJ439784	badnavirus	Sugarcane bacilliform virus	80.65
+GH-S103	FJ560943	badnavirus	Sweet potato badnavirus A	81.92
+GH-S103	FJ560944	badnavirus	Sweet potato badnavirus B	93.99
+GH-S103	JQ902104	badnavirus	Sweet potato badnavirus C	77.11
+GH-S103	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.06
+GH-S103	AY523538	potyvirus	Sweet potato feathery mottle virus	90.3
+GH-S103	KF386015	potyvirus	Sweet potato virus C	79.42
+GH-S103	KF790759	potyvirus	Sweet potato virus G	73.46
+GH-S104	FJ560943	badnavirus	Sweet potato badnavirus A	83.2
+GH-S104	KF836892	badnavirus	Sweet potato badnavirus B	88.04
+GH-S104	JQ902104	badnavirus	Sweet potato badnavirus C	77.08
+GH-S104	KC771328	potyvirus	Sweet potato feathery mottle virus	95.31
+GH-S104	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S105	FJ560943	badnavirus	Sweet potato badnavirus A	85.62
+GH-S105	FJ560944	badnavirus	Sweet potato badnavirus B	88.21
+GH-S105	JQ902104	badnavirus	Sweet potato badnavirus C	86.42
+GH-S105	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.99
+GH-S105	AY523547	potyvirus	Sweet potato feathery mottle virus	95.21
+GH-S105	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S110	FJ560943	badnavirus	Sweet potato badnavirus A	93.53
+GH-S110	KF836892	badnavirus	Sweet potato badnavirus B	94.24
+GH-S110	JQ902104	badnavirus	Sweet potato badnavirus C	89.15
+GH-S110	AY523547	potyvirus	Sweet potato feathery mottle virus	97.52
+GH-S110	FJ969835	begomovirus	Sweet potato leaf curl virus	96.9
+GH-S110	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S110	KF386015	potyvirus	Sweet potato virus C	91.83
+GH-S110	JN613805	potyvirus	Sweet potato virus G	98.24
+GH-S111	AJ132548	begomovirus	Ipomoea yellow vein virus	92.5
+GH-S111	DQ644561	begomovirus	Merremia leaf curl virus	92.04
+GH-S111	FJ560944	badnavirus	Sweet potato badnavirus B	97.17
+GH-S111	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.23
+GH-S111	FJ795750	potyvirus	Sweet potato feathery mottle virus	88.75
+GH-S111	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.15
+GH-S111	JN657687	begomovirus	Sweet potato leaf curl virus	94.27
+GH-S111	FJ969831	begomovirus	Sweet potato mosaic virus	92.63
+GH-S111	JX489166	potyvirus	Sweet potato virus C	94.12
+GH-S113	EU839576	begomovirus	Ipomoea yellow vein virus	91.73
+GH-S113	DQ644561	begomovirus	Merremia leaf curl virus	93.21
+GH-S113	JQ902104	badnavirus	Sweet potato badnavirus C	95.83
+GH-S113	GQ268231	begomovirus	Sweet potato begomovirus	94.02
+GH-S113	HQ333143	begomovirus	Sweet potato golden vein associated virus	94.69
+GH-S113	KF769447	begomovirus	Sweet potato leaf curl virus	94.5
+GH-S113	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S116	JQ902104	badnavirus	Sweet potato badnavirus C	82.29
+GH-S116	AB433786	begomovirus	Sweet potato leaf curl virus	95.67
+GH-S119	AJ132548	begomovirus	Ipomoea yellow vein virus	93.43
+GH-S119	DQ644561	begomovirus	Merremia leaf curl virus	93.02
+GH-S119	JQ902104	badnavirus	Sweet potato badnavirus C	94.61
+GH-S119	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.69
+GH-S119	AB433786	begomovirus	Sweet potato leaf curl virus	94.27
+GH-S119	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S122	EU839578	begomovirus	Ipomoea yellow vein virus	91.74
+GH-S122	DQ644561	begomovirus	Merremia leaf curl virus	92.41
+GH-S122	JQ902104	badnavirus	Sweet potato badnavirus C	94.74
+GH-S122	GQ268230	begomovirus	Sweet potato begomovirus	95.93
+GH-S122	HQ333143	begomovirus	Sweet potato golden vein associated virus	92.62
+GH-S122	FJ969833	begomovirus	Sweet potato leaf curl virus	93.79
+GH-S122	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S123	EU839576	begomovirus	Ipomoea yellow vein virus	92.32
+GH-S123	DQ644561	begomovirus	Merremia leaf curl virus	92.57
+GH-S123	JQ902104	badnavirus	Sweet potato badnavirus C	95.51
+GH-S123	HQ333143	begomovirus	Sweet potato golden vein associated virus	94.02
+GH-S123	KJ013576	begomovirus	Sweet potato leaf curl virus	94.92
+GH-S123	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S124	DQ644561	begomovirus	Merremia leaf curl virus	94.24
+GH-S124	FJ560943	badnavirus	Sweet potato badnavirus A	85.53
+GH-S124	KF836892	badnavirus	Sweet potato badnavirus B	92.28
+GH-S124	JQ902104	badnavirus	Sweet potato badnavirus C	99.33
+GH-S124	HQ333143	begomovirus	Sweet potato golden vein associated virus	95.2
+GH-S124	AB433786	begomovirus	Sweet potato leaf curl virus	95.81
+GH-S126	EU839578	begomovirus	Ipomoea yellow vein virus	91.08
+GH-S126	DQ644561	begomovirus	Merremia leaf curl virus	92.33
+GH-S126	FJ560944	badnavirus	Sweet potato badnavirus B	97.28
+GH-S126	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.7
+GH-S126	KC771328	potyvirus	Sweet potato feathery mottle virus	94.52
+GH-S126	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.3
+GH-S126	DQ512731	begomovirus	Sweet potato leaf curl virus	94.62
+GH-S126	FJ969831	begomovirus	Sweet potato mosaic virus	92.28
+GH-S126	KF386015	potyvirus	Sweet potato virus C	76.97
+GH-S126	JN613805	potyvirus	Sweet potato virus G	73.81
+GH-S130	AJ132548	begomovirus	Ipomoea yellow vein virus	94.93
+GH-S130	DQ644561	begomovirus	Merremia leaf curl virus	93.65
+GH-S130	JQ902104	badnavirus	Sweet potato badnavirus C	94.69
+GH-S130	HQ333143	begomovirus	Sweet potato golden vein associated virus	95.21
+GH-S130	JN657686	begomovirus	Sweet potato leaf curl virus	95.4
+GH-S130	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S143a	FJ560943	badnavirus	Sweet potato badnavirus A	95.92
+GH-S143a	FJ560944	badnavirus	Sweet potato badnavirus B	94.05
+GH-S143a	JQ902104	badnavirus	Sweet potato badnavirus C	90.95
+GH-S143a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.82
+GH-S143a	AY523547	potyvirus	Sweet potato feathery mottle virus	95.54
+GH-S143a	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S143a	KF386015	potyvirus	Sweet potato virus C	93.9
+GH-S149a	AJ132548	begomovirus	Ipomoea yellow vein virus	91.3
+GH-S149a	FJ560943	badnavirus	Sweet potato badnavirus A	84.12
+GH-S149a	KF836892	badnavirus	Sweet potato badnavirus B	89.04
+GH-S149a	JQ902104	badnavirus	Sweet potato badnavirus C	87.03
+GH-S149a	AY523547	potyvirus	Sweet potato feathery mottle virus	95.79
+GH-S149a	FJ969835	begomovirus	Sweet potato leaf curl virus	98.01
+GH-S149a	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S149a	KF386015	potyvirus	Sweet potato virus C	93.01
+GH-S149a	JN613805	potyvirus	Sweet potato virus G	96.94
+GH-S152b	EU839578	begomovirus	Ipomoea yellow vein virus	92.86
+GH-S152b	DQ644561	begomovirus	Merremia leaf curl virus	92.84
+GH-S152b	FJ560943	badnavirus	Sweet potato badnavirus A	88.47
+GH-S152b	FJ560944	badnavirus	Sweet potato badnavirus B	89.94
+GH-S152b	JQ902104	badnavirus	Sweet potato badnavirus C	94.62
+GH-S152b	GQ268231	begomovirus	Sweet potato begomovirus	94.06
+GH-S152b	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99
+GH-S152b	EF155993	potyvirus	Sweet potato feathery mottle virus	90.38
+GH-S152b	HQ333143	begomovirus	Sweet potato golden vein associated virus	94.94
+GH-S152b	JF736657	begomovirus	Sweet potato leaf curl virus	95.48
+GH-S152b	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S156a	FJ931042	badnavirus	Banana streak virus	78.08
+GH-S156a	FJ560943	badnavirus	Sweet potato badnavirus A	88.26
+GH-S156a	FJ560944	badnavirus	Sweet potato badnavirus B	89.12
+GH-S156a	JQ902104	badnavirus	Sweet potato badnavirus C	85.3
+GH-S156a	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	98.85
+GH-S156a	S43451	potyvirus	Sweet potato feathery mottle virus	97.19
+GH-S156a	KF803170	begomovirus	Sweet potato golden vein associated virus	94.17
+GH-S156a	JF736657	begomovirus	Sweet potato leaf curl virus	97.74
+GH-S156a	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GH-S156a	KF386015	potyvirus	Sweet potato virus C	95.19
+GU-S001	KJ787689	NA	Cladosporium cladosporioides virus 1	75.54
+GU-S001	FJ969832	begomovirus	Sweet potato leaf curl virus	96.55
+GU-S006	KF836892	badnavirus	Sweet potato badnavirus B	96.71
+GU-S006	JQ902104	badnavirus	Sweet potato badnavirus C	93.82
+GU-S006	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S006	HQ694979	solendovirus	Sweet potato vein clearing virus	95.46
+GU-S006	EF051631	pospiviroid	Tomato apical stunt viroid	100
+GU-S021	KF545103	badnavirus	Banana streak virus	74.11
+GU-S021	KF803546	mitovirus	Fusarium circinatum mitovirus 1	78.06
+GU-S021	KF913890	mitovirus	Sclerotinia homoeocarpa mitovirus	72.79
+GU-S021	FJ560943	badnavirus	Sweet potato badnavirus A	92.43
+GU-S021	FJ560944	badnavirus	Sweet potato badnavirus B	91.28
+GU-S021	JQ902104	badnavirus	Sweet potato badnavirus C	84.32
+GU-S021	D86371	potyvirus	Sweet potato feathery mottle virus	97.03
+GU-S021	HQ694979	solendovirus	Sweet potato vein clearing virus	95.18
+GU-S025	JQ902103	badnavirus	Sweet potato badnavirus C	97.56
+GU-S025	EF155974	potyvirus	Sweet potato feathery mottle virus	95.18
+GU-S025	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S047	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S060	JQ902104	badnavirus	Sweet potato badnavirus C	95.74
+GU-S060	D86371	potyvirus	Sweet potato feathery mottle virus	96.8
+GU-S060	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.75
+GU-S061	JX401537	mitovirus	Sclerotinia homoeocarpa mitovirus	63.33
+GU-S061	JQ902104	badnavirus	Sweet potato badnavirus C	95.51
+GU-S061	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S062	JQ902104	badnavirus	Sweet potato badnavirus C	95.86
+GU-S062	D86371	potyvirus	Sweet potato feathery mottle virus	97.78
+GU-S062	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S063	JQ902104	badnavirus	Sweet potato badnavirus C	95.45
+GU-S063	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.85
+GU-S066	AY615209	mitovirus	Gremmeniella abietina mitochondrial RNA virus S2	74.58
+GU-S066	AY172454	mitovirus	Sclerotinia homoeocarpa mitovirus	77.97
+GU-S066	FJ560943	badnavirus	Sweet potato badnavirus A	85.96
+GU-S066	FJ560944	badnavirus	Sweet potato badnavirus B	91.78
+GU-S066	JQ902104	badnavirus	Sweet potato badnavirus C	89.76
+GU-S066	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S066	AY563138	mitovirus	Thielaviopsis basicola mitovirus	67.67
+GU-S068	FJ560944	badnavirus	Sweet potato badnavirus B	94.07
+GU-S068	JQ902104	badnavirus	Sweet potato badnavirus C	95.74
+GU-S068	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S070	JQ902104	badnavirus	Sweet potato badnavirus C	94
+GU-S070	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S072	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S073	KF836892	badnavirus	Sweet potato badnavirus B	97.28
+GU-S073	JQ902104	badnavirus	Sweet potato badnavirus C	96.43
+GU-S073	D86371	potyvirus	Sweet potato feathery mottle virus	97.95
+GU-S073	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S074	FJ560943	badnavirus	Sweet potato badnavirus A	84.14
+GU-S074	FJ560944	badnavirus	Sweet potato badnavirus B	92.84
+GU-S074	JQ902104	badnavirus	Sweet potato badnavirus C	84.65
+GU-S074	D86371	potyvirus	Sweet potato feathery mottle virus	98.13
+GU-S074	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S075	EU377671	badnavirus	Pineapple bacilliform comosus virus	84.26
+GU-S075	FJ560943	badnavirus	Sweet potato badnavirus A	85.44
+GU-S075	FJ560944	badnavirus	Sweet potato badnavirus B	83.59
+GU-S075	JQ902104	badnavirus	Sweet potato badnavirus C	97.16
+GU-S075	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S076	AM905903	badnavirus	Banana streak virus	82.57
+GU-S076	EU130910	badnavirus	Citrus yellow mosaic virus	79.08
+GU-S076	AM072682	badnavirus	Dioscorea bacilliform virus 1	79.66
+GU-S076	FJ560943	badnavirus	Sweet potato badnavirus A	83.9
+GU-S076	KF836892	badnavirus	Sweet potato badnavirus B	86.03
+GU-S076	JQ902104	badnavirus	Sweet potato badnavirus C	88.75
+GU-S076	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S077	JQ902103	badnavirus	Sweet potato badnavirus C	97.56
+GU-S077	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	98.92
+GU-S090	FJ560943	badnavirus	Sweet potato badnavirus A	98.84
+GU-S090	FJ560944	badnavirus	Sweet potato badnavirus B	98.1
+GU-S090	JQ902103	badnavirus	Sweet potato badnavirus C	100
+GU-S090	FJ969835	begomovirus	Sweet potato leaf curl virus	97
+GU-S090	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S092	FJ560944	badnavirus	Sweet potato badnavirus B	81.08
+GU-S094	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	96.84
+GU-S094	FJ560943	badnavirus	Sweet potato badnavirus A	80.57
+GU-S094	KF836892	badnavirus	Sweet potato badnavirus B	92.09
+GU-S094	JQ902104	badnavirus	Sweet potato badnavirus C	90
+GU-S095	JQ902104	badnavirus	Sweet potato badnavirus C	96.97
+GU-S095	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S096	JQ902104	badnavirus	Sweet potato badnavirus C	94.82
+GU-S096	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S097	JQ902104	badnavirus	Sweet potato badnavirus C	95.3
+GU-S097	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.74
+GU-S098	D86371	potyvirus	Sweet potato feathery mottle virus	98.27
+GU-S098	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.62
+GU-S099	JQ902104	badnavirus	Sweet potato badnavirus C	95.68
+GU-S099	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+GU-S100	AB465608	potyvirus	Sweet potato feathery mottle virus	97.41
+GU-S102	D86371	potyvirus	Sweet potato feathery mottle virus	90.68
+GU-S102	GU207957	potyvirus	Sweet potato virus C	77.09
+GU-S102	KF790759	potyvirus	Sweet potato virus G	73.82
+GU-S104	AB439206	potyvirus	Sweet potato feathery mottle virus	94.28
+GU-S104	GU207957	potyvirus	Sweet potato virus C	78.34
+MO-AS003	FJ439797	badnavirus	Sugarcane bacilliform virus	77.63
+MO-AS003	FJ560943	badnavirus	Sweet potato badnavirus A	94.49
+MO-AS003	FJ560944	badnavirus	Sweet potato badnavirus B	91.81
+MO-AS003	JQ902104	badnavirus	Sweet potato badnavirus C	80.46
+MO-AS003	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.18
+MO-AS003	AY523547	potyvirus	Sweet potato feathery mottle virus	97.73
+MO-AS015	FJ560943	badnavirus	Sweet potato badnavirus A	80.38
+MO-AS015	KF836892	badnavirus	Sweet potato badnavirus B	81.69
+MO-AS015	JQ902104	badnavirus	Sweet potato badnavirus C	78.73
+MO-AS015	AY523547	potyvirus	Sweet potato feathery mottle virus	98.64
+MO-AS020	JQ902104	badnavirus	Sweet potato badnavirus C	81.08
+MO-AS020	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.12
+MO-AS020	AY523547	potyvirus	Sweet potato feathery mottle virus	96.55
+MO-AS020	KF386015	potyvirus	Sweet potato virus C	94.09
+MO-AS036	DQ866133	begomovirus	Ageratum yellow veinvirus	88.97
+MO-AS036	AJ132548	begomovirus	Ipomoea yellow vein virus	93.75
+MO-AS036	DQ644561	begomovirus	Merremia leaf curl virus	91.22
+MO-AS036	DQ641695	begomovirus	Mimosa yellow leaf curl virus	93.21
+MO-AS036	AB020977	begomovirus	Soybean crinkle leaf virus	91.3
+MO-AS036	FJ560943	badnavirus	Sweet potato badnavirus A	98.42
+MO-AS036	FJ560944	badnavirus	Sweet potato badnavirus B	96.5
+MO-AS036	JQ902104	badnavirus	Sweet potato badnavirus C	95.74
+MO-AS036	AY523547	potyvirus	Sweet potato feathery mottle virus	98.13
+MO-AS036	HQ393444	begomovirus	Sweet potato golden vein associated virus	93.07
+MO-AS036	HQ393460	begomovirus	Sweet potato leaf curl virus	93.56
+MO-AS036	Z73124	ipomovirus	Sweet potato mild mottle virus	90.39
+MO-AS036	FJ969831	begomovirus	Sweet potato mosaic virus	92.12
+MO-AS036	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-AS036	JN613807	potyvirus	Sweet potato virus 2	81.7
+MO-AS036	KF386015	potyvirus	Sweet potato virus C	96.45
+MO-AS036	JN613805	potyvirus	Sweet potato virus G	95.59
+MO-AS036	AB246171	begomovirus	Tobacco leaf curl virus	92.13
+MO-AS036	JX416184	begomovirus	Tomato leaf curl virus	90.8
+MO-AS049	EU839576	begomovirus	Ipomoea yellow vein virus	93.76
+MO-AS049	DQ644561	begomovirus	Merremia leaf curl virus	93.73
+MO-AS049	FJ560943	badnavirus	Sweet potato badnavirus A	88.03
+MO-AS049	FJ560944	badnavirus	Sweet potato badnavirus B	92.78
+MO-AS049	JQ902104	badnavirus	Sweet potato badnavirus C	82.28
+MO-AS049	GQ268231	begomovirus	Sweet potato begomovirus	96.46
+MO-AS049	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.14
+MO-AS049	AF016366	potyvirus	Sweet potato feathery mottle virus	98.09
+MO-AS049	HQ393444	begomovirus	Sweet potato golden vein associated virus	92.84
+MO-AS049	JN657687	begomovirus	Sweet potato leaf curl virus	96.12
+MO-AS049	FJ969831	begomovirus	Sweet potato mosaic virus	92.8
+MO-AS049	KF386015	potyvirus	Sweet potato virus C	94.85
+MO-AS049	JN613805	potyvirus	Sweet potato virus G	81.09
+MO-AS065	FJ560943	badnavirus	Sweet potato badnavirus A	78.16
+MO-AS065	KF836892	badnavirus	Sweet potato badnavirus B	86.97
+MO-AS065	JQ902104	badnavirus	Sweet potato badnavirus C	83.81
+MO-AS065	AY523547	potyvirus	Sweet potato feathery mottle virus	98.21
+MO-AS068	FJ560944	badnavirus	Sweet potato badnavirus B	78.7
+MO-AS068	JQ902104	badnavirus	Sweet potato badnavirus C	80.46
+MO-AS068	AF016366	potyvirus	Sweet potato feathery mottle virus	94.57
+MO-AS068	JN613807	potyvirus	Sweet potato virus 2	78.72
+MO-AS068	JN613805	potyvirus	Sweet potato virus G	91.84
+MO-AS068	JX401339	potyvirus	Zucchini yellow mosaic virus	86.89
+MO-AS082	AY523547	potyvirus	Sweet potato feathery mottle virus	98.17
+MO-AS082	FJ969831	begomovirus	Sweet potato mosaic virus	97.13
+MO-BS006	KF836892	badnavirus	Sweet potato badnavirus B	97.96
+MO-BS006	JQ902104	badnavirus	Sweet potato badnavirus C	95.42
+MO-BS006	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.26
+MO-BS006	AF016366	potyvirus	Sweet potato feathery mottle virus	97.7
+MO-BS006	AJ783452	ipomovirus	Sweet potato mild mottle virus	91.01
+MO-BS006	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-BS006	JN613807	potyvirus	Sweet potato virus 2	89.98
+MO-BS006	GU207957	potyvirus	Sweet potato virus C	93.34
+MO-BS006	JN613805	potyvirus	Sweet potato virus G	80.24
+MO-BS006	AY459612	potyvirus	Sweet potato virus Y	96.49
+MO-BS022	EU839578	begomovirus	Ipomoea yellow vein virus	94.19
+MO-BS022	DQ644561	begomovirus	Merremia leaf curl virus	94.48
+MO-BS022	FJ560943	badnavirus	Sweet potato badnavirus A	79.1
+MO-BS022	KF836892	badnavirus	Sweet potato badnavirus B	86.61
+MO-BS022	JQ902104	badnavirus	Sweet potato badnavirus C	96.1
+MO-BS022	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.18
+MO-BS022	AF016366	potyvirus	Sweet potato feathery mottle virus	98.23
+MO-BS022	FJ969829	begomovirus	Sweet potato golden vein associated virus	94.18
+MO-BS022	KF836891	begomovirus	Sweet potato leaf curl virus	95.57
+MO-BS022	EF155970	ipomovirus	Sweet potato mild mottle virus	90.54
+MO-BS022	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-BS022	KF386015	potyvirus	Sweet potato virus C	95.19
+MO-BS024	KF836892	badnavirus	Sweet potato badnavirus B	93.96
+MO-BS024	JQ902104	badnavirus	Sweet potato badnavirus C	88.97
+MO-BS024	AF016366	potyvirus	Sweet potato feathery mottle virus	97.99
+MO-BS024	FJ999763	ipomovirus	Sweet potato mild mottle virus	87.67
+MO-BS024	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-BS024	JN613807	potyvirus	Sweet potato virus 2	91.5
+MO-BS024	KF386015	potyvirus	Sweet potato virus C	93.27
+MO-BS024	JN613805	potyvirus	Sweet potato virus G	94.28
+MO-BS024	AY459612	potyvirus	Sweet potato virus Y	97.03
+MO-BS038	FJ560943	badnavirus	Sweet potato badnavirus A	81.01
+MO-BS038	FJ560944	badnavirus	Sweet potato badnavirus B	81.35
+MO-BS038	JQ902104	badnavirus	Sweet potato badnavirus C	88.71
+MO-BS038	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98
+MO-BS038	AB465608	potyvirus	Sweet potato feathery mottle virus	97.67
+MO-BS038	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-BS044	FJ560943	badnavirus	Sweet potato badnavirus A	88.55
+MO-BS044	FJ560944	badnavirus	Sweet potato badnavirus B	88.87
+MO-BS044	JQ902104	badnavirus	Sweet potato badnavirus C	96.15
+MO-BS044	D86371	potyvirus	Sweet potato feathery mottle virus	96.83
+MO-BS044	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-BS044	KF386015	potyvirus	Sweet potato virus C	94.32
+MO-BS044	JN613805	potyvirus	Sweet potato virus G	95.21
+MO-BS046	JQ902104	badnavirus	Sweet potato badnavirus C	76.56
+MO-BS046	EF155987	potyvirus	Sweet potato feathery mottle virus	95.37
+MO-BS046	GU207957	potyvirus	Sweet potato virus C	95.13
+MO-BS047	EU839578	begomovirus	Ipomoea yellow vein virus	93.66
+MO-BS047	DQ644561	begomovirus	Merremia leaf curl virus	93.34
+MO-BS047	JQ902104	badnavirus	Sweet potato badnavirus C	99.53
+MO-BS047	GQ268231	begomovirus	Sweet potato begomovirus	95.57
+MO-BS047	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98
+MO-BS047	AY523547	potyvirus	Sweet potato feathery mottle virus	97.46
+MO-BS047	HQ393457	begomovirus	Sweet potato golden vein associated virus	93.89
+MO-BS047	HQ393458	begomovirus	Sweet potato leaf curl virus	94.13
+MO-BS047	FJ969831	begomovirus	Sweet potato mosaic virus	93.39
+MO-BS047	JN613807	potyvirus	Sweet potato virus 2	97.18
+MO-BS047	KF386015	potyvirus	Sweet potato virus C	93.83
+MO-BS047	JN613805	potyvirus	Sweet potato virus G	97.74
+MO-BS047	AY459607	potyvirus	Sweet potato virus Y	96.17
+MO-BS073	KF836892	badnavirus	Sweet potato badnavirus B	97.71
+MO-BS073	JQ902104	badnavirus	Sweet potato badnavirus C	95.65
+MO-BS073	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.38
+MO-BS073	AF016366	potyvirus	Sweet potato feathery mottle virus	97.6
+MO-BS073	Z73124	ipomovirus	Sweet potato mild mottle virus	88.02
+MO-BS073	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-BS073	JN613807	potyvirus	Sweet potato virus 2	89.6
+MO-BS073	JX489166	potyvirus	Sweet potato virus C	96.96
+MO-BS073	JN613805	potyvirus	Sweet potato virus G	77.92
+MO-BS094	FJ560943	badnavirus	Sweet potato badnavirus A	82.55
+MO-BS094	FJ560944	badnavirus	Sweet potato badnavirus B	96.53
+MO-BS094	JQ902104	badnavirus	Sweet potato badnavirus C	90.08
+MO-BS094	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.38
+MO-BS094	S43451	potyvirus	Sweet potato feathery mottle virus	96.69
+MO-BS094	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-BS094	JX489166	potyvirus	Sweet potato virus C	97.69
+MO-CS019	EU839576	begomovirus	Ipomoea yellow vein virus	92.73
+MO-CS019	DQ644561	begomovirus	Merremia leaf curl virus	92.16
+MO-CS019	AB020977	begomovirus	Soybean crinkle leaf virus	90.78
+MO-CS019	FJ560943	badnavirus	Sweet potato badnavirus A	79.8
+MO-CS019	KF836892	badnavirus	Sweet potato badnavirus B	82.43
+MO-CS019	JQ902104	badnavirus	Sweet potato badnavirus C	91.15
+MO-CS019	AF016366	potyvirus	Sweet potato feathery mottle virus	98.35
+MO-CS019	FJ969830	begomovirus	Sweet potato golden vein associated virus	92.31
+MO-CS019	JN657686	begomovirus	Sweet potato leaf curl virus	95.57
+MO-CS019	FJ969831	begomovirus	Sweet potato mosaic virus	93.38
+MO-CS019	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-CS019	JX489166	potyvirus	Sweet potato virus C	94.71
+MO-CS019	KF790759	potyvirus	Sweet potato virus G	95.25
+MO-CS021	AM940137	begomovirus	Ageratum yellow veinvirus	91.09
+MO-CS021	AJ270872	begomovirus	Cotton leaf curl virus	92.76
+MO-CS021	AJ132548	begomovirus	Ipomoea yellow vein virus	93.13
+MO-CS021	DQ644561	begomovirus	Merremia leaf curl virus	93.54
+MO-CS021	DQ641696	begomovirus	Sida yellow vein virus	88.83
+MO-CS021	JQ902104	badnavirus	Sweet potato badnavirus C	99.7
+MO-CS021	GQ268230	begomovirus	Sweet potato begomovirus	93.91
+MO-CS021	AY523547	potyvirus	Sweet potato feathery mottle virus	98.28
+MO-CS021	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.22
+MO-CS021	JQ621844	begomovirus	Sweet potato leaf curl virus	93.7
+MO-CS021	FJ969831	begomovirus	Sweet potato mosaic virus	94.52
+MO-CS021	KF386015	potyvirus	Sweet potato virus C	94.69
+MO-CS021	AM701768	begomovirus	Tomato leaf curl virus	92.25
+MO-CS025	FJ560943	badnavirus	Sweet potato badnavirus A	78.52
+MO-CS025	KF836892	badnavirus	Sweet potato badnavirus B	94.02
+MO-CS025	JQ902104	badnavirus	Sweet potato badnavirus C	83.98
+MO-CS025	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.08
+MO-CS025	AY523547	potyvirus	Sweet potato feathery mottle virus	97.42
+MO-CS025	JN613805	potyvirus	Sweet potato virus G	97.86
+MO-CS026	U92531	begomovirus	Bean golden mosaic virus	88.67
+MO-CS026	EU839578	begomovirus	Ipomoea yellow vein virus	93.38
+MO-CS026	DQ644561	begomovirus	Merremia leaf curl virus	93.47
+MO-CS026	FJ560943	badnavirus	Sweet potato badnavirus A	97.15
+MO-CS026	FJ560944	badnavirus	Sweet potato badnavirus B	95.26
+MO-CS026	JQ902104	badnavirus	Sweet potato badnavirus C	96.53
+MO-CS026	GQ268231	begomovirus	Sweet potato begomovirus	93.26
+MO-CS026	AF016366	potyvirus	Sweet potato feathery mottle virus	97.57
+MO-CS026	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.56
+MO-CS026	FJ969832	begomovirus	Sweet potato leaf curl virus	93.86
+MO-CS026	FJ969831	begomovirus	Sweet potato mosaic virus	94.08
+MO-CS026	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-CS026	JN613807	potyvirus	Sweet potato virus 2	93.54
+MO-CS026	JX489166	potyvirus	Sweet potato virus C	96.22
+MO-CS026	JN613805	potyvirus	Sweet potato virus G	96.8
+MO-CS026	AY459609	potyvirus	Sweet potato virus Y	97.09
+MO-CS026	JX416184	begomovirus	Tomato leaf curl virus	86.89
+MO-CS047	AJ222705	begomovirus	Cotton leaf curl virus	62.4
+MO-CS047	AJ132548	begomovirus	Ipomoea yellow vein virus	92.33
+MO-CS047	DQ644561	begomovirus	Merremia leaf curl virus	91.71
+MO-CS047	FJ513076	begomovirus	Sida golden mosaic virus	92.09
+MO-CS047	KF836892	badnavirus	Sweet potato badnavirus B	98.46
+MO-CS047	GQ268230	begomovirus	Sweet potato begomovirus	95.38
+MO-CS047	AY523547	potyvirus	Sweet potato feathery mottle virus	97.8
+MO-CS047	FJ969830	begomovirus	Sweet potato golden vein associated virus	92.39
+MO-CS047	EF154833	begomovirus	Sweet potato leaf curl virus	93.62
+MO-CS047	AJ459315	ipomovirus	Sweet potato mild mottle virus	96.38
+MO-CS047	FJ969831	begomovirus	Sweet potato mosaic virus	93.05
+MO-CS047	GU207957	potyvirus	Sweet potato virus C	93.59
+MO-CS064	KF545118	badnavirus	Banana streak virus	80.31
+MO-CS064	AM072694	badnavirus	Dioscorea bacilliform virus 1	74.6
+MO-CS064	EU839576	begomovirus	Ipomoea yellow vein virus	93.59
+MO-CS064	DQ644561	begomovirus	Merremia leaf curl virus	92.85
+MO-CS064	AB020977	begomovirus	Soybean crinkle leaf virus	90.71
+MO-CS064	FJ560943	badnavirus	Sweet potato badnavirus A	85.15
+MO-CS064	FJ560944	badnavirus	Sweet potato badnavirus B	90.63
+MO-CS064	JQ902103	badnavirus	Sweet potato badnavirus C	87.45
+MO-CS064	GQ268231	begomovirus	Sweet potato begomovirus	96.41
+MO-CS064	GU127599	crinivirus	Sweet potato chlorotic stunt virus	94.9
+MO-CS064	AY523547	potyvirus	Sweet potato feathery mottle virus	98.08
+MO-CS064	HQ393444	begomovirus	Sweet potato golden vein associated virus	93.41
+MO-CS064	EF154833	begomovirus	Sweet potato leaf curl virus	94.17
+MO-CS064	AJ783452	ipomovirus	Sweet potato mild mottle virus	87.14
+MO-CS064	FJ969831	begomovirus	Sweet potato mosaic virus	93.13
+MO-CS064	KF386015	potyvirus	Sweet potato virus C	93.21
+MO-CS064	AB189847	begomovirus	Tomato leaf curl virus	95.24
+MO-CS085	AJ968467	badnavirus	Banana streak virus	80.3
+MO-CS085	FJ560943	badnavirus	Sweet potato badnavirus A	78.08
+MO-CS085	KF836892	badnavirus	Sweet potato badnavirus B	83.52
+MO-CS085	JQ902104	badnavirus	Sweet potato badnavirus C	79.57
+MO-CS085	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.38
+MO-CS085	FJ155666	potyvirus	Sweet potato feathery mottle virus	91.41
+MO-CS090	FJ439783	badnavirus	Sugarcane bacilliform virus	80.8
+MO-CS090	FJ560943	badnavirus	Sweet potato badnavirus A	92.42
+MO-CS090	FJ560944	badnavirus	Sweet potato badnavirus B	89.49
+MO-CS090	JQ902104	badnavirus	Sweet potato badnavirus C	94.88
+MO-CS090	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.73
+MO-CS090	AF016366	potyvirus	Sweet potato feathery mottle virus	97.36
+MO-CS090	Z73124	ipomovirus	Sweet potato mild mottle virus	86.33
+MO-CS090	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-CS090	JN613807	potyvirus	Sweet potato virus 2	75.05
+MO-CS090	KF386015	potyvirus	Sweet potato virus C	75.07
+MO-CS090	JN613805	potyvirus	Sweet potato virus G	92.44
+MO-DS025	KF545103	badnavirus	Banana streak virus	80.37
+MO-DS025	AJ132548	begomovirus	Ipomoea yellow vein virus	93.32
+MO-DS025	FJ560943	badnavirus	Sweet potato badnavirus A	78.65
+MO-DS025	KF836892	badnavirus	Sweet potato badnavirus B	86.67
+MO-DS025	JQ902104	badnavirus	Sweet potato badnavirus C	86.74
+MO-DS025	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.06
+MO-DS025	AY523547	potyvirus	Sweet potato feathery mottle virus	98.52
+MO-DS025	FJ969830	begomovirus	Sweet potato golden vein associated virus	94.81
+MO-DS025	HQ393460	begomovirus	Sweet potato leaf curl virus	95.12
+MO-DS025	Z73124	ipomovirus	Sweet potato mild mottle virus	86.98
+MO-DS025	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+MO-DS025	KF386015	potyvirus	Sweet potato virus C	94.22
+MO-DS025	JN613805	potyvirus	Sweet potato virus G	97.55
+MO-DS028	EU839578	begomovirus	Ipomoea yellow vein virus	93.07
+MO-DS028	DQ644561	begomovirus	Merremia leaf curl virus	92.44
+MO-DS028	FJ560943	badnavirus	Sweet potato badnavirus A	82.07
+MO-DS028	KF836892	badnavirus	Sweet potato badnavirus B	93.61
+MO-DS028	JQ902104	badnavirus	Sweet potato badnavirus C	90.41
+MO-DS028	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.02
+MO-DS028	AY523547	potyvirus	Sweet potato feathery mottle virus	98.51
+MO-DS028	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.09
+MO-DS028	JN657686	begomovirus	Sweet potato leaf curl virus	94.97
+MO-DS028	AJ459316	ipomovirus	Sweet potato mild mottle virus	92.83
+MO-DS028	FJ969831	begomovirus	Sweet potato mosaic virus	94
+MO-DS028	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-DS028	KF386015	potyvirus	Sweet potato virus C	93.88
+MO-DS028	JN613805	potyvirus	Sweet potato virus G	94.44
+MO-DS048	EU839578	begomovirus	Ipomoea yellow vein virus	91.7
+MO-DS048	DQ644561	begomovirus	Merremia leaf curl virus	91.91
+MO-DS048	FJ560943	badnavirus	Sweet potato badnavirus A	91.42
+MO-DS048	KF836892	badnavirus	Sweet potato badnavirus B	94.29
+MO-DS048	JQ902104	badnavirus	Sweet potato badnavirus C	91.97
+MO-DS048	EU375898	carlavirus	Sweet potato chlorotic fleck virus	96.67
+MO-DS048	AF016366	potyvirus	Sweet potato feathery mottle virus	98.82
+MO-DS048	FJ969830	begomovirus	Sweet potato golden vein associated virus	92.73
+MO-DS048	JN657686	begomovirus	Sweet potato leaf curl virus	93.9
+MO-DS048	Z73124	ipomovirus	Sweet potato mild mottle virus	96.02
+MO-DS048	FJ969831	begomovirus	Sweet potato mosaic virus	92.63
+MO-DS048	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-DS048	JX489166	potyvirus	Sweet potato virus C	96.61
+MO-DS048	JN613805	potyvirus	Sweet potato virus G	97.51
+MO-DS048	AB001296	begomovirus	Tobacco leaf curl virus	91.86
+MO-DS048	JX416184	begomovirus	Tomato leaf curl virus	89.12
+MO-DS051	FN675295	NA	Ageratum leaf curl alphasatellite	87.91
+MO-DS051	AM711115	begomovirus	Cotton leaf curl virus	82.54
+MO-DS051	EU839578	begomovirus	Ipomoea yellow vein virus	93.97
+MO-DS051	DQ644561	begomovirus	Merremia leaf curl virus	93.1
+MO-DS051	KF155418	potyvirus	Papaya ringspot virus	82.57
+MO-DS051	FJ560943	badnavirus	Sweet potato badnavirus A	95.38
+MO-DS051	FJ560944	badnavirus	Sweet potato badnavirus B	94.13
+MO-DS051	JQ902104	badnavirus	Sweet potato badnavirus C	95
+MO-DS051	AF016366	potyvirus	Sweet potato feathery mottle virus	97.7
+MO-DS051	HQ393444	begomovirus	Sweet potato golden vein associated virus	93.11
+MO-DS051	EF456743	begomovirus	Sweet potato leaf curl virus	94.85
+MO-DS051	Z73124	ipomovirus	Sweet potato mild mottle virus	87.92
+MO-DS051	FJ969831	begomovirus	Sweet potato mosaic virus	93.38
+MO-DS051	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-DS051	JN613807	potyvirus	Sweet potato virus 2	90.98
+MO-DS051	KF386015	potyvirus	Sweet potato virus C	95.07
+MO-DS051	JN613805	potyvirus	Sweet potato virus G	92.2
+MO-DS051	AY459607	potyvirus	Sweet potato virus Y	95.95
+MO-DS062	AJ132548	begomovirus	Ipomoea yellow vein virus	92.23
+MO-DS062	DQ644561	begomovirus	Merremia leaf curl virus	92.66
+MO-DS062	FJ560943	badnavirus	Sweet potato badnavirus A	88.33
+MO-DS062	FJ560944	badnavirus	Sweet potato badnavirus B	90.75
+MO-DS062	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.35
+MO-DS062	AY523547	potyvirus	Sweet potato feathery mottle virus	98.26
+MO-DS062	HQ393444	begomovirus	Sweet potato golden vein associated virus	94.25
+MO-DS062	KF836891	begomovirus	Sweet potato leaf curl virus	95.01
+MO-DS062	Z73124	ipomovirus	Sweet potato mild mottle virus	86.57
+MO-DS062	FJ969831	begomovirus	Sweet potato mosaic virus	95.07
+MO-DS070	FN675295	NA	Ageratum leaf curl alphasatellite	90
+MO-DS070	FN554582	NA	Cotton leaf curl alphasatellite	75.49
+MO-DS070	KM103524	NA	Croton yellow vein mosaic alphasatellite	77.36
+MO-DS070	FR772086	NA	"Hollyhock yellow vein virus associated symptomless alphasatellite,"	81.21
+MO-DS070	AJ132548	begomovirus	Ipomoea yellow vein virus	93.59
+MO-DS070	KC206075	NA	Lantana yellow vein alphasatellite	82.3
+MO-DS070	DQ644561	begomovirus	Merremia leaf curl virus	92.08
+MO-DS070	AJ512962	NA	Nanovirus	87.55
+MO-DS070	HE966420	NA	Okra leaf curl alphasatellite	84.93
+MO-DS070	FM164740	NA	Okra leaf curl disease associated DNA 1	85.64
+MO-DS070	JQ322970	NA	Papaya leaf curl alphasatellite	90.48
+MO-DS070	FJ560943	badnavirus	Sweet potato badnavirus A	97.97
+MO-DS070	FJ560944	badnavirus	Sweet potato badnavirus B	94.87
+MO-DS070	JQ902104	badnavirus	Sweet potato badnavirus C	95.59
+MO-DS070	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.05
+MO-DS070	AF016366	potyvirus	Sweet potato feathery mottle virus	97.87
+MO-DS070	KF803170	begomovirus	Sweet potato golden vein associated virus	93.45
+MO-DS070	JN657686	begomovirus	Sweet potato leaf curl virus	94.63
+MO-DS070	AJ783451	ipomovirus	Sweet potato mild mottle virus	89.81
+MO-DS070	FJ969831	begomovirus	Sweet potato mosaic virus	94.75
+MO-DS070	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-DS070	KF386015	potyvirus	Sweet potato virus C	96.13
+MO-DS070	JN613805	potyvirus	Sweet potato virus G	96.12
+MO-DS070	FN675300	NA	Tomato leaf curl alphasatellite	83.33
+MO-DS070	JX416184	begomovirus	Tomato leaf curl virus	87.5
+MO-DS070	AJ579358	NA	Tomato yellow leaf curl virus associated DNA 1	89.08
+MO-DS083	EU839576	begomovirus	Ipomoea yellow vein virus	93.96
+MO-DS083	DQ644561	begomovirus	Merremia leaf curl virus	92.23
+MO-DS083	FJ560943	badnavirus	Sweet potato badnavirus A	93.09
+MO-DS083	KF836892	badnavirus	Sweet potato badnavirus B	95.78
+MO-DS083	JQ902104	badnavirus	Sweet potato badnavirus C	95.6
+MO-DS083	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.99
+MO-DS083	FJ969829	begomovirus	Sweet potato golden vein associated virus	93.48
+MO-DS083	EU650183	begomovirus	Sweet potato leaf curl virus	93.84
+MO-DS083	Z73124	ipomovirus	Sweet potato mild mottle virus	87.91
+MO-DS083	FJ969831	begomovirus	Sweet potato mosaic virus	91.8
+MO-DS083	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MO-DS083	JN613805	potyvirus	Sweet potato virus G	98.07
+MW-S002	FJ560943	badnavirus	Sweet potato badnavirus A	77.26
+MW-S002	KF836892	badnavirus	Sweet potato badnavirus B	85.93
+MW-S002	JQ902104	badnavirus	Sweet potato badnavirus C	84.91
+MW-S002	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.04
+MW-S002	AY461421	carlavirus	Sweet potato chlorotic fleck virus	90.77
+MW-S002	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.44
+MW-S002	JX489166	potyvirus	Sweet potato virus C	93.04
+MW-S003	FJ560943	badnavirus	Sweet potato badnavirus A	79.03
+MW-S003	KF836892	badnavirus	Sweet potato badnavirus B	86.97
+MW-S003	JQ902104	badnavirus	Sweet potato badnavirus C	90.14
+MW-S003	EU375898	carlavirus	Sweet potato chlorotic fleck virus	94.36
+MW-S003	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.38
+MW-S003	AB439206	potyvirus	Sweet potato feathery mottle virus	94.58
+MW-S004	FJ560943	badnavirus	Sweet potato badnavirus A	86.01
+MW-S004	FJ560944	badnavirus	Sweet potato badnavirus B	92.61
+MW-S004	JQ902104	badnavirus	Sweet potato badnavirus C	86.46
+MW-S004	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.99
+MW-S004	AY461421	carlavirus	Sweet potato chlorotic fleck virus	95.63
+MW-S004	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.85
+MW-S004	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S004	HQ694979	solendovirus	Sweet potato vein clearing virus	90.65
+MW-S004	GU207957	potyvirus	Sweet potato virus C	93.1
+MW-S011	FJ560943	badnavirus	Sweet potato badnavirus A	77.19
+MW-S011	KF836892	badnavirus	Sweet potato badnavirus B	84.59
+MW-S011	JQ902104	badnavirus	Sweet potato badnavirus C	82.5
+MW-S011	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.97
+MW-S011	EU375898	carlavirus	Sweet potato chlorotic fleck virus	97.23
+MW-S011	EF155974	potyvirus	Sweet potato feathery mottle virus	96.5
+MW-S012	FJ560943	badnavirus	Sweet potato badnavirus A	78.11
+MW-S012	KF836892	badnavirus	Sweet potato badnavirus B	83.99
+MW-S012	JQ902104	badnavirus	Sweet potato badnavirus C	79.25
+MW-S012	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.2
+MW-S012	EU375898	carlavirus	Sweet potato chlorotic fleck virus	97.09
+MW-S012	EF155974	potyvirus	Sweet potato feathery mottle virus	96.22
+MW-S012	FJ969830	begomovirus	Sweet potato golden vein associated virus	92.15
+MW-S012	HQ333142	begomovirus	Sweet potato leaf curl virus	94.08
+MW-S028	JQ902103	badnavirus	Sweet potato badnavirus C	95
+MW-S028	EU375898	carlavirus	Sweet potato chlorotic fleck virus	96.83
+MW-S028	AB465608	potyvirus	Sweet potato feathery mottle virus	95.53
+MW-S029	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.74
+MW-S029	EU375898	carlavirus	Sweet potato chlorotic fleck virus	97.32
+MW-S029	AB465608	potyvirus	Sweet potato feathery mottle virus	96.95
+MW-S029	JN613805	potyvirus	Sweet potato virus G	98.27
+MW-S034	FJ560943	badnavirus	Sweet potato badnavirus A	83.47
+MW-S034	KF836892	badnavirus	Sweet potato badnavirus B	83.73
+MW-S034	JQ902104	badnavirus	Sweet potato badnavirus C	86.9
+MW-S034	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.2
+MW-S034	EF155987	potyvirus	Sweet potato feathery mottle virus	94.31
+MW-S034	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S037	FJ560943	badnavirus	Sweet potato badnavirus A	78.86
+MW-S037	FJ560944	badnavirus	Sweet potato badnavirus B	89.85
+MW-S037	JQ902104	badnavirus	Sweet potato badnavirus C	80.45
+MW-S037	EU375904	carlavirus	Sweet potato chlorotic fleck virus	90.79
+MW-S037	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.65
+MW-S037	AF016366	potyvirus	Sweet potato feathery mottle virus	97.44
+MW-S037	JN613807	potyvirus	Sweet potato virus 2	72.13
+MW-S037	GU207957	potyvirus	Sweet potato virus C	72.9
+MW-S037	KF790759	potyvirus	Sweet potato virus G	72.39
+MW-S042	FJ560943	badnavirus	Sweet potato badnavirus A	88.49
+MW-S042	KF836892	badnavirus	Sweet potato badnavirus B	89.85
+MW-S042	JQ902103	badnavirus	Sweet potato badnavirus C	93.41
+MW-S042	D86371	potyvirus	Sweet potato feathery mottle virus	98.01
+MW-S042	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S042	JN613805	potyvirus	Sweet potato virus G	97.86
+MW-S046	FJ560943	badnavirus	Sweet potato badnavirus A	87.37
+MW-S046	FJ560944	badnavirus	Sweet potato badnavirus B	89.01
+MW-S046	JQ902104	badnavirus	Sweet potato badnavirus C	85.59
+MW-S046	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.19
+MW-S046	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.28
+MW-S046	D86371	potyvirus	Sweet potato feathery mottle virus	95.65
+MW-S046	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S046	JN613805	potyvirus	Sweet potato virus G	97.9
+MW-S047	FJ560943	badnavirus	Sweet potato badnavirus A	85.09
+MW-S047	FJ560944	badnavirus	Sweet potato badnavirus B	86.68
+MW-S047	JQ902104	badnavirus	Sweet potato badnavirus C	85.69
+MW-S047	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.09
+MW-S047	EF155987	potyvirus	Sweet potato feathery mottle virus	93.94
+MW-S047	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S047	JN613805	potyvirus	Sweet potato virus G	97.62
+MW-S052	FJ560943	badnavirus	Sweet potato badnavirus A	86.7
+MW-S052	FJ560944	badnavirus	Sweet potato badnavirus B	89.02
+MW-S052	JQ902104	badnavirus	Sweet potato badnavirus C	86.05
+MW-S052	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.49
+MW-S052	AY523547	potyvirus	Sweet potato feathery mottle virus	97.68
+MW-S052	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S052	JN613805	potyvirus	Sweet potato virus G	97.56
+MW-S053	FJ560944	badnavirus	Sweet potato badnavirus B	95.04
+MW-S053	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S053	JN613805	potyvirus	Sweet potato virus G	98.1
+MW-S061	KF545103	badnavirus	Banana streak virus	75.1
+MW-S061	FJ560943	badnavirus	Sweet potato badnavirus A	85.95
+MW-S061	FJ560944	badnavirus	Sweet potato badnavirus B	87.16
+MW-S061	JQ902104	badnavirus	Sweet potato badnavirus C	87.78
+MW-S061	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.25
+MW-S061	EF155987	potyvirus	Sweet potato feathery mottle virus	94.64
+MW-S061	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S061	JN613805	potyvirus	Sweet potato virus G	97.54
+MW-S064	JQ902104	badnavirus	Sweet potato badnavirus C	96.05
+MW-S064	AY523547	potyvirus	Sweet potato feathery mottle virus	97.24
+MW-S064	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S066	JQ902104	badnavirus	Sweet potato badnavirus C	96
+MW-S066	AY523547	potyvirus	Sweet potato feathery mottle virus	98.36
+MW-S066	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S066	KF386015	potyvirus	Sweet potato virus C	97.85
+MW-S081	FJ560943	badnavirus	Sweet potato badnavirus A	79.08
+MW-S081	FJ560944	badnavirus	Sweet potato badnavirus B	79.39
+MW-S081	JQ902104	badnavirus	Sweet potato badnavirus C	83.53
+MW-S081	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.36
+MW-S081	EU375904	carlavirus	Sweet potato chlorotic fleck virus	91.53
+MW-S081	AB465608	potyvirus	Sweet potato feathery mottle virus	97.42
+MW-S082	EU375898	carlavirus	Sweet potato chlorotic fleck virus	97.17
+MW-S082	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.07
+MW-S082	AY523547	potyvirus	Sweet potato feathery mottle virus	98.01
+MW-S084	AJ968467	badnavirus	Banana streak virus	80.95
+MW-S084	FJ560943	badnavirus	Sweet potato badnavirus A	79.74
+MW-S084	KF836892	badnavirus	Sweet potato badnavirus B	82.26
+MW-S084	JQ902104	badnavirus	Sweet potato badnavirus C	82.09
+MW-S084	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.17
+MW-S084	EU375898	carlavirus	Sweet potato chlorotic fleck virus	97.84
+MW-S084	AY523547	potyvirus	Sweet potato feathery mottle virus	98.51
+MW-S085	JQ902104	badnavirus	Sweet potato badnavirus C	96.03
+MW-S085	FJ795750	potyvirus	Sweet potato feathery mottle virus	94.38
+MW-S085	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S085	JN613807	potyvirus	Sweet potato virus 2	97.59
+MW-S085	KF386015	potyvirus	Sweet potato virus C	97.97
+MW-S085	AY459612	potyvirus	Sweet potato virus Y	96.59
+MW-S086	FJ560943	badnavirus	Sweet potato badnavirus A	89.13
+MW-S086	FJ560944	badnavirus	Sweet potato badnavirus B	89.19
+MW-S086	JQ902104	badnavirus	Sweet potato badnavirus C	81.99
+MW-S086	AB465608	potyvirus	Sweet potato feathery mottle virus	98.29
+MW-S086	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S086	JN613807	potyvirus	Sweet potato virus 2	97.34
+MW-S086	AY459612	potyvirus	Sweet potato virus Y	97.18
+MW-S087	FJ560943	badnavirus	Sweet potato badnavirus A	90.45
+MW-S087	FJ560944	badnavirus	Sweet potato badnavirus B	90.58
+MW-S087	JQ902104	badnavirus	Sweet potato badnavirus C	80.85
+MW-S087	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.87
+MW-S087	AB465608	potyvirus	Sweet potato feathery mottle virus	98.13
+MW-S087	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S087	JN613807	potyvirus	Sweet potato virus 2	97.7
+MW-S087	AY459612	potyvirus	Sweet potato virus Y	97.76
+MW-S091	FJ560943	badnavirus	Sweet potato badnavirus A	79.45
+MW-S091	FJ560944	badnavirus	Sweet potato badnavirus B	80.83
+MW-S091	JQ902103	badnavirus	Sweet potato badnavirus C	97.56
+MW-S091	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	97.97
+MW-S091	AB465608	potyvirus	Sweet potato feathery mottle virus	96.73
+MW-S094	AM944576	badnavirus	Dioscorea bacilliform virus	79.13
+MW-S094	KF836892	badnavirus	Sweet potato badnavirus B	95.88
+MW-S094	JQ902104	badnavirus	Sweet potato badnavirus C	89.21
+MW-S094	EF155974	potyvirus	Sweet potato feathery mottle virus	96.53
+MW-S097	AJ968517	badnavirus	Banana streak virus	75.3
+MW-S097	EU130910	badnavirus	Citrus yellow mosaic virus	76.81
+MW-S097	U13988	soymovirus	Peanut chlorotic streak caulimovirus	68.37
+MW-S097	FJ560943	badnavirus	Sweet potato badnavirus A	83.83
+MW-S097	KF836892	badnavirus	Sweet potato badnavirus B	85.86
+MW-S097	JQ902104	badnavirus	Sweet potato badnavirus C	88.63
+MW-S097	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.12
+MW-S097	AB465608	potyvirus	Sweet potato feathery mottle virus	97.82
+MW-S104	FJ560943	badnavirus	Sweet potato badnavirus A	90.8
+MW-S104	FJ560944	badnavirus	Sweet potato badnavirus B	93.96
+MW-S104	AB465608	potyvirus	Sweet potato feathery mottle virus	97.55
+MW-S104	JN657687	begomovirus	Sweet potato leaf curl virus	98.04
+MW-S104	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+MW-S109	JQ902104	badnavirus	Sweet potato badnavirus C	95.08
+NI-S001	KF836892	badnavirus	Sweet potato badnavirus B	99.42
+NI-S001	JQ902104	badnavirus	Sweet potato badnavirus C	95.57
+NI-S001	EF155974	potyvirus	Sweet potato feathery mottle virus	94.2
+NI-S001	FJ969833	begomovirus	Sweet potato leaf curl virus	96.3
+NI-S001	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S002	JQ902104	badnavirus	Sweet potato badnavirus C	96.73
+NI-S002	EF155987	potyvirus	Sweet potato feathery mottle virus	96.88
+NI-S002	FJ969833	begomovirus	Sweet potato leaf curl virus	96.31
+NI-S002	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S003	FJ969833	begomovirus	Sweet potato leaf curl virus	96.68
+NI-S003	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S004	EF155993	potyvirus	Sweet potato feathery mottle virus	91.63
+NI-S004	HQ393457	begomovirus	Sweet potato golden vein associated virus	93.36
+NI-S004	FJ969833	begomovirus	Sweet potato leaf curl virus	96.76
+NI-S004	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S005	JQ902104	badnavirus	Sweet potato badnavirus C	94.87
+NI-S005	FJ969833	begomovirus	Sweet potato leaf curl virus	96.5
+NI-S005	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S006	JQ902104	badnavirus	Sweet potato badnavirus C	95.87
+NI-S006	FJ969833	begomovirus	Sweet potato leaf curl virus	95.62
+NI-S006	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S007	FJ560944	badnavirus	Sweet potato badnavirus B	96.37
+NI-S007	EU375897	carlavirus	Sweet potato chlorotic fleck virus	97.57
+NI-S007	EF155974	potyvirus	Sweet potato feathery mottle virus	93.79
+NI-S008	FJ155666	potyvirus	Sweet potato feathery mottle virus	96.49
+NI-S010	FJ560944	badnavirus	Sweet potato badnavirus B	97.31
+NI-S010	FJ155666	potyvirus	Sweet potato feathery mottle virus	94.85
+NI-S037	FJ795752	potyvirus	Sweet potato feathery mottle virus	77.96
+NI-S037	GU207957	potyvirus	Sweet potato virus C	77.81
+NI-S043	AY523547	potyvirus	Sweet potato feathery mottle virus	97.96
+NI-S044	EU375897	carlavirus	Sweet potato chlorotic fleck virus	99.21
+NI-S047	FJ560944	badnavirus	Sweet potato badnavirus B	97.15
+NI-S048	FJ560944	badnavirus	Sweet potato badnavirus B	96.64
+NI-S048	EU375897	carlavirus	Sweet potato chlorotic fleck virus	98.03
+NI-S048	AY523547	potyvirus	Sweet potato feathery mottle virus	95.83
+NI-S049	JQ902104	badnavirus	Sweet potato badnavirus C	95.54
+NI-S049	FJ155666	potyvirus	Sweet potato feathery mottle virus	77.01
+NI-S049	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S049	KF386015	potyvirus	Sweet potato virus C	75.77
+NI-S050	JQ902104	badnavirus	Sweet potato badnavirus C	95.3
+NI-S050	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S051	FJ969833	begomovirus	Sweet potato leaf curl virus	96.51
+NI-S051	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S052	JQ902104	badnavirus	Sweet potato badnavirus C	96.03
+NI-S052	D86371	potyvirus	Sweet potato feathery mottle virus	94.36
+NI-S052	FJ969833	begomovirus	Sweet potato leaf curl virus	96.34
+NI-S052	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S053	JQ902104	badnavirus	Sweet potato badnavirus C	94.87
+NI-S053	EF155993	potyvirus	Sweet potato feathery mottle virus	96.02
+NI-S053	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S054	JQ902104	badnavirus	Sweet potato badnavirus C	95.65
+NI-S054	EU809497	potyvirus	Sweet potato feathery mottle virus	87.36
+NI-S054	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S054	GU207957	potyvirus	Sweet potato virus C	80.19
+NI-S054	KF790759	potyvirus	Sweet potato virus G	77.58
+NI-S055	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S056	FJ560944	badnavirus	Sweet potato badnavirus B	99.17
+NI-S061	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.73
+NI-S067	JQ902104	badnavirus	Sweet potato badnavirus C	95.3
+NI-S067	EF155993	potyvirus	Sweet potato feathery mottle virus	92.53
+NI-S067	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S068	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S069	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S074	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+NI-S079	AB439206	potyvirus	Sweet potato feathery mottle virus	97.38
+NI-S081	FJ560944	badnavirus	Sweet potato badnavirus B	99.25
+NI-S081	JQ902104	badnavirus	Sweet potato badnavirus C	96.75
+NI-S081	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+Tanzania	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	96.8
+Tanzania	DQ644561	begomovirus	Merremia leaf curl virus	93.21
+Tanzania	GQ387059	begomovirus	Potato yellow mosaic Trinidad virus	90.78
+Tanzania	JQ902104	badnavirus	Sweet potato badnavirus C	96.15
+Tanzania	GQ268230	begomovirus	Sweet potato begomovirus	93.95
+Tanzania	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.32
+Tanzania	AY523547	potyvirus	Sweet potato feathery mottle virus	96.85
+Tanzania	KF803170	begomovirus	Sweet potato golden vein associated virus	94.07
+Tanzania	FR751068	begomovirus	Sweet potato leaf curl virus	95.88
+Tanzania	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+Tanzania	AB001294	begomovirus	Tobacco leaf curl virus	97.56
+TZ1	KF386729	badnavirus	Banana streak virus	76.16
+TZ1	FJ560943	badnavirus	Sweet potato badnavirus A	80.97
+TZ1	KF836892	badnavirus	Sweet potato badnavirus B	84.7
+TZ1	JQ902104	badnavirus	Sweet potato badnavirus C	76.87
+TZ1	AY523547	potyvirus	Sweet potato feathery mottle virus	95.93
+TZ10	FJ560943	badnavirus	Sweet potato badnavirus A	78.78
+TZ10	KF836892	badnavirus	Sweet potato badnavirus B	89.5
+TZ10	JQ902104	badnavirus	Sweet potato badnavirus C	86.06
+TZ10	AY523547	potyvirus	Sweet potato feathery mottle virus	97.16
+TZ107	JQ902103	badnavirus	Sweet potato badnavirus C	100
+TZ107	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.77
+TZ151	AB465608	potyvirus	Sweet potato feathery mottle virus	97.08
+TZ151	KF697069	begomovirus	Sweet potato leaf curl virus	95.8
+TZ151	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ151	KF386015	potyvirus	Sweet potato virus C	96.65
+TZ155	AY523547	potyvirus	Sweet potato feathery mottle virus	98
+TZ155	KF386015	potyvirus	Sweet potato virus C	96.08
+TZ156	KF836892	badnavirus	Sweet potato badnavirus B	97.66
+TZ156	JQ902103	badnavirus	Sweet potato badnavirus C	96.77
+TZ156	AY523547	potyvirus	Sweet potato feathery mottle virus	97.53
+TZ156	KM050768	begomovirus	Sweet potato leaf curl virus	93.52
+TZ164	JQ902104	badnavirus	Sweet potato badnavirus C	91.55
+TZ164	AY523547	potyvirus	Sweet potato feathery mottle virus	97.45
+TZ164	KF386015	potyvirus	Sweet potato virus C	96.18
+TZ170	AJ968472	badnavirus	Banana streak virus	75.68
+TZ170	FJ560943	badnavirus	Sweet potato badnavirus A	83.46
+TZ170	KF836892	badnavirus	Sweet potato badnavirus B	91.56
+TZ170	JQ902104	badnavirus	Sweet potato badnavirus C	87.96
+TZ170	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.38
+TZ170	FJ155666	potyvirus	Sweet potato feathery mottle virus	95.6
+TZ170	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ171	AB465608	potyvirus	Sweet potato feathery mottle virus	97.02
+TZ171	KF697069	begomovirus	Sweet potato leaf curl virus	95.07
+TZ181	JQ902104	badnavirus	Sweet potato badnavirus C	94.07
+TZ181	AB465608	potyvirus	Sweet potato feathery mottle virus	96.36
+TZ181	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ181	JX489166	potyvirus	Sweet potato virus C	93.26
+TZ188	JQ902104	badnavirus	Sweet potato badnavirus C	96.08
+TZ188	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ191	JQ902103	badnavirus	Sweet potato badnavirus C	92.23
+TZ191	HQ393444	begomovirus	Sweet potato golden vein associated virus	96.53
+TZ191	KP069465	begomovirus	Sweet potato leaf curl virus	96.43
+TZ196	FJ560943	badnavirus	Sweet potato badnavirus A	74.54
+TZ196	KF836892	badnavirus	Sweet potato badnavirus B	85.65
+TZ196	JQ902104	badnavirus	Sweet potato badnavirus C	79.89
+TZ196	AY523547	potyvirus	Sweet potato feathery mottle virus	98.05
+TZ198	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.86
+TZ198	AY523547	potyvirus	Sweet potato feathery mottle virus	98.2
+TZ198	HQ333136	begomovirus	Sweet potato leaf curl virus	94.13
+TZ2	FJ560943	badnavirus	Sweet potato badnavirus A	74.48
+TZ2	KF836892	badnavirus	Sweet potato badnavirus B	80.27
+TZ2	JQ902104	badnavirus	Sweet potato badnavirus C	79.75
+TZ2	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.15
+TZ2	FJ795779	potyvirus	Sweet potato feathery mottle virus	89.85
+TZ201	EU839578	begomovirus	Ipomoea yellow vein virus	93.15
+TZ201	DQ644561	begomovirus	Merremia leaf curl virus	93.29
+TZ201	FJ560943	badnavirus	Sweet potato badnavirus A	78.04
+TZ201	KF836892	badnavirus	Sweet potato badnavirus B	86.64
+TZ201	JQ902104	badnavirus	Sweet potato badnavirus C	82.27
+TZ201	EF155987	potyvirus	Sweet potato feathery mottle virus	96.86
+TZ201	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.38
+TZ201	KF836891	begomovirus	Sweet potato leaf curl virus	94.88
+TZ201	FJ969831	begomovirus	Sweet potato mosaic virus	91.95
+TZ208	JQ902103	badnavirus	Sweet potato badnavirus C	93.9
+TZ208	HQ333142	begomovirus	Sweet potato leaf curl virus	94.77
+TZ211	FJ560943	badnavirus	Sweet potato badnavirus A	79.7
+TZ211	KF836892	badnavirus	Sweet potato badnavirus B	83.88
+TZ211	JQ902104	badnavirus	Sweet potato badnavirus C	75.9
+TZ211	AB439206	potyvirus	Sweet potato feathery mottle virus	97.4
+TZ214	FJ560943	badnavirus	Sweet potato badnavirus A	79.61
+TZ214	KF836892	badnavirus	Sweet potato badnavirus B	85.41
+TZ214	JQ902104	badnavirus	Sweet potato badnavirus C	80.06
+TZ214	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.2
+TZ214	AB465608	potyvirus	Sweet potato feathery mottle virus	96.4
+TZ214	KF386015	potyvirus	Sweet potato virus C	94.65
+TZ216	FJ560943	badnavirus	Sweet potato badnavirus A	77.23
+TZ216	KF836892	badnavirus	Sweet potato badnavirus B	88.08
+TZ216	JQ902104	badnavirus	Sweet potato badnavirus C	82.24
+TZ216	AB465608	potyvirus	Sweet potato feathery mottle virus	97.06
+TZ217	FJ560943	badnavirus	Sweet potato badnavirus A	79.03
+TZ217	KF836892	badnavirus	Sweet potato badnavirus B	89
+TZ217	JQ902103	badnavirus	Sweet potato badnavirus C	86.44
+TZ217	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.19
+TZ217	AB439206	potyvirus	Sweet potato feathery mottle virus	97.09
+TZ222	FJ560943	badnavirus	Sweet potato badnavirus A	80.81
+TZ222	KF836892	badnavirus	Sweet potato badnavirus B	90.21
+TZ222	JQ902104	badnavirus	Sweet potato badnavirus C	84.12
+TZ227	FJ560943	badnavirus	Sweet potato badnavirus A	78.89
+TZ227	KF836892	badnavirus	Sweet potato badnavirus B	89.77
+TZ227	JQ902104	badnavirus	Sweet potato badnavirus C	82.47
+TZ227	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.18
+TZ228	AY523547	potyvirus	Sweet potato feathery mottle virus	98.07
+TZ231	FJ560943	badnavirus	Sweet potato badnavirus A	80.83
+TZ231	KF836892	badnavirus	Sweet potato badnavirus B	92.34
+TZ231	JQ902104	badnavirus	Sweet potato badnavirus C	85.78
+TZ231	AB465608	potyvirus	Sweet potato feathery mottle virus	97.46
+TZ232	FJ560943	badnavirus	Sweet potato badnavirus A	78.12
+TZ232	KF836892	badnavirus	Sweet potato badnavirus B	90.13
+TZ232	JQ902104	badnavirus	Sweet potato badnavirus C	78.57
+TZ241	JQ902104	badnavirus	Sweet potato badnavirus C	95.51
+TZ241	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.67
+TZ241	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ242	AB465608	potyvirus	Sweet potato feathery mottle virus	96.97
+TZ242	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+TZ253	FJ560943	badnavirus	Sweet potato badnavirus A	82.34
+TZ253	KF836892	badnavirus	Sweet potato badnavirus B	88.19
+TZ253	JQ902104	badnavirus	Sweet potato badnavirus C	80.83
+TZ253	KF386015	potyvirus	Sweet potato virus C	94.91
+TZ257	FJ560943	badnavirus	Sweet potato badnavirus A	78.15
+TZ257	KF836892	badnavirus	Sweet potato badnavirus B	87.33
+TZ257	JQ902104	badnavirus	Sweet potato badnavirus C	80.82
+TZ257	KF386015	potyvirus	Sweet potato virus C	96.86
+TZ261	AM072694	badnavirus	Dioscorea bacilliform virus 1	76.27
+TZ261	FJ560943	badnavirus	Sweet potato badnavirus A	79.02
+TZ261	KF836892	badnavirus	Sweet potato badnavirus B	87.82
+TZ261	JQ902104	badnavirus	Sweet potato badnavirus C	77.95
+TZ262	FJ560943	badnavirus	Sweet potato badnavirus A	79.75
+TZ262	KF836892	badnavirus	Sweet potato badnavirus B	90.88
+TZ262	JQ902104	badnavirus	Sweet potato badnavirus C	83.57
+TZ262	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.95
+TZ262	FJ155666	potyvirus	Sweet potato feathery mottle virus	95.44
+TZ268	FJ560943	badnavirus	Sweet potato badnavirus A	79.88
+TZ268	KF836892	badnavirus	Sweet potato badnavirus B	87.59
+TZ268	JQ902104	badnavirus	Sweet potato badnavirus C	82.59
+TZ268	AY523547	potyvirus	Sweet potato feathery mottle virus	98.68
+TZ268	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ27	FJ560943	badnavirus	Sweet potato badnavirus A	79.35
+TZ27	KF836892	badnavirus	Sweet potato badnavirus B	86.94
+TZ27	JQ902104	badnavirus	Sweet potato badnavirus C	81.1
+TZ27	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.02
+TZ27	AB465608	potyvirus	Sweet potato feathery mottle virus	97.31
+TZ27	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ3	FJ560943	badnavirus	Sweet potato badnavirus A	76.62
+TZ3	KF836892	badnavirus	Sweet potato badnavirus B	83.23
+TZ3	JQ902104	badnavirus	Sweet potato badnavirus C	77.16
+TZ36	FJ560943	badnavirus	Sweet potato badnavirus A	77.68
+TZ36	KF836892	badnavirus	Sweet potato badnavirus B	86.5
+TZ36	JQ902104	badnavirus	Sweet potato badnavirus C	82.01
+TZ36	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ46	FJ560943	badnavirus	Sweet potato badnavirus A	77.77
+TZ46	KF836892	badnavirus	Sweet potato badnavirus B	88.34
+TZ46	JQ902104	badnavirus	Sweet potato badnavirus C	82.04
+TZ46	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.5
+TZ46	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ6	FJ560943	badnavirus	Sweet potato badnavirus A	77.54
+TZ6	KF836892	badnavirus	Sweet potato badnavirus B	89.35
+TZ6	JQ902104	badnavirus	Sweet potato badnavirus C	88.79
+TZ6	AY523547	potyvirus	Sweet potato feathery mottle virus	97.64
+TZ6	KF386015	potyvirus	Sweet potato virus C	92.42
+TZ61	FJ560943	badnavirus	Sweet potato badnavirus A	79.86
+TZ61	KF836892	badnavirus	Sweet potato badnavirus B	88.3
+TZ61	JQ902104	badnavirus	Sweet potato badnavirus C	82.62
+TZ61	AB465608	potyvirus	Sweet potato feathery mottle virus	96.48
+TZ61	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ66	FJ560943	badnavirus	Sweet potato badnavirus A	77.52
+TZ66	KF836892	badnavirus	Sweet potato badnavirus B	87.96
+TZ66	JQ902103	badnavirus	Sweet potato badnavirus C	92.55
+TZ66	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.89
+TZ66	AY523547	potyvirus	Sweet potato feathery mottle virus	97.64
+TZ66	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+TZ9	FJ560943	badnavirus	Sweet potato badnavirus A	74.92
+TZ9	KF836892	badnavirus	Sweet potato badnavirus B	88.49
+TZ9	JQ902104	badnavirus	Sweet potato badnavirus C	83.84
+TZ9	AY523547	potyvirus	Sweet potato feathery mottle virus	96.9
+TZ9	KF386015	potyvirus	Sweet potato virus C	92.8
+TZ97	FJ560943	badnavirus	Sweet potato badnavirus A	78.75
+TZ97	KF836892	badnavirus	Sweet potato badnavirus B	89.23
+TZ97	JQ902103	badnavirus	Sweet potato badnavirus C	89.66
+TZ97	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.7
+UG103	JQ902104	badnavirus	Sweet potato badnavirus C	96.53
+UG103	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.35
+UG103	AY523547	potyvirus	Sweet potato feathery mottle virus	97.97
+UG103	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG104	FJ560943	badnavirus	Sweet potato badnavirus A	77.84
+UG104	KF836892	badnavirus	Sweet potato badnavirus B	92.4
+UG104	JQ902104	badnavirus	Sweet potato badnavirus C	82.29
+UG104	AY461421	carlavirus	Sweet potato chlorotic fleck virus	97.49
+UG104	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.5
+UG104	AY523547	potyvirus	Sweet potato feathery mottle virus	98.74
+UG104	KJ844870	begomovirus	Sweet potato leaf curl virus	95.97
+UG104	KF386015	potyvirus	Sweet potato virus C	93.89
+UG105	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.34
+UG105	FJ155666	potyvirus	Sweet potato feathery mottle virus	90.86
+UG105	KJ844870	begomovirus	Sweet potato leaf curl virus	100
+UG105	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG107	EU839578	begomovirus	Ipomoea yellow vein virus	94.77
+UG107	JQ902104	badnavirus	Sweet potato badnavirus C	77.04
+UG107	AY461421	carlavirus	Sweet potato chlorotic fleck virus	97.93
+UG107	KC288170	begomovirus	Sweet potato leaf curl virus	98.4
+UG110	FJ560943	badnavirus	Sweet potato badnavirus A	80.3
+UG110	KF836892	badnavirus	Sweet potato badnavirus B	87.9
+UG110	JQ902104	badnavirus	Sweet potato badnavirus C	77.97
+UG110	AY461421	carlavirus	Sweet potato chlorotic fleck virus	97.53
+UG110	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.31
+UG110	AY523547	potyvirus	Sweet potato feathery mottle virus	97.23
+UG110	KJ844870	begomovirus	Sweet potato leaf curl virus	98.88
+UG110	GU207957	potyvirus	Sweet potato virus C	92.29
+UG112	FJ560943	badnavirus	Sweet potato badnavirus A	75.79
+UG112	FJ560944	badnavirus	Sweet potato badnavirus B	93.11
+UG112	JQ902103	badnavirus	Sweet potato badnavirus C	93.53
+UG112	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.22
+UG112	EF155993	potyvirus	Sweet potato feathery mottle virus	96.09
+UG112	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.78
+UG114	FJ560943	badnavirus	Sweet potato badnavirus A	79.35
+UG114	FJ560944	badnavirus	Sweet potato badnavirus B	94.2
+UG114	JQ902104	badnavirus	Sweet potato badnavirus C	79.5
+UG114	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.24
+UG114	AB465608	potyvirus	Sweet potato feathery mottle virus	95.27
+UG114	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.77
+UG116	FJ560943	badnavirus	Sweet potato badnavirus A	82.92
+UG116	KF836892	badnavirus	Sweet potato badnavirus B	89.19
+UG116	JQ902103	badnavirus	Sweet potato badnavirus C	88.79
+UG116	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.34
+UG116	KC288170	begomovirus	Sweet potato leaf curl virus	98.67
+UG117	FJ560943	badnavirus	Sweet potato badnavirus A	81.28
+UG117	KF836892	badnavirus	Sweet potato badnavirus B	89.26
+UG117	JQ902104	badnavirus	Sweet potato badnavirus C	81.77
+UG117	AY461421	carlavirus	Sweet potato chlorotic fleck virus	96.95
+UG117	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.51
+UG117	AY523547	potyvirus	Sweet potato feathery mottle virus	98.28
+UG117	FJ969829	begomovirus	Sweet potato golden vein associated virus	89.08
+UG117	AB433786	begomovirus	Sweet potato leaf curl virus	90.73
+UG117	KF386015	potyvirus	Sweet potato virus C	94.03
+UG118	FJ560943	badnavirus	Sweet potato badnavirus A	79.62
+UG118	KF836892	badnavirus	Sweet potato badnavirus B	85.55
+UG118	JQ902103	badnavirus	Sweet potato badnavirus C	88.24
+UG118	AY523547	potyvirus	Sweet potato feathery mottle virus	98.12
+UG118	KC288170	begomovirus	Sweet potato leaf curl virus	98.68
+UG119	FJ560943	badnavirus	Sweet potato badnavirus A	80.31
+UG119	KF836892	badnavirus	Sweet potato badnavirus B	84.29
+UG119	JQ902104	badnavirus	Sweet potato badnavirus C	77.44
+UG119	AB465608	potyvirus	Sweet potato feathery mottle virus	96.47
+UG119	KC288170	begomovirus	Sweet potato leaf curl virus	98.93
+UG119	KF386015	potyvirus	Sweet potato virus C	95.18
+UG123	JQ902104	badnavirus	Sweet potato badnavirus C	95.3
+UG123	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.66
+UG123	AB465608	potyvirus	Sweet potato feathery mottle virus	95.27
+UG123	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG123	KF386015	potyvirus	Sweet potato virus C	95.08
+UG124	FJ560943	badnavirus	Sweet potato badnavirus A	81.08
+UG124	KF836892	badnavirus	Sweet potato badnavirus B	86.24
+UG124	JQ902104	badnavirus	Sweet potato badnavirus C	84.97
+UG124	KJ844870	begomovirus	Sweet potato leaf curl virus	97.81
+UG124	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG125	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.72
+UG125	AB465608	potyvirus	Sweet potato feathery mottle virus	95.16
+UG125	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG125	KF386015	potyvirus	Sweet potato virus C	95.02
+UG126	JQ902104	badnavirus	Sweet potato badnavirus C	94.47
+UG126	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.3
+UG126	AB465608	potyvirus	Sweet potato feathery mottle virus	95.44
+UG126	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG126	KF386015	potyvirus	Sweet potato virus C	94.88
+UG127	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.5
+UG127	AB465608	potyvirus	Sweet potato feathery mottle virus	95.59
+UG127	KJ844870	begomovirus	Sweet potato leaf curl virus	97.44
+UG127	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG128	JQ902104	badnavirus	Sweet potato badnavirus C	95.88
+UG128	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.42
+UG128	AB465608	potyvirus	Sweet potato feathery mottle virus	95.6
+UG128	KC288170	begomovirus	Sweet potato leaf curl virus	98.14
+UG128	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG129	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.53
+UG129	AB439206	potyvirus	Sweet potato feathery mottle virus	97.65
+UG129	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG13	FJ560943	badnavirus	Sweet potato badnavirus A	81.12
+UG13	KF836892	badnavirus	Sweet potato badnavirus B	81.92
+UG13	JQ902103	badnavirus	Sweet potato badnavirus C	92.41
+UG13	AM050892	potyvirus	Sweet potato feathery mottle virus	96.99
+UG13	KF386015	potyvirus	Sweet potato virus C	96.09
+UG134	JQ902104	badnavirus	Sweet potato badnavirus C	95.2
+UG134	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.48
+UG134	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG135	AY523547	potyvirus	Sweet potato feathery mottle virus	98.33
+UG135	KC288170	begomovirus	Sweet potato leaf curl virus	98.39
+UG135	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.75
+UG136	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.44
+UG136	AY523547	potyvirus	Sweet potato feathery mottle virus	96.96
+UG136	FJ969835	begomovirus	Sweet potato leaf curl virus	94.21
+UG136	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG136	KF386015	potyvirus	Sweet potato virus C	94.79
+UG137	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.5
+UG137	AB465608	potyvirus	Sweet potato feathery mottle virus	95.05
+UG137	KF803170	begomovirus	Sweet potato golden vein associated virus	91.42
+UG137	KJ844870	begomovirus	Sweet potato leaf curl virus	95.44
+UG137	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG137	KF386015	potyvirus	Sweet potato virus C	95.21
+UG139	JQ902104	badnavirus	Sweet potato badnavirus C	95.65
+UG139	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.4
+UG139	AB465608	potyvirus	Sweet potato feathery mottle virus	95.34
+UG139	KC288170	begomovirus	Sweet potato leaf curl virus	98.15
+UG139	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG140	JQ902104	badnavirus	Sweet potato badnavirus C	96.45
+UG140	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.48
+UG140	AB465608	potyvirus	Sweet potato feathery mottle virus	95.55
+UG140	KC288170	begomovirus	Sweet potato leaf curl virus	98.47
+UG140	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG141	AJ132548	begomovirus	Ipomoea yellow vein virus	95.29
+UG141	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.31
+UG141	AY523547	potyvirus	Sweet potato feathery mottle virus	99.08
+UG141	KC288170	begomovirus	Sweet potato leaf curl virus	98.05
+UG141	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG141	KF386015	potyvirus	Sweet potato virus C	92.17
+UG143	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	97.56
+UG143	JQ902104	badnavirus	Sweet potato badnavirus C	95.45
+UG143	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.5
+UG143	AB465608	potyvirus	Sweet potato feathery mottle virus	95.82
+UG143	KC288170	begomovirus	Sweet potato leaf curl virus	98.7
+UG143	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG143	KF386015	potyvirus	Sweet potato virus C	93.47
+UG144	JQ902104	badnavirus	Sweet potato badnavirus C	95.95
+UG144	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.38
+UG144	AY523547	potyvirus	Sweet potato feathery mottle virus	98.46
+UG144	KC288170	begomovirus	Sweet potato leaf curl virus	98.36
+UG144	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG144	GU207957	potyvirus	Sweet potato virus C	91.06
+UG145	FJ560943	badnavirus	Sweet potato badnavirus A	78.79
+UG145	KF836892	badnavirus	Sweet potato badnavirus B	91.06
+UG145	JQ902104	badnavirus	Sweet potato badnavirus C	86.75
+UG145	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.66
+UG145	KC288170	begomovirus	Sweet potato leaf curl virus	98.47
+UG145	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG146	JQ902104	badnavirus	Sweet potato badnavirus C	95.77
+UG146	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.47
+UG146	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG147	JQ902104	badnavirus	Sweet potato badnavirus C	96.4
+UG147	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.32
+UG147	AY523547	potyvirus	Sweet potato feathery mottle virus	99.25
+UG147	KF803170	begomovirus	Sweet potato golden vein associated virus	93.32
+UG147	KC288170	begomovirus	Sweet potato leaf curl virus	98.65
+UG147	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG147	JX489166	potyvirus	Sweet potato virus C	94.82
+UG148	FJ560943	badnavirus	Sweet potato badnavirus A	77.85
+UG148	KF836892	badnavirus	Sweet potato badnavirus B	84.85
+UG148	JQ902104	badnavirus	Sweet potato badnavirus C	86.46
+UG148	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.19
+UG148	AY523547	potyvirus	Sweet potato feathery mottle virus	96.19
+UG148	FR751068	begomovirus	Sweet potato leaf curl virus	96.96
+UG148	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG149	KF386729	badnavirus	Banana streak virus	80.56
+UG149	AJ132548	begomovirus	Ipomoea yellow vein virus	93.06
+UG149	DQ644561	begomovirus	Merremia leaf curl virus	92.22
+UG149	FJ560943	badnavirus	Sweet potato badnavirus A	80.29
+UG149	FJ560944	badnavirus	Sweet potato badnavirus B	92.38
+UG149	JQ902104	badnavirus	Sweet potato badnavirus C	81.64
+UG149	GQ268231	begomovirus	Sweet potato begomovirus	92.22
+UG149	AY461421	carlavirus	Sweet potato chlorotic fleck virus	98.24
+UG149	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.53
+UG149	AY523547	potyvirus	Sweet potato feathery mottle virus	98.45
+UG149	HQ333143	begomovirus	Sweet potato golden vein associated virus	93.02
+UG149	KC288170	begomovirus	Sweet potato leaf curl virus	96.84
+UG149	FJ969831	begomovirus	Sweet potato mosaic virus	91.65
+UG149	KF386015	potyvirus	Sweet potato virus C	94.84
+UG15	EU839578	begomovirus	Ipomoea yellow vein virus	94.99
+UG15	FJ560943	badnavirus	Sweet potato badnavirus A	77.93
+UG15	KF836892	badnavirus	Sweet potato badnavirus B	84.16
+UG15	JQ902104	badnavirus	Sweet potato badnavirus C	79.21
+UG15	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.31
+UG15	AY523547	potyvirus	Sweet potato feathery mottle virus	98.51
+UG15	FJ969830	begomovirus	Sweet potato golden vein associated virus	94.34
+UG15	KM043892	begomovirus	Sweet potato leaf curl virus	98.19
+UG15	JX489166	potyvirus	Sweet potato virus C	94.3
+UG150	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.3
+UG150	AY523547	potyvirus	Sweet potato feathery mottle virus	97.94
+UG150	JX489166	potyvirus	Sweet potato virus C	95.13
+UG155	JQ902104	badnavirus	Sweet potato badnavirus C	96.22
+UG155	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.26
+UG155	AY523547	potyvirus	Sweet potato feathery mottle virus	97.88
+UG155	FJ969830	begomovirus	Sweet potato golden vein associated virus	87.86
+UG155	JN657686	begomovirus	Sweet potato leaf curl virus	93.36
+UG155	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG158	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.44
+UG158	FJ155666	potyvirus	Sweet potato feathery mottle virus	95.16
+UG161	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	98.24
+UG161	DQ644561	begomovirus	Merremia leaf curl virus	93.35
+UG161	JQ902103	badnavirus	Sweet potato badnavirus C	97.56
+UG161	GQ268231	begomovirus	Sweet potato begomovirus	92.86
+UG161	AY461421	carlavirus	Sweet potato chlorotic fleck virus	97.09
+UG161	AB439206	potyvirus	Sweet potato feathery mottle virus	97.28
+UG161	FJ969829	begomovirus	Sweet potato golden vein associated virus	94.11
+UG161	KJ844870	begomovirus	Sweet potato leaf curl virus	98
+UG161	KF386015	potyvirus	Sweet potato virus C	95.65
+UG164	FJ560943	badnavirus	Sweet potato badnavirus A	81.59
+UG164	KF836892	badnavirus	Sweet potato badnavirus B	85.69
+UG164	JQ902103	badnavirus	Sweet potato badnavirus C	98.73
+UG165	FJ560943	badnavirus	Sweet potato badnavirus A	77.42
+UG165	KF836892	badnavirus	Sweet potato badnavirus B	85.57
+UG165	JQ902104	badnavirus	Sweet potato badnavirus C	75.93
+UG165	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.11
+UG165	AB465608	potyvirus	Sweet potato feathery mottle virus	97.17
+UG165	KF386015	potyvirus	Sweet potato virus C	96.45
+UG166	DQ644561	begomovirus	Merremia leaf curl virus	94.45
+UG166	JQ902104	badnavirus	Sweet potato badnavirus C	96.19
+UG166	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.28
+UG166	KC288170	begomovirus	Sweet potato leaf curl virus	97.77
+UG166	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG168	FJ560944	badnavirus	Sweet potato badnavirus B	99.67
+UG168	JQ902104	badnavirus	Sweet potato badnavirus C	96.74
+UG168	KC288170	begomovirus	Sweet potato leaf curl virus	99.19
+UG168	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG171	FJ560943	badnavirus	Sweet potato badnavirus A	77.99
+UG171	KF836892	badnavirus	Sweet potato badnavirus B	93.16
+UG171	JQ902103	badnavirus	Sweet potato badnavirus C	97.67
+UG171	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.33
+UG171	KJ844870	begomovirus	Sweet potato leaf curl virus	94.77
+UG171	JX489166	potyvirus	Sweet potato virus C	92.73
+UG172	FJ560943	badnavirus	Sweet potato badnavirus A	80.07
+UG172	KF836892	badnavirus	Sweet potato badnavirus B	94.05
+UG172	JQ902104	badnavirus	Sweet potato badnavirus C	94
+UG172	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.33
+UG172	KF803170	begomovirus	Sweet potato golden vein associated virus	91.23
+UG172	KF040464	begomovirus	Sweet potato leaf curl virus	92.8
+UG172	JX489166	potyvirus	Sweet potato virus C	92.69
+UG173	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.34
+UG173	EF155993	potyvirus	Sweet potato feathery mottle virus	92.83
+UG173	KC288170	begomovirus	Sweet potato leaf curl virus	98.37
+UG173	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG175	KF836892	badnavirus	Sweet potato badnavirus B	98.23
+UG175	JQ902104	badnavirus	Sweet potato badnavirus C	94.23
+UG175	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.15
+UG175	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.38
+UG175	EF155993	potyvirus	Sweet potato feathery mottle virus	96.15
+UG175	KF803170	begomovirus	Sweet potato golden vein associated virus	92.34
+UG175	KJ013557	begomovirus	Sweet potato leaf curl virus	93.4
+UG175	JX489166	potyvirus	Sweet potato virus C	92.76
+UG176	EU839578	begomovirus	Ipomoea yellow vein virus	94.62
+UG176	FJ560943	badnavirus	Sweet potato badnavirus A	80.36
+UG176	KF836892	badnavirus	Sweet potato badnavirus B	85.37
+UG176	AY461421	carlavirus	Sweet potato chlorotic fleck virus	97.9
+UG176	EF155987	potyvirus	Sweet potato feathery mottle virus	98.62
+UG176	KJ844870	begomovirus	Sweet potato leaf curl virus	97.28
+UG177	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.26
+UG177	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.38
+UG177	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.85
+UG179	FJ560943	badnavirus	Sweet potato badnavirus A	79.64
+UG179	FJ560944	badnavirus	Sweet potato badnavirus B	79.9
+UG179	JQ902104	badnavirus	Sweet potato badnavirus C	93.54
+UG179	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.37
+UG179	FJ155666	potyvirus	Sweet potato feathery mottle virus	95.06
+UG179	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.89
+UG180	FJ560943	badnavirus	Sweet potato badnavirus A	75.84
+UG180	KF836892	badnavirus	Sweet potato badnavirus B	87.25
+UG180	JQ902104	badnavirus	Sweet potato badnavirus C	79.77
+UG180	AY461421	carlavirus	Sweet potato chlorotic fleck virus	97.02
+UG180	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.38
+UG180	FJ155666	potyvirus	Sweet potato feathery mottle virus	94.48
+UG180	KJ844870	begomovirus	Sweet potato leaf curl virus	96.96
+UG181	FJ560943	badnavirus	Sweet potato badnavirus A	79.09
+UG181	KF836892	badnavirus	Sweet potato badnavirus B	86.14
+UG181	JQ902104	badnavirus	Sweet potato badnavirus C	89.4
+UG181	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG182	KF836892	badnavirus	Sweet potato badnavirus B	96.73
+UG182	HQ694978	cavemovirus	Sweet potato caulimo-like virus	96.93
+UG183	FJ560943	badnavirus	Sweet potato badnavirus A	79.22
+UG183	KF836892	badnavirus	Sweet potato badnavirus B	92.87
+UG183	JQ902104	badnavirus	Sweet potato badnavirus C	95.13
+UG183	AB465608	potyvirus	Sweet potato feathery mottle virus	96.7
+UG183	KJ844870	begomovirus	Sweet potato leaf curl virus	97.51
+UG183	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG184	FJ560943	badnavirus	Sweet potato badnavirus A	79.78
+UG184	KF836892	badnavirus	Sweet potato badnavirus B	88.75
+UG184	JQ902104	badnavirus	Sweet potato badnavirus C	81.61
+UG184	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.21
+UG184	FJ795752	potyvirus	Sweet potato feathery mottle virus	96.04
+UG184	JX489166	potyvirus	Sweet potato virus C	93.8
+UG185	FJ560943	badnavirus	Sweet potato badnavirus A	79.24
+UG185	KF836892	badnavirus	Sweet potato badnavirus B	90
+UG185	JQ902104	badnavirus	Sweet potato badnavirus C	77.9
+UG185	AY461421	carlavirus	Sweet potato chlorotic fleck virus	97.65
+UG185	AB465608	potyvirus	Sweet potato feathery mottle virus	97.25
+UG185	KC288170	begomovirus	Sweet potato leaf curl virus	98.55
+UG186	FJ560943	badnavirus	Sweet potato badnavirus A	77.08
+UG186	FJ560944	badnavirus	Sweet potato badnavirus B	94.2
+UG186	JQ902104	badnavirus	Sweet potato badnavirus C	80.26
+UG186	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.69
+UG187	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	98.2
+UG187	FJ560943	badnavirus	Sweet potato badnavirus A	78.61
+UG187	KF836892	badnavirus	Sweet potato badnavirus B	92.95
+UG187	JQ902104	badnavirus	Sweet potato badnavirus C	86.56
+UG187	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.31
+UG187	FJ155666	potyvirus	Sweet potato feathery mottle virus	96.16
+UG187	KF386015	potyvirus	Sweet potato virus C	93.63
+UG188	FJ560943	badnavirus	Sweet potato badnavirus A	78.78
+UG188	KF836892	badnavirus	Sweet potato badnavirus B	87.68
+UG188	JQ902104	badnavirus	Sweet potato badnavirus C	82.11
+UG189	FJ560943	badnavirus	Sweet potato badnavirus A	80.86
+UG189	KF836892	badnavirus	Sweet potato badnavirus B	83.96
+UG189	JQ902104	badnavirus	Sweet potato badnavirus C	81.86
+UG189	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.43
+UG189	AY523547	potyvirus	Sweet potato feathery mottle virus	97.66
+UG189	KF386015	potyvirus	Sweet potato virus C	93.68
+UG190	FJ560943	badnavirus	Sweet potato badnavirus A	79.93
+UG190	KF836892	badnavirus	Sweet potato badnavirus B	93.31
+UG190	JQ902104	badnavirus	Sweet potato badnavirus C	81.65
+UG190	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.02
+UG190	KC288170	begomovirus	Sweet potato leaf curl virus	98.91
+UG190	KF386015	potyvirus	Sweet potato virus C	95.63
+UG191	KF836892	badnavirus	Sweet potato badnavirus B	85.88
+UG191	JQ902103	badnavirus	Sweet potato badnavirus C	92.9
+UG191	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.29
+UG191	KF386015	potyvirus	Sweet potato virus C	94.59
+UG192	KF836892	badnavirus	Sweet potato badnavirus B	84.5
+UG192	JQ902104	badnavirus	Sweet potato badnavirus C	77.16
+UG192	HQ694978	cavemovirus	Sweet potato caulimo-like virus	96.96
+UG192	AY523547	potyvirus	Sweet potato feathery mottle virus	98.08
+UG192	JX489166	potyvirus	Sweet potato virus C	93.23
+UG193	KF803547	mitovirus	Fusarium circinatum mitovirus 2-1	96.76
+UG193	FJ560943	badnavirus	Sweet potato badnavirus A	78.59
+UG193	KF836892	badnavirus	Sweet potato badnavirus B	84.89
+UG193	JQ902103	badnavirus	Sweet potato badnavirus C	87.1
+UG193	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.65
+UG193	AY523547	potyvirus	Sweet potato feathery mottle virus	98.52
+UG193	KF386015	potyvirus	Sweet potato virus C	94.93
+UG194	AM072682	badnavirus	Dioscorea bacilliform virus 1	77.69
+UG194	FJ560943	badnavirus	Sweet potato badnavirus A	78.62
+UG194	KF836892	badnavirus	Sweet potato badnavirus B	83.85
+UG194	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.82
+UG194	AY523547	potyvirus	Sweet potato feathery mottle virus	98.61
+UG194	KF386015	potyvirus	Sweet potato virus C	94.78
+UG195	FJ560943	badnavirus	Sweet potato badnavirus A	79.96
+UG195	KF836892	badnavirus	Sweet potato badnavirus B	86.14
+UG195	JQ902104	badnavirus	Sweet potato badnavirus C	75.76
+UG195	AY523547	potyvirus	Sweet potato feathery mottle virus	97.94
+UG195	KF386015	potyvirus	Sweet potato virus C	95.36
+UG196	EU130910	badnavirus	Citrus yellow mosaic virus	74.23
+UG196	FJ560943	badnavirus	Sweet potato badnavirus A	81.05
+UG196	KF836892	badnavirus	Sweet potato badnavirus B	86.55
+UG196	JQ902104	badnavirus	Sweet potato badnavirus C	83.28
+UG196	HQ694978	cavemovirus	Sweet potato caulimo-like virus	98.04
+UG197	KF545103	badnavirus	Banana streak virus	75.4
+UG197	FJ560943	badnavirus	Sweet potato badnavirus A	80
+UG197	KF836892	badnavirus	Sweet potato badnavirus B	86.09
+UG197	JQ902103	badnavirus	Sweet potato badnavirus C	91.67
+UG197	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	98.97
+UG197	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.66
+UG198	FJ560943	badnavirus	Sweet potato badnavirus A	80.85
+UG198	KF836892	badnavirus	Sweet potato badnavirus B	81.89
+UG198	JQ902104	badnavirus	Sweet potato badnavirus C	79.69
+UG198	AB465608	potyvirus	Sweet potato feathery mottle virus	97.21
+UG198	KC288170	begomovirus	Sweet potato leaf curl virus	98.8
+UG198	KF386015	potyvirus	Sweet potato virus C	95.77
+UG199	FJ560943	badnavirus	Sweet potato badnavirus A	80.15
+UG199	KF836892	badnavirus	Sweet potato badnavirus B	88.98
+UG199	JQ902104	badnavirus	Sweet potato badnavirus C	83.27
+UG20	KF545103	badnavirus	Banana streak virus	79.19
+UG20	FJ560943	badnavirus	Sweet potato badnavirus A	80.54
+UG20	KF836892	badnavirus	Sweet potato badnavirus B	84.02
+UG20	JQ902104	badnavirus	Sweet potato badnavirus C	81.01
+UG20	KF803170	begomovirus	Sweet potato golden vein associated virus	91.57
+UG20	JN657686	begomovirus	Sweet potato leaf curl virus	93.27
+UG22	DQ644561	begomovirus	Merremia leaf curl virus	92.72
+UG22	FJ560943	badnavirus	Sweet potato badnavirus A	78.05
+UG22	KF836892	badnavirus	Sweet potato badnavirus B	88.22
+UG22	JQ902104	badnavirus	Sweet potato badnavirus C	80.65
+UG22	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.35
+UG22	AY523547	potyvirus	Sweet potato feathery mottle virus	98.63
+UG22	KM043892	begomovirus	Sweet potato leaf curl virus	98.15
+UG22	KF386015	potyvirus	Sweet potato virus C	94.19
+UG25	EF211959	potyvirus	Watermelon mosaic virus	97.57
+UG30	FJ560943	badnavirus	Sweet potato badnavirus A	79.95
+UG30	KF836892	badnavirus	Sweet potato badnavirus B	84.42
+UG30	JQ902104	badnavirus	Sweet potato badnavirus C	84.14
+UG30	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.67
+UG30	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG31	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.69
+UG31	GU207957	potyvirus	Sweet potato virus C	92.41
+UG34	KF836892	badnavirus	Sweet potato badnavirus B	98
+UG34	KC288170	begomovirus	Sweet potato leaf curl virus	97.95
+UG36	KF545103	badnavirus	Banana streak virus	78.57
+UG36	FJ560943	badnavirus	Sweet potato badnavirus A	81.31
+UG36	FJ560944	badnavirus	Sweet potato badnavirus B	95.67
+UG36	JQ902104	badnavirus	Sweet potato badnavirus C	79.74
+UG36	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	99.51
+UG36	HQ393444	begomovirus	Sweet potato golden vein associated virus	93.81
+UG36	AF326775	begomovirus	Sweet potato leaf curl virus	93.44
+UG40	JQ902104	badnavirus	Sweet potato badnavirus C	95.71
+UG40	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.49
+UG40	AY523547	potyvirus	Sweet potato feathery mottle virus	98.4
+UG40	KJ844870	begomovirus	Sweet potato leaf curl virus	97.08
+UG40	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG40	KF386015	potyvirus	Sweet potato virus C	94.04
+UG42	JQ902104	badnavirus	Sweet potato badnavirus C	95.45
+UG42	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.58
+UG42	AY523547	potyvirus	Sweet potato feathery mottle virus	98.4
+UG42	KJ844870	begomovirus	Sweet potato leaf curl virus	96.97
+UG42	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG42	KF386015	potyvirus	Sweet potato virus C	94.47
+UG45	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG45	JX489166	potyvirus	Sweet potato virus C	94.6
+UG49	FJ439789	badnavirus	Sugarcane bacilliform virus	76.97
+UG49	FJ560943	badnavirus	Sweet potato badnavirus A	81.04
+UG49	FJ560944	badnavirus	Sweet potato badnavirus B	94.55
+UG49	JQ902103	badnavirus	Sweet potato badnavirus C	88.39
+UG49	EF155993	potyvirus	Sweet potato feathery mottle virus	96.83
+UG5	FJ560943	badnavirus	Sweet potato badnavirus A	82.06
+UG5	KF836892	badnavirus	Sweet potato badnavirus B	83.92
+UG5	JQ902104	badnavirus	Sweet potato badnavirus C	85.71
+UG5	EF155987	potyvirus	Sweet potato feathery mottle virus	97.81
+UG5	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG50	FJ560943	badnavirus	Sweet potato badnavirus A	80.74
+UG50	KF836892	badnavirus	Sweet potato badnavirus B	83.26
+UG50	JQ902103	badnavirus	Sweet potato badnavirus C	92.31
+UG50	FJ155666	potyvirus	Sweet potato feathery mottle virus	96.16
+UG55	FJ560943	badnavirus	Sweet potato badnavirus A	78.38
+UG55	FJ560944	badnavirus	Sweet potato badnavirus B	91.29
+UG55	JQ902104	badnavirus	Sweet potato badnavirus C	81.67
+UG55	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.3
+UG55	FJ155666	potyvirus	Sweet potato feathery mottle virus	91.33
+UG55	KC253249	begomovirus	Sweet potato leaf curl virus	92.78
+UG55	KF386015	potyvirus	Sweet potato virus C	89.89
+UG59	GU112078	begomovirus	Bhendi yellow vein mosaic virus	72.2
+UG59	HQ588148	carlavirus	Caper latent virus	68.03
+UG59	AJ002459	begomovirus	Cotton leaf curl virus	71.33
+UG59	EF507476	carlavirus	Phlox Virus M	68
+UG59	EF155993	potyvirus	Sweet potato feathery mottle virus	97.61
+UG59	JX489166	potyvirus	Sweet potato virus C	96.09
+UG59	AB100304	begomovirus	Tomato leaf curl virus	74.66
+UG59	FJ538207	begomovirus	Tomato yellow spot virus	76.65
+UG59	JX131284	begomovirus	Watermelon chlorotic stunt virus	64.71
+UG65	X95426	badnavirus	Dioscorea alata bacilliform virus	74.59
+UG65	FJ560943	badnavirus	Sweet potato badnavirus A	79.07
+UG65	KF836892	badnavirus	Sweet potato badnavirus B	91.16
+UG65	JQ902103	badnavirus	Sweet potato badnavirus C	86.15
+UG65	AB465608	potyvirus	Sweet potato feathery mottle virus	97.78
+UG65	KF803170	begomovirus	Sweet potato golden vein associated virus	95.72
+UG65	KC288170	begomovirus	Sweet potato leaf curl virus	97.9
+UG65	EU334784	potyvirus	Tobacco etch virus	75.76
+UG68	JQ902104	badnavirus	Sweet potato badnavirus C	73.98
+UG68	AB465608	potyvirus	Sweet potato feathery mottle virus	97.07
+UG73	FJ560943	badnavirus	Sweet potato badnavirus A	80.96
+UG73	KF836892	badnavirus	Sweet potato badnavirus B	85.18
+UG73	JQ902104	badnavirus	Sweet potato badnavirus C	81.38
+UG73	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG77	EU839576	begomovirus	Ipomoea yellow vein virus	93.15
+UG77	DQ644561	begomovirus	Merremia leaf curl virus	94.45
+UG77	FJ560944	badnavirus	Sweet potato badnavirus B	99.58
+UG77	JQ902104	badnavirus	Sweet potato badnavirus C	95.43
+UG77	GQ268231	begomovirus	Sweet potato begomovirus	92.29
+UG77	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.63
+UG77	AY523547	potyvirus	Sweet potato feathery mottle virus	99.16
+UG77	KF803170	begomovirus	Sweet potato golden vein associated virus	93.55
+UG77	KJ844870	begomovirus	Sweet potato leaf curl virus	97.25
+UG77	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG77	KF386015	potyvirus	Sweet potato virus C	93.66
+UG81	FJ560943	badnavirus	Sweet potato badnavirus A	81.26
+UG81	FJ560944	badnavirus	Sweet potato badnavirus B	95.66
+UG81	JQ902104	badnavirus	Sweet potato badnavirus C	81.53
+UG81	AY523547	potyvirus	Sweet potato feathery mottle virus	98.29
+UG81	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG81	JX489166	potyvirus	Sweet potato virus C	96.77
+UG84	KC288170	begomovirus	Sweet potato leaf curl virus	99.05
+UG89	JQ902104	badnavirus	Sweet potato badnavirus C	95.45
+UG89	HQ694978	cavemovirus	Sweet potato caulimo-like virus	97.84
+UG89	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.31
+UG89	AY523547	potyvirus	Sweet potato feathery mottle virus	99.08
+UG89	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG89	JX489166	potyvirus	Sweet potato virus C	94.12
+UG9	AM691547	begomovirus	Pepper yellow vein virus	78.01
+UG92	JQ902104	badnavirus	Sweet potato badnavirus C	94.51
+UG92	EF155974	potyvirus	Sweet potato feathery mottle virus	98.26
+UG92	KF803170	begomovirus	Sweet potato golden vein associated virus	94.52
+UG92	KC288170	begomovirus	Sweet potato leaf curl virus	98.55
+UG92	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG92	KF386015	potyvirus	Sweet potato virus C	96.36
+UG94	FJ560943	badnavirus	Sweet potato badnavirus A	80.5
+UG94	KF836892	badnavirus	Sweet potato badnavirus B	88.1
+UG94	JQ902104	badnavirus	Sweet potato badnavirus C	82.3
+UG94	AB465608	potyvirus	Sweet potato feathery mottle virus	97.01
+UG94	KJ844870	begomovirus	Sweet potato leaf curl virus	96.53
+UG97	FJ560943	badnavirus	Sweet potato badnavirus A	79.53
+UG97	FJ560944	badnavirus	Sweet potato badnavirus B	95.09
+UG97	JQ902103	badnavirus	Sweet potato badnavirus C	89.33
+UG97	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	99.42
+UG97	AY523547	potyvirus	Sweet potato feathery mottle virus	97.32
+UG97	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+UG99	FJ560943	badnavirus	Sweet potato badnavirus A	79.85
+UG99	KF836892	badnavirus	Sweet potato badnavirus B	82.79
+UG99	JQ902104	badnavirus	Sweet potato badnavirus C	86.39
+UG99	KJ013556	begomovirus	Sweet potato leaf curl virus	94.9
+UG99	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S001	KF836892	badnavirus	Sweet potato badnavirus B	99.56
+ZW-S001	AY523547	potyvirus	Sweet potato feathery mottle virus	98.43
+ZW-S001	KF386015	potyvirus	Sweet potato virus C	95.74
+ZW-S001	KF790759	potyvirus	Sweet potato virus G	85.06
+ZW-S006	AY523547	potyvirus	Sweet potato feathery mottle virus	98.36
+ZW-S006	KF386015	potyvirus	Sweet potato virus C	94.97
+ZW-S006	JN613805	potyvirus	Sweet potato virus G	82.81
+ZW-S007	KF836892	badnavirus	Sweet potato badnavirus B	99.61
+ZW-S007	FJ795750	potyvirus	Sweet potato feathery mottle virus	94.37
+ZW-S007	JX489166	potyvirus	Sweet potato virus C	94.52
+ZW-S008	KF836892	badnavirus	Sweet potato badnavirus B	99.52
+ZW-S008	JQ902104	badnavirus	Sweet potato badnavirus C	95.52
+ZW-S008	AY523547	potyvirus	Sweet potato feathery mottle virus	98.39
+ZW-S008	KF386015	potyvirus	Sweet potato virus C	95.37
+ZW-S008	JN205346	potyvirus	Sweet potato virus G	96.72
+ZW-S009	FJ560943	badnavirus	Sweet potato badnavirus A	76.78
+ZW-S009	KF836892	badnavirus	Sweet potato badnavirus B	89.01
+ZW-S009	JQ902104	badnavirus	Sweet potato badnavirus C	83.67
+ZW-S009	AY523547	potyvirus	Sweet potato feathery mottle virus	97.93
+ZW-S009	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S010	KF836892	badnavirus	Sweet potato badnavirus B	94.28
+ZW-S010	JQ902104	badnavirus	Sweet potato badnavirus C	80
+ZW-S010	AY523547	potyvirus	Sweet potato feathery mottle virus	98.1
+ZW-S010	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S011	FJ560943	badnavirus	Sweet potato badnavirus A	76.23
+ZW-S011	KF836892	badnavirus	Sweet potato badnavirus B	89.46
+ZW-S011	JQ902104	badnavirus	Sweet potato badnavirus C	81.19
+ZW-S011	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S012	KF836892	badnavirus	Sweet potato badnavirus B	91.22
+ZW-S012	JQ902103	badnavirus	Sweet potato badnavirus C	89.25
+ZW-S012	AB465608	potyvirus	Sweet potato feathery mottle virus	97.25
+ZW-S012	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	99.44
+ZW-S012	JX489166	potyvirus	Sweet potato virus C	97
+ZW-S013	FJ560943	badnavirus	Sweet potato badnavirus A	84.56
+ZW-S013	KF836892	badnavirus	Sweet potato badnavirus B	90.67
+ZW-S013	JQ902104	badnavirus	Sweet potato badnavirus C	96.35
+ZW-S013	D86371	potyvirus	Sweet potato feathery mottle virus	97.58
+ZW-S013	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S014	FJ560943	badnavirus	Sweet potato badnavirus A	86.29
+ZW-S014	KF836892	badnavirus	Sweet potato badnavirus B	92.27
+ZW-S014	JQ902104	badnavirus	Sweet potato badnavirus C	95.07
+ZW-S014	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	98.77
+ZW-S014	AF016366	potyvirus	Sweet potato feathery mottle virus	98.37
+ZW-S014	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S015	KF836892	badnavirus	Sweet potato badnavirus B	99.43
+ZW-S015	JQ902104	badnavirus	Sweet potato badnavirus C	95.59
+ZW-S015	AY523547	potyvirus	Sweet potato feathery mottle virus	98.51
+ZW-S016	KF836892	badnavirus	Sweet potato badnavirus B	97.8
+ZW-S016	AY523547	potyvirus	Sweet potato feathery mottle virus	98.3
+ZW-S017	FJ560943	badnavirus	Sweet potato badnavirus A	78.83
+ZW-S017	KF836892	badnavirus	Sweet potato badnavirus B	87.02
+ZW-S017	JQ902104	badnavirus	Sweet potato badnavirus C	81.58
+ZW-S017	EF155987	potyvirus	Sweet potato feathery mottle virus	96.1
+ZW-S017	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S018	FJ560943	badnavirus	Sweet potato badnavirus A	78.26
+ZW-S018	KF836892	badnavirus	Sweet potato badnavirus B	87.68
+ZW-S018	JQ902104	badnavirus	Sweet potato badnavirus C	79.61
+ZW-S018	AY523547	potyvirus	Sweet potato feathery mottle virus	98.57
+ZW-S018	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S021	AY523547	potyvirus	Sweet potato feathery mottle virus	98.19
+ZW-S021	KF790759	potyvirus	Sweet potato virus G	89.61
+ZW-S023	FJ560943	badnavirus	Sweet potato badnavirus A	77.62
+ZW-S023	KF836892	badnavirus	Sweet potato badnavirus B	85.61
+ZW-S023	JQ902103	badnavirus	Sweet potato badnavirus C	87.33
+ZW-S023	AY523547	potyvirus	Sweet potato feathery mottle virus	98.58
+ZW-S023	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S024	JQ902104	badnavirus	Sweet potato badnavirus C	82.11
+ZW-S024	AY523547	potyvirus	Sweet potato feathery mottle virus	98.81
+ZW-S024	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S025	EF155987	potyvirus	Sweet potato feathery mottle virus	96.69
+ZW-S026	AY523547	potyvirus	Sweet potato feathery mottle virus	98.48
+ZW-S027	AY523547	potyvirus	Sweet potato feathery mottle virus	97.74
+ZW-S028	FJ439784	badnavirus	Sugarcane bacilliform virus	80.56
+ZW-S028	FJ560943	badnavirus	Sweet potato badnavirus A	79.72
+ZW-S028	KF836892	badnavirus	Sweet potato badnavirus B	93.72
+ZW-S028	JQ902104	badnavirus	Sweet potato badnavirus C	91.42
+ZW-S028	AB465608	potyvirus	Sweet potato feathery mottle virus	98.03
+ZW-S028	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S029	KF836892	badnavirus	Sweet potato badnavirus B	96.02
+ZW-S029	JQ902104	badnavirus	Sweet potato badnavirus C	96.35
+ZW-S029	AB439206	potyvirus	Sweet potato feathery mottle virus	97.8
+ZW-S029	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S030	FJ560943	badnavirus	Sweet potato badnavirus A	85.47
+ZW-S030	FJ560944	badnavirus	Sweet potato badnavirus B	88.03
+ZW-S030	JQ902104	badnavirus	Sweet potato badnavirus C	87.17
+ZW-S030	AY523547	potyvirus	Sweet potato feathery mottle virus	97.41
+ZW-S030	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S031	EF155987	potyvirus	Sweet potato feathery mottle virus	96.15
+ZW-S037	FJ560943	badnavirus	Sweet potato badnavirus A	85.62
+ZW-S037	FJ560944	badnavirus	Sweet potato badnavirus B	90.19
+ZW-S037	JQ902104	badnavirus	Sweet potato badnavirus C	86.08
+ZW-S037	D86371	potyvirus	Sweet potato feathery mottle virus	98.14
+ZW-S037	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S038	FJ560943	badnavirus	Sweet potato badnavirus A	86.57
+ZW-S038	KF836892	badnavirus	Sweet potato badnavirus B	90.11
+ZW-S038	JQ902104	badnavirus	Sweet potato badnavirus C	88.39
+ZW-S038	D86371	potyvirus	Sweet potato feathery mottle virus	98.04
+ZW-S038	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S039	EF155987	potyvirus	Sweet potato feathery mottle virus	95.87
+ZW-S040	FJ560943	badnavirus	Sweet potato badnavirus A	87.32
+ZW-S040	KF836892	badnavirus	Sweet potato badnavirus B	89.47
+ZW-S040	JQ902103	badnavirus	Sweet potato badnavirus C	95.15
+ZW-S040	AJ428555	crinivirus	Sweet potato chlorotic stunt virus	98.51
+ZW-S040	FJ155666	potyvirus	Sweet potato feathery mottle virus	95.82
+ZW-S040	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S040	KF386015	potyvirus	Sweet potato virus C	97.55
+ZW-S041	FJ560944	badnavirus	Sweet potato badnavirus B	79.59
+ZW-S041	JQ902104	badnavirus	Sweet potato badnavirus C	89.05
+ZW-S041	AF439637	potyvirus	Sweet potato feathery mottle virus	96.15
+ZW-S041	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	99.78
+ZW-S041	KF386015	potyvirus	Sweet potato virus C	95.51
+ZW-S043	FJ560943	badnavirus	Sweet potato badnavirus A	80.41
+ZW-S043	KF836892	badnavirus	Sweet potato badnavirus B	86.32
+ZW-S043	JQ902104	badnavirus	Sweet potato badnavirus C	79.56
+ZW-S043	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.13
+ZW-S043	S43451	potyvirus	Sweet potato feathery mottle virus	95.27
+ZW-S043	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	98.99
+ZW-S043	KF386015	potyvirus	Sweet potato virus C	93.8
+ZW-S049	KF836892	badnavirus	Sweet potato badnavirus B	91.7
+ZW-S049	JQ902104	badnavirus	Sweet potato badnavirus C	76.74
+ZW-S049	AY523547	potyvirus	Sweet potato feathery mottle virus	98.08
+ZW-S049	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S058	KF836892	badnavirus	Sweet potato badnavirus B	92.36
+ZW-S058	JQ902104	badnavirus	Sweet potato badnavirus C	71.57
+ZW-S058	AY523547	potyvirus	Sweet potato feathery mottle virus	98.32
+ZW-S058	JQ621844	begomovirus	Sweet potato leaf curl virus	95.38
+ZW-S058	FJ969831	begomovirus	Sweet potato mosaic virus	98.28
+ZW-S058	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S064	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S070	JQ902104	badnavirus	Sweet potato badnavirus C	94.57
+ZW-S070	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.41
+ZW-S070	AY523547	potyvirus	Sweet potato feathery mottle virus	98.37
+ZW-S070	FJ560945	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S070	JN613805	potyvirus	Sweet potato virus G	83.17
+ZW-S071	FJ560943	badnavirus	Sweet potato badnavirus A	78.98
+ZW-S071	KF836892	badnavirus	Sweet potato badnavirus B	90.02
+ZW-S071	JQ902104	badnavirus	Sweet potato badnavirus C	81
+ZW-S071	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.3
+ZW-S071	S43451	potyvirus	Sweet potato feathery mottle virus	96.5
+ZW-S071	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	99.5
+ZW-S071	JX489166	potyvirus	Sweet potato virus C	94.72
+ZW-S072	FJ560943	badnavirus	Sweet potato badnavirus A	75.47
+ZW-S072	KF836892	badnavirus	Sweet potato badnavirus B	87.35
+ZW-S072	JQ902104	badnavirus	Sweet potato badnavirus C	80.74
+ZW-S072	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.4
+ZW-S072	AY523547	potyvirus	Sweet potato feathery mottle virus	97.74
+ZW-S072	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	98.99
+ZW-S072	JN613805	potyvirus	Sweet potato virus G	78.89
+ZW-S082	FJ560943	badnavirus	Sweet potato badnavirus A	80.27
+ZW-S082	FJ560944	badnavirus	Sweet potato badnavirus B	90.96
+ZW-S082	JQ902104	badnavirus	Sweet potato badnavirus C	86.47
+ZW-S082	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.3
+ZW-S082	EF155993	potyvirus	Sweet potato feathery mottle virus	94.87
+ZW-S082	KF386015	potyvirus	Sweet potato virus C	93.7
+ZW-S083	FJ560943	badnavirus	Sweet potato badnavirus A	73.61
+ZW-S083	KF836892	badnavirus	Sweet potato badnavirus B	87.11
+ZW-S083	JQ902104	badnavirus	Sweet potato badnavirus C	81.03
+ZW-S083	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.36
+ZW-S083	FJ155666	potyvirus	Sweet potato feathery mottle virus	90.72
+ZW-S083	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
+ZW-S084	KF836892	badnavirus	Sweet potato badnavirus B	99.55
+ZW-S084	JQ902104	badnavirus	Sweet potato badnavirus C	90.15
+ZW-S084	AY523547	potyvirus	Sweet potato feathery mottle virus	98.66
+ZW-S094	AY523547	potyvirus	Sweet potato feathery mottle virus	97.67
+ZW-S100	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.37
+ZW-S100	AY523538	potyvirus	Sweet potato feathery mottle virus	92.78
+ZW-S106	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	98.88
+ZW-S106	FJ155666	potyvirus	Sweet potato feathery mottle virus	90.58
+ZW-S118	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.33
+ZW-S118	AY523547	potyvirus	Sweet potato feathery mottle virus	98.17
+ZW-S124	KF836892	badnavirus	Sweet potato badnavirus B	99.86
+ZW-S124	AY523547	potyvirus	Sweet potato feathery mottle virus	97.71
+ZW-S130	FJ560943	badnavirus	Sweet potato badnavirus A	87.29
+ZW-S130	FJ560944	badnavirus	Sweet potato badnavirus B	88.17
+ZW-S130	FJ807784	crinivirus	Sweet potato chlorotic stunt virus	99.19
+ZW-S130	AY523547	potyvirus	Sweet potato feathery mottle virus	95.62
+ZW-S130	JX489166	potyvirus	Sweet potato virus C	95.38
+ZW-S136	FJ807785	crinivirus	Sweet potato chlorotic stunt virus	99.38
+ZW-S136	AY523547	potyvirus	Sweet potato feathery mottle virus	97.77
+ZW-S136	JX489166	potyvirus	Sweet potato virus C	93.97
+ZW-S142	AY523547	potyvirus	Sweet potato feathery mottle virus	98.2
+ZW-S148	FJ560943	badnavirus	Sweet potato badnavirus A	76.67
+ZW-S148	KF836892	badnavirus	Sweet potato badnavirus B	86.55
+ZW-S148	JQ902104	badnavirus	Sweet potato badnavirus C	81.29
+ZW-S148	AJ428554	crinivirus	Sweet potato chlorotic stunt virus	98.77
+ZW-S148	AY523547	potyvirus	Sweet potato feathery mottle virus	97.43
+ZW-S148	FJ560946	mastrevirus	Sweet potato symptomless mastrevirus 1	100
