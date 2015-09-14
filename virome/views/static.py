@@ -42,3 +42,14 @@ def link(request):
 	context = {}
 	context.update(settings.GLOBAL_SETTINGS)
 	return render(request, 'link.html', context)
+
+def data_interpreting(request):
+	context = {}
+	context.update(settings.GLOBAL_SETTINGS)
+	return render(request, 'data_interpreting.html', context)
+
+def evaluating_alignment(request):
+	context = {}
+	context.update(settings.GLOBAL_SETTINGS)
+	return render(request, 'evaluating_alignment.html', context)
+

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block mainbody %}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2" div style="min-height: 500px;">
+        <h4><b>About evaluating alignments.</b></h4>
+        <div style="padding: 20px;">
+		<ol>
+			<li>
+			Alignment showing overlapping contigs with differing levels of sequence identity indicate the presence of several differing variants of the same virus. <br /><br />
+			<b>Example</b>: sample GH-S036a (<a href="http://bioinfo.bti.cornell.edu/virome/sinfo?sid=GH-S036a">http://bioinfo.bti.cornell.edu/virome/sinfo?sid=GH-S036a</a>) <br /><br />
+			Contigs with high sequence identity (>95% shown in red) and low sequence identity (70-80% shown in white to pink) are found aligning to the same regions of the reference sequence (blue).<br /><br />
+			<img src="{% static "img/evalign01.png" %}" class="img-responsive"> <br /><br />
+			</li>
+			<li>
+			Alignments showing low level of sequence identity to several different related reference viruses probably indicate a single new virus in the sample. <br /><br />
+			<b>Example</b>: sample AO-S003 (<a href="http://bioinfo.bti.cornell.edu/virome/sinfo?sid=AO-S003">http://bioinfo.bti.cornell.edu/virome/sinfo?sid=AO-S003</a>) <br /><br />
+			Four different potyviruses with significant sequence similarity are identified (indicated in the red box in the figure below) and all of them show very low sequence identity of around 70% to the reference virus sequences. However one potyvirus identified (shown in the green circle in the figure below) has a much higher level of nucleotide identity than the others (>90%), but has the same name (sweet potato feathery mottle virus) as some of the viruses with much lower sequence identity. The reference in GenBank (AF016366) in green is only a partial sequence and has been mis-identified as sweet potato feathery mottle virus. Based on its low sequence identity to sweet potato feathery mottle virus, AF016366 actually represents another virus species, which is probably the same as the one found in this sample (because of the high sequence identity of >90% to this sample). <br /><br />
+			<img src="{% static "img/evalign03.png" %}" class="img-responsive"> <br /><br />
+			</li>
+ 			<li>
+			Alignments showing high level of sequence identity to some parts of the reference, but low identify to other parts, probably indicate a recombinant isolate in the sample. <br /><br />
+			<b>Example</b>: sample MW-S082 (<a href="http://bioinfo.bti.cornell.edu/virome/sinfo?sid=MW-S082">http://bioinfo.bti.cornell.edu/virome/sinfo?sid=MW-S082</a>) <br /><br />
+			The about 4.5 kb on the 5’ and 3’ end of the virus (circled in green) show >90% identity to the reference sequence, but around 2 kb in the middle (circled in red) show only around 80% identity. This indicates the central region originates from another variant of the virus and the isolate probably represents a recombinant. <br /><br />
+			<img src="{% static "img/evalign05.png" %}" class="img-responsive"> <br /><br />
+			</li>
+		</ol>
+        </div>
+    </div>
+</div>
+
+{% endblock mainbody %}

@@ -43,6 +43,8 @@ urlpatterns = [
 	url(r'^sample', static.sample),
 	url(r'^publication', static.publication),
 	url(r'^link', static.link),
+	url(r'^data_interpreting', static.data_interpreting),
+	url(r'^evaluating_alignment', static.evaluating_alignment),
 
 	# for system 
 	url(r'^admin/', include(admin.site.urls)),
