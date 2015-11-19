@@ -77,14 +77,29 @@ $(function() {
         <div class="panel panel-success">
             <div class="panel-heading">
                 <h3 class="panel-title">
-                    Virus Identification
+                    Known Virus Identification
 					<span class="pull-right">
 						<a href="#" data-featherlight="#data_interpretation">data interpretation</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="{% static "sample" %}/result_{{ sid }}/contig_sequences.known.fa" target="_blank" download><button type="button" class="btn btn-xs btn-default">Download Virus Contigs</button></a>
+						<a href="{% static "sample" %}/result_{{ sid }}/contig_sequences.known.fa" target="_blank" download><button type="button" class="btn btn-xs btn-default">Download Known Virus Contigs</button></a>
 					</span>
                 </h3>
             </div>
-			{{ html_info|safe }}
+			{{ html_known_info|safe }}
+		</div>
+	</div>
+
+	<div class="col-md-8 col-md-offset-2">
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					Novel Virus Identification
+					<span class="pull-right">
+						<a href="#" data-featherlight="#data_interpretation">data interpretation</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="{% static "sample" %}/result_{{ sid }}/contig_sequences.novel.fa" target="_blank" download><button type="button" class="btn btn-xs btn-default">Download Novel Virus Contigs</button></a>
+					</span>
+				</h3>
+			</div>
+			{{ html_novel_info|safe }}
 		</div>
 	</div>
 </div>

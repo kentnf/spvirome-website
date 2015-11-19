@@ -56,23 +56,47 @@ def sinfo(request):
 	sid = request.GET.get('sid', '')
 	if sid:
 		context['sid'] = sid
-		html = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/known.html"
-		html_info = ""
-		if os.path.exists(html):
-			dh = open(html, "r")
+		# parse known html and import it to virome page
+		html_known = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/known.html"
+		html_known_info = ""
+		if os.path.exists(html_known):
+			dh = open(html_known, "r")
+			for i in range(6):
+				next(dh)
 			for line in dh:
-				line = re.sub(r'<table.*center', "<table class=\"table table\-striped\" width=700", line) # adjust table style
-				# line = re.sub(r'width=780', "width=700", line) # adjust page width
+				line = re.sub(r'width: 780px;', "", line)
+				#line = re.sub(r'table-bordered', "table-striped", line)
 				matchObj = re.search( r'known_references/(.*)\.html', line) # convet the link
 				if matchObj:
-					link = "/virome/sctg?sid=" + sid + "&vid=" + matchObj.group(1)
+					link = "/virome/sctg?vtp=known&sid=" + sid + "&vid=" + matchObj.group(1)
 					line = re.sub(r'known_references/.*html', link, line)
-				html_info = html_info + line + "\n"
+				html_known_info = html_known_info + line + "\n"
 		else:
-			html_info = "No virus was identified"
+			html_info = "None of known virus was identified"
 
-		context['html'] = html
-		context['html_info'] = html_info
+		context['html_known'] = html_known
+		context['html_known_info'] = html_known_info
+
+		# parse novel html and import it to virome page
+		html_novel = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/novel.html"
+		html_novel_info = ""
+		if os.path.exists(html_novel):
+			dh = open(html_novel, "r")
+			for i in range(6):
+				next(dh)
+			for line in dh:
+				line = re.sub(r'width: 780px;', "", line)
+				#line = re.sub(r'table-bordered', "table-striped", line)
+				matchObj = re.search( r'novel_references/(.*)\.html', line) # convet the link
+				if matchObj:
+					link = "/virome/sctg?vtp=novel&sid=" + sid + "&vid=" + matchObj.group(1)
+					line = re.sub(r'novel_references/.*html', link, line)
+				html_novel_info = html_novel_info + line + "\n"
+		else:
+			html_novel_info = "None of novel virus was identified"
+
+		context['html_novel'] = html_novel
+		context['html_novel_info'] = html_novel_info
 
 		# get sample clean information 
 		context['total']   = 'NA'
@@ -101,15 +125,19 @@ def sctg(request):
 	context.update(settings.GLOBAL_SETTINGS)
 	sid = request.GET.get('sid', '')
 	vid = request.GET.get('vid', '')
-	if sid and vid:
-		html = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/known_references/" + vid + ".html"
+	vtp = request.GET.get('vtp', '')
+	if sid and vid and vtp:
+		html = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/" + vtp + "_references/" + vid + ".html"
 		html_info = ""
 		dh = open(html, "r")
+		for i in range(5):
+			next(dh)
 		for line in dh:
-			line = re.sub(r'<table.*center', "<table class=\"table table\-striped\"", line) # adjust table style
+			line = re.sub(r'table-bordered', "", line)
+			#line = re.sub(r'<table.*center', "<table class=\"table table\-striped\"", line) # adjust table style
 			matchObj = re.search(r'img src="(.*)\.png', line) # convet the png
 			if matchObj:
-				link = "img src =\"/static/sample/result_" + sid + "/known_references/" + matchObj.group(1) + ".png\" \""
+				link = "img src =\"/static/sample/result_" + sid + "/" + vtp + "_references/" + matchObj.group(1) + ".png\" \""
 				line = re.sub(r'img src.*\.png"', link, line)
 			html_info = html_info + line + "\n"
 		context['html'] = html
