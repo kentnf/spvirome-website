@@ -57,7 +57,7 @@ def sinfo(request):
 	if sid:
 		context['sid'] = sid
 		# parse known html and import it to virome page
-		html_known = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/known.html"
+		html_known = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/blastn.html"
 		html_known_info = ""
 		if os.path.exists(html_known):
 			dh = open(html_known, "r")
@@ -66,19 +66,19 @@ def sinfo(request):
 			for line in dh:
 				line = re.sub(r'width: 780px;', "", line)
 				#line = re.sub(r'table-bordered', "table-striped", line)
-				matchObj = re.search( r'known_references/(.*)\.html', line) # convet the link
+				matchObj = re.search( r'blastn_references/(.*)\.html', line) # convet the link
 				if matchObj:
-					link = "/virome/sctg?vtp=known&sid=" + sid + "&vid=" + matchObj.group(1)
-					line = re.sub(r'known_references/.*html', link, line)
+					link = "/virome/sctg?vtp=blastn&sid=" + sid + "&vid=" + matchObj.group(1)
+					line = re.sub(r'blastn_references/.*html', link, line)
 				html_known_info = html_known_info + line + "\n"
 		else:
-			html_info = "None of known virus was identified"
+			html_info = "None of virus was identified by nucleotide similarity (BLASTN)"
 
 		context['html_known'] = html_known
 		context['html_known_info'] = html_known_info
 
 		# parse novel html and import it to virome page
-		html_novel = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/novel.html"
+		html_novel = os.path.abspath(os.path.dirname(os.path.realpath(__file__))) + "/../../static/sample/result_" + sid + "/blastx.html"
 		html_novel_info = ""
 		if os.path.exists(html_novel):
 			dh = open(html_novel, "r")
@@ -87,13 +87,13 @@ def sinfo(request):
 			for line in dh:
 				line = re.sub(r'width: 780px;', "", line)
 				#line = re.sub(r'table-bordered', "table-striped", line)
-				matchObj = re.search( r'novel_references/(.*)\.html', line) # convet the link
+				matchObj = re.search( r'blastx_references/(.*)\.html', line) # convet the link
 				if matchObj:
-					link = "/virome/sctg?vtp=novel&sid=" + sid + "&vid=" + matchObj.group(1)
-					line = re.sub(r'novel_references/.*html', link, line)
+					link = "/virome/sctg?vtp=blastx&sid=" + sid + "&vid=" + matchObj.group(1)
+					line = re.sub(r'blastx_references/.*html', link, line)
 				html_novel_info = html_novel_info + line + "\n"
 		else:
-			html_novel_info = "None of novel virus was identified"
+			html_novel_info = "None of virus was identified by translated protein similarity (BLASTX)"
 
 		context['html_novel'] = html_novel
 		context['html_novel_info'] = html_novel_info
