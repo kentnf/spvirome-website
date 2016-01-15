@@ -26,12 +26,13 @@
         <tr>
         {% for e in s %}
           {% if forloop.counter0 == 0 %}
-		 	{% if e in select %}
-				<td><span class="glyphicon glyphicon-certificate">
-			{% endif %}
-
 			{% if s.7 == 1 %}
-          		<td><a href="sinfo?sid={{ e }}" target=_blank>{{ e }}</a></td>
+          		<td>
+					<a href="sinfo?sid={{ e }}" target=_blank>{{ e }}</a>
+					{% if e in select %} 
+						(<span class="glyphicon glyphicon-certificate"></span>)
+					{% endif %}
+				</td>
 			{% else %}
 				<td>{{ e }}</td>
 			{% endif %}
@@ -59,7 +60,7 @@
         {% endfor %}
         </table>
 		{% if vname %}	
-			<h5><span class="glyphicon glyphicon-certificate"></span>selected samples contain <b>{{ vname }}</b> </h5>
+			<h5><span class="glyphicon glyphicon-certificate"></span> selected samples contain <b>{{ vname }}</b> </h5>
 		{% endif %}
 		<br />
 	</div>
